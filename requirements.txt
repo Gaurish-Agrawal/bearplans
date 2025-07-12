@@ -64,7 +64,6 @@ grpcio==1.64.1
 grpcio-status==1.62.2
 gspread==5.9.0
 h11==0.14.0
-htmlmin==0.1.12
 httpcore==1.0.5
 httpx==0.27.0
 huggingface-hub==0.23.4
