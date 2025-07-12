@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BearPlans</title>
+
+
+    <style>
+        
+
+        body {
+            margin: 20px;
+            background-color: white;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        select, button {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        table {
+            border-collapse: collapse;
+            border-radius: 5px;
+           width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #fdfdfd;
+        }
+        .delete-btn {
+            color: rgb(179, 44, 44);
+            cursor: pointer;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+
+        #genButton{
+            background-color: #a51417;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+        select {
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box; /* Ensure padding is included in the element's width */
+            appearance: none; /* Remove default styling in most browsers */
+            cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+    /* Optional: Add a custom arrow for the dropdown */
+    select::-ms-expand {
+        display: none; /* Remove default arrow in Internet Explorer */
+    }
+
+    /* Custom dropdown arrow (for Webkit browsers) */
+    .custom-select {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .custom-select::after {
+        content: '▼';
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+        font-size: 14px;
+        color: #333;
+        pointer-events: none;
+    }
+
+    input:checked {
+    border: 6px solid #a51417;
+    outline: unset !important
+}
+
+
+    .next-button, .prev-button {
+        padding: 10px 20px;
+        background-color: #a51417;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px 5px;
+    }
+
+    .next-button:hover, .prev-button:hover {
+        background-color: #801010;
+    }
+
+    .checkbox-list {
+        list-style-type: none;
+        accent-color: #a51417;
+    }
+.checkbox-list li {
+        margin-bottom: 10px;
+}
+
+
+.course-radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+
+    border: 2px solid #a51417;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+    @media (min-width: 600px) {
+        .section {
+            border-radius: 15px;
+            border: 1px solid black;
+            padding: 100px;
+            align-items: center;
+            margin-top: 20%;
+        }
+    }
+
+
+    @media (max-width: 600px) {
+        .section {
+            align-items: center;
+        }
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    /* Show mobile version and hide desktop version on small screens */
+    @media (max-width: 768px) {
+        .desktop-only {
+            display: none;
+        }
+        .mobile-only {
+            display: block;
+        }
+    }
+
+    #professorFilters ul {
+        list-style-type: none;
+        padding-left: 5px;
+    }
+
+</style>
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/tom-select@2.0.0-rc.4/dist/css/tom-select.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/tom-select@2.0.0-rc.4/dist/js/tom-select.complete.min.js"></script>
+</head>
+
+
+
+
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div class="container">
+        
+
+        <!-- Section 0 -->
+    <div class="section" id="section0">
+        
+       
+        
+
+        <ul class="desktop-only">
+            <!--<h3><span style="background-color: #a51417; color: white; padding: 10px;"></b></h3>-->
+
+            <h2><span style="color: #a51417"><b>BearPlans</b></span> (WashU Scheduler)
+
+</h2>
+            <p style="margin-right: 15%">
+                Choose your desired classes and explore all possible weekly schedules. This tool generates every valid schedule combination based on your selected courses and filters, helping you find your fit without time conflicts and helping you take classes with friends. You can copy your schedule to your clipboard for future reference. <br><br>Not officially affiliated with Washington University.
+            </p>
+            <li>Some schedules look similar, but have varied attributes.</li>
+            <li>Some courses mandate a lab/recitation that get auto-added.</li>
+            <li>Max generation can take a few seconds, so please be patient.</li>
+            <br>
+            <li>Feedback or Issues? Email at <u>washubearplans@gmail.com</u></li>
+            <!--
+            <li>Leave comments & feedback on Reddit! Updates will also be posted there.
+            <a href="https://www.reddit.com/r/washu/comments/1f1nfdv/made_a_tool_to_easily_plan_your_class_schedule/" target="_blank" style="color: black;">https://www.reddit.com/r/washu/comments/1f1nfdv/</a></li>
+                -->
+        
+        </ul>
+
+        <ul class="mobile-only">
+            <h2><span style="color: #a51417"><b>BearPlans</b></span></h2>
+            <p style="margin-right: 15%">
+                Choose your desired classes and explore all weekly schedules. This tool generates every valid schedule combination based on your preferances without time conflicts.<br><br>Not affiliated with WashU.
+            </p>
+            <li>Schedules can look similar, but vary.</li>
+            <li>Mandate courses added in grey.</li>
+            <li>Max gens can take a few seconds.</li>
+            <br>
+            <li>Leave comments & feedback on Reddit! Updates also posted there.
+            <a href="https://www.reddit.com/r/washu/comments/1f1nfdv/made_a_tool_to_easily_plan_your_class_schedule/" target="_blank" style="color: black;">Reddit Link</a></li>
+        </ul>
+
+        <button class="next-button" onclick="showNextSection(1)">Begin &rarr;</button>
+
+    </div>
+
+        <!-- Section 1 -->
+        <div class="section" id="section1" style="display: none;">
+
+            <h2>Select Courses</h2>
+                        
+
+                        <select id="dropdownMenu">
+                            <option value="">Pick your Course</option>
+                        </select>
+            
+                        <table id="itemTable" style="border: 1px solid #ddd;">
+                            <thead>
+                                <tr style="border: 1px solid #ddd;">
+                                    <th>Item</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+
+                        <br>
+
+
+
+                </tr>
+            </table>
+
+            <div style="margin-top: 20px;">
+    <button onclick="saveCourseList()" style="
+        padding: 10px 18px;
+        background: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 10px;
+    ">Save Courses</button>
+
+    <button onclick="loadCourseList()" style="
+        padding: 10px 18px;
+        background: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 10px;
+    ">Load Saved Classes</button>
+
+    <button onclick="viewsharedshgedules()" style="
+        padding: 10px 18px;
+        background: #a51417;
+        color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 15px;
+        cursor: pointer;
+    ">View Shared Schedule</button>
+</div>
+
+<script>
+
+    function viewsharedshgedules() {
+    fetch('/view_last_shared_schedule')
+        .then(res => res.json())
+        .then(data => {
+            if (data.status === "ok") {
+                // Save to backend so you can use /render_timetable2
+                fetch('/set_matched_schedule', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        matchedSchedule: data.schedule,
+                        overlappingCourses: [], // or fill if needed
+                        friendMatchedSchedule: 0
+                    })
+                })
+                .then(res => res.json())
+                .then(response => {
+                    if (response.status === "ok") {
+                        window.location.href = "/render_timetable_check";
+                    } else {
+                        alert("❌ Failed to prepare timetable.");
+                    }
+                });
+            } else {
+                alert("❌ Failed to load shared schedule:\n" + data.message);
+            }
+        })
+        .catch(err => {
+            alert("❌ Network error: " + err.message);
+        });
+}
+
+    function getCurrentCourseList() {
+    const rows = document.querySelectorAll("#itemTable tbody tr");
+    let items = [];
+    rows.forEach(row => {
+        const item = row.querySelector("td")?.innerText;
+        if (item) items.push(item);
+    });
+    return items;
+}
+
+function saveCourseList() {
+    const items = getCurrentCourseList();
+    if (items.length === 0) {
+        alert("Please add courses.");
+        return;
+    }
+
+    const name = prompt("Enter a name for this course list:");
+    if (!name) return;
+
+    let saved = JSON.parse(localStorage.getItem("savedCourseLists") || "{}");
+    saved[name] = items;
+    localStorage.setItem("savedCourseLists", JSON.stringify(saved));
+}
+
+
+
+function loadCourseList() {
+    const saved = JSON.parse(localStorage.getItem("savedCourseLists") || "{}");
+    const container = document.getElementById("savedListContainer");
+    container.innerHTML = "";
+
+    if (Object.keys(saved).length === 0) {
+        container.innerHTML = "<p style='font-style: italic; color: #777;'>No saved lists.</p>";
+    } else {
+        Object.entries(saved).forEach(([name, courseList]) => {
+    const row = document.createElement("div");
+    row.style.display = "flex";
+    row.style.flexDirection = "column";
+    row.style.gap = "6px";
+    row.style.padding = "12px 16px";
+    row.style.border = "1px solid #ddd";
+    row.style.borderRadius = "12px";
+    row.style.background = "#fff";
+    row.style.boxShadow = "0 1px 2px rgba(0, 0, 0, 0.03)";
+
+    // Top row with list name and buttons
+    const topRow = document.createElement("div");
+    topRow.style.display = "flex";
+    topRow.style.alignItems = "center";
+    topRow.style.justifyContent = "space-between";
+
+    const nameSpan = document.createElement("div");
+    nameSpan.textContent = name;
+    nameSpan.style.fontWeight = "500";
+    nameSpan.style.fontSize = "16px";
+    nameSpan.style.flex = "1";
+    nameSpan.style.display = "flex";
+    nameSpan.style.alignItems = "center";
+
+    const buttonGroup = document.createElement("div");
+    buttonGroup.style.display = "flex";
+    buttonGroup.style.gap = "10px";
+
+    const loadBtn = document.createElement("button");
+    loadBtn.textContent = "Load";
+    Object.assign(loadBtn.style, {
+        padding: "6px 14px",
+        fontSize: "14px",
+        backgroundColor: "white",
+        color: "black",
+        border: "2px solid black",
+        borderRadius: "10px",
+        cursor: "pointer",
+        fontWeight: "500",
+        lineHeight: "1"
+    });
+    loadBtn.onclick = () => {
+        loadNamedCourseList(name);
+        closeLoadPopup();
+    };
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete";
+    Object.assign(deleteBtn.style, {
+        padding: "6px 14px",
+        fontSize: "14px",
+        backgroundColor: "#a51417",
+        color: "white",
+        border: "none",
+        borderRadius: "10px",
+        fontWeight: "500",
+        cursor: "pointer",
+        lineHeight: "1"
+    });
+    deleteBtn.onclick = () => {
+        if (confirm(`Delete "${name}"?`)) {
+            delete saved[name];
+            localStorage.setItem("savedCourseLists", JSON.stringify(saved));
+            loadCourseList();
+        }
+    };
+
+    buttonGroup.appendChild(loadBtn);
+    buttonGroup.appendChild(deleteBtn);
+    topRow.appendChild(nameSpan);
+    topRow.appendChild(buttonGroup);
+
+    // Course list preview
+    const preview = document.createElement("div");
+    preview.textContent = courseList.join(", ");
+    preview.style.fontSize = "13px";
+    preview.style.color = "#555";
+    preview.style.textAlign = "left";
+    preview.style.lineHeight = "1.4";
+    preview.style.paddingLeft = "2px";
+
+    // Append everything
+    row.appendChild(topRow);
+    row.appendChild(preview);
+    container.appendChild(row);
+});
+    }
+
+    document.getElementById("loadPopup").style.display = "block";
+}
+
+function closeLoadPopup() {
+    document.getElementById("loadPopup").style.display = "none";
+}
+
+function loadNamedCourseList(name) {
+    const saved = JSON.parse(localStorage.getItem("savedCourseLists") || "{}");
+    const courseList = saved[name];
+    if (!courseList) return;
+
+    document.querySelector("#itemTable tbody").innerHTML = "";
+    const itemList = document.getElementById("itemList");
+    if (itemList) itemList.innerHTML = "";
+    selectedItems = [];
+
+    courseList.forEach(item => {
+        addItemToTable(item);
+        selectedItems.push(item);
+
+        if (itemList) {
+            const li = document.createElement("li");
+            li.textContent = item;
+            itemList.appendChild(li);
+        }
+    });
+}
+
+function closeLoadPopup() {
+    document.getElementById("loadPopup").style.display = "none";
+}
+
+function loadNamedCourseList(name) {
+    const saved = JSON.parse(localStorage.getItem("savedCourseLists") || "{}");
+    const courseList = saved[name];
+    if (!courseList) return;
+
+    // Clear table, itemList, and state
+    document.querySelector("#itemTable tbody").innerHTML = "";
+    const itemList = document.getElementById("itemList");
+    if (itemList) itemList.innerHTML = "";
+    selectedItems = [];
+
+    courseList.forEach(item => {
+        addItemToTable(item);
+        selectedItems.push(item);
+
+        if (itemList) {
+            const li = document.createElement("li");
+            li.textContent = item;
+            itemList.appendChild(li);
+        }
+    });
+}
+</script>
+
+            
+
+            
+       
+
+            <button class="prev-button" onclick="showNextSection(0)">&larr; Previous</button>
+            <button class="next-button" onclick="showNextSection(2)">Next &rarr;</button>
+
+</div>
+
+
+
+
+
+
+
+         <!-- Section 2 -->
+        <div class="section" id="section2" style="display: none;">
+            <h2>Select Preferred Professors</h2>
+            <p style="color: grey">Click on professor to see ratings.</p>
+            <div id="professorFilters" style="list-style-type: none; padding-left: 0;"></div>
+
+            <button class="prev-button" onclick="showNextSection(1)">&larr; Previous</button>
+            <button class="next-button" onclick="showNextSection(3)">Next &rarr;</button>
+        </div>
+
+
+
+
+        <!-- Section 3 -->
+        <div class="section" id="section3" style="display: none;">
+            
+            <h2 class="desktop-only">I Need Sleep, So No Classes</h2>
+            <h2 class="mobile-only">No classes...</h2>
+
+            <br>
+
+            <ul style="list-style-type: none;">
+
+        
+        
+                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                    <!-- On/Off Switch for No Preference Before -->
+                    <label style="margin-right: 15px;">
+                        <input type="checkbox" id="noPreferenceBefore" name="noPreferenceBefore" onchange="togglePreference('noClassBefore', null, this)" style="display: none;">
+                        <span style="display: inline-block; width: 50px; height: 24px; border-radius: 12px; position: relative; cursor: pointer; background-color: white; border: 1px solid black">
+                            <span style="display: block; width: 22px; height: 22px; background-color: #a51417; border-radius: 50%; position: absolute; top: 1px; left: 1px; transition: 0.3s;"></span>
+                        </span>
+                    </label>
+        
+                    <label for="noClassBefore" style="margin-right: 15px;">Before </label>
+                    <input id="noClassBefore" name="noClassBefore" value="08:00" type="time" style="width: 110px; padding: 0; border: none; font-size: 20px;">
+        
+                </li>
+        
+                <li style="display: flex; align-items: center;">
+                    <!-- On/Off Switch for No Preference After -->
+                    <label style="margin-right: 10px; margin-left: 1px;">
+                        <input type="checkbox" id="noPreferenceAfter" name="noPreferenceAfter" onchange="togglePreference('noClassAfter', null, this)" style="display: none;">
+                        <span style="display: inline-block; width: 50px; height: 24px; border-radius: 12px; position: relative; cursor: pointer; background-color: white; border: 1px solid black">
+                            <span style="display: block; width: 22px; height: 22px; background-color: #a51417; border-radius: 50%; position: absolute; top: 1px; left: 1px; transition: 0.3s;"></span>
+                        </span>
+                    </label>
+        
+                    <label for="noClassAfter" style="margin-right: 15px;">After </label>
+                    <input id="noClassAfter" name="noClassAfter" value="20:30" type="time" style="width: 110px; padding: 0; border: none; font-size: 20px;">
+                </li>
+
+
+
+
+<br>
+                <ul id="timeRangesContainer" style="list-style: none; padding: 0;">
+                </ul>
+                
+                <!-- Buttons -->
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <button type="button" onclick="addTimeRange()" 
+                        style="background: none; border: 1px solid black; color: black; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 14px;">
+                        Add Time
+                    </button>
+                
+                    <button type="button" onclick="removeLastTimeRange()" 
+                        style="background: none; border: 1px solid black; color: black; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 14px;">
+                        Remove
+                    </button>
+                </div>
+                
+                <script>
+                    function addTimeRange() {
+                        let container = document.getElementById("timeRangesContainer");
+                        let newRange = document.createElement("li");
+                        newRange.style = "margin-bottom: 8px; display: flex; align-items: center; gap: 8px;";
+                        newRange.innerHTML = `
+                            <input name="timeStart[]" type="time" 
+                                style="padding: 4px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; width: 90px; background: white; color: black;">
+                            <span style="font-size: 14px;">-</span>
+                            <input name="timeEnd[]" type="time" 
+                                style="padding: 4px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; width: 90px; background: white; color: black;">
+                                
+                        `;
+                        container.appendChild(newRange);
+                    }
+                
+                    function removeLastTimeRange() {
+                        let container = document.getElementById("timeRangesContainer");
+                        if (container.children.length > 0) {
+                            container.removeChild(container.lastElementChild);
+                        }
+                    }
+                </script>
+
+
+
+            </ul>
+            
+    <br>
+            
+            <button class="prev-button" onclick="showNextSection(2)">&larr; Previous</button>
+            <button class="next-button" onclick="showNextSection(4)">Next &rarr;</button>
+            
+        </div>
+
+    <!-- Section 4 -->
+    <div class="section" id="section4" style="display: none;">
+        
+        
+            <h2>Maximum Number of Schedules</h2>
+            <ul class="checkbox-list" style="list-style-type: none; align-items: center;" id="maxamountlist">
+                <table style="border: none;">
+                    <tr>
+                        <td>
+                            <li><input type="radio" class="course-radio" id="amount1" name="amount" value="10" onclick="changeMaxNumberToSend(10)" checked>  10</li>
+                            <li><input type="radio" class="course-radio" id="amount1" name="amount" value="50" onclick="changeMaxNumberToSend(50)">  50</li>
+                            <li><input type="radio" class="course-radio" id="amount1" name="amount" value="100" onclick="changeMaxNumberToSend(100)">  100</li>
+                            <li><input type="radio" class="course-radio" id="amount1" name="amount" value="100" onclick="changeMaxNumberToSend(500)">  500</li>
+                            <li><input type="radio" class="course-radio" id="amount1" name="amount" value="100" onclick="changeMaxNumberToSend(1000)">  1000</li>
+                            <li><input type="radio" class="course-radio" id="amount1" name="amount" value="-1" onclick="changeMaxNumberToSend(-1)">  Max [Expect Delay]</li>
+                        </td>
+                    </tr>
+
+             
+                </table>
+
+
+                
+            </ul>
+
+            <br><br>
+
+            <ul id="itemList" style="display: none;"> <!--keep for itemList--></ul>
+            <button class="prev-button" onclick="showNextSection(2)">&larr; Previous</button>
+            <button onclick="sendData()" class="prev-button">Generate Schedule</button>
+
+    </div>
+
+    </div>
+
+    <footer>
+        <center>
+            <p>&copy; 2025 BearPlans</p>
+        </center>
+        <br>
+    </footer>
+
+   
+
+</body>
+
+
+<div id="loadPopup" style="
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    z-index: 1000;
+    width: 90%;
+    max-width: 420px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #111;
+    text-align: center;
+    border: 2px solid black;
+">
+    <h2 style="font-size: 22px; margin-bottom: 16px;">Saved Course Lists</h2>
+    <div id="savedListContainer" style="display: flex; flex-direction: column; gap: 12px; padding: 8px 0;"></div>
+    <button onclick="closeLoadPopup()" style="
+
+        padding: 10px 18px;
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background: white;
+        cursor: pointer;
+    ">Close</button>
+</div>
+
+
+<script>
+    function showNextSection(sectionNumber) {
+        // Hide all sections
+        document.querySelectorAll('.section').forEach(function(section) {
+            section.style.display = 'none';
+        });
+        document.getElementById('section' + sectionNumber).style.display = 'block';
+
+        if (sectionNumber === 2) {
+        const items = document.querySelectorAll("#itemList li");
+        let selectedCourses = Array.from(items).map(i => i.textContent.trim());
+
+        fetch('/get_professors', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({items: selectedCourses})
+        })
+        .then(res => res.json())
+        .then(courseProfessors => {
+            const container = document.getElementById('professorFilters');
+            container.innerHTML = '';  // clear previous
+
+            for (let course in courseProfessors) {
+                const div = document.createElement('div');
+                div.innerHTML = `<strong>${course}</strong><ul style="list-style-type: none; padding-left: 0;">${
+                courseProfessors[course].map(p => {
+                    const url = `https://www.google.com/search?q=${encodeURIComponent(p + ' WashU site:ratemyprofessors.com')}`;
+                    return `<li style="margin: 4px 0;">
+                        <label>
+                            <input type="checkbox" name="profFilter[${course}]" value="${p}" checked>
+                            <a href="${url}" target="_blank" style="margin-left: 6px; text-decoration: none; color: black">${p}</a>
+                        </label>
+                    </li>`;
+                }).join('')
+            }</ul>
+            `;
+                container.appendChild(div);
+            }
+        });
+    }
+
+    }
+</script>
+
+<script>
+    //next
+   var tomSelectInstance = new TomSelect("#dropdownMenu", {
+       create: false,
+       sortField: {
+           field: "text",
+           direction: "asc"
+       }
+   });
+
+var courseList = {{ course_list | tojson | safe }};  // passed in from Flask as a simple list
+courseList.sort();
+tomSelectInstance.clearOptions();
+courseList.forEach(function(option) {
+    tomSelectInstance.addOption({ value: option, text: option });
+});
+tomSelectInstance.refreshOptions();
+
+</script>
+
+<script>
+    document.querySelectorAll('input[type=checkbox]').forEach(switchElem => {
+        switchElem.addEventListener('change', function() {
+            const slider = this.nextElementSibling;
+            if (this.checked) {
+                slider.firstElementChild.style.transform = 'translateX(26px)';
+                slider.style.backgroundColor = 'pink';
+            } else {
+                slider.firstElementChild.style.transform = 'translateX(0)';
+                slider.style.backgroundColor = '#ccc';
+            }
+        });
+    });
+</script>
+
+<script>
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    const itemTable = document.getElementById('itemTable').getElementsByTagName('tbody')[0];
+    const itemList = document.getElementById('itemList');
+    var maxnumberToSend = 10;
+
+    function changeMaxNumberToSend(num){
+        maxnumberToSend = num;
+    }
+
+    dropdownMenu.addEventListener('change', function() {
+        const selectedItem = dropdownMenu.value;
+        if (selectedItem) {
+            addItemToTable(selectedItem);
+            addItemToList(selectedItem);
+            dropdownMenu.value = ''; // Clear the dropdown
+        }
+    });
+
+    function addItemToTable(item) {
+        const row = itemTable.insertRow();
+        const cell1 = row.insertCell(0);
+        const cell2 = row.insertCell(1);
+
+        cell1.textContent = item;
+        cell2.innerHTML = '<span class="delete-btn">Delete</span>';
+
+        cell2.querySelector('.delete-btn').addEventListener('click', function() {
+            itemTable.deleteRow(row.rowIndex - 1);
+            removeItemFromList(item);
+        });
+    }
+
+    function addItemToList(item) {
+        const listItem = document.createElement('li');
+        listItem.textContent = item;
+        itemList.appendChild(listItem);
+    }
+
+    function removeItemFromList(item) {
+        const items = itemList.getElementsByTagName('li');
+        for (let i = 0; i < items.length; i++) {
+            if (items[i].textContent === item) {
+                itemList.removeChild(items[i]);
+                break;
+            }
+        }
+    }
+    </script>
+
+    <script>
+
+function sendData() {
+    const noPreferenceBefore = document.getElementById('noPreferenceBefore').checked;
+    const noPreferenceAfter = document.getElementById('noPreferenceAfter').checked;
+    const timeRangeToggles = document.querySelectorAll('input[name="timeRangeToggle"]');
+    const showDistance = false; //document.getElementById('showDistance').checked;
+
+    // Initialize variables
+    let noClassBefore = noPreferenceBefore ? document.getElementById('noClassBefore').value : "00:00";
+    let noClassAfter = noPreferenceAfter ? document.getElementById('noClassAfter').value : "23:59";
+
+    let professorPrefs = {};
+    document.querySelectorAll('#professorFilters input[type="checkbox"]').forEach(input => {
+        const courseMatch = input.name.match(/profFilter\[(.*?)\]/);
+        if (courseMatch && input.checked) {
+            const course = courseMatch[1];
+            if (!professorPrefs[course]) professorPrefs[course] = [];
+            professorPrefs[course].push(input.value);
+        }
+    });
+
+    // Collect all time ranges
+    let timeStart = [];
+    let timeEnd = [];
+
+    document.querySelectorAll('input[name="timeStart[]"]').forEach(input => {
+        timeStart.push(input.value || 'None');
+    });
+
+    document.querySelectorAll('input[name="timeEnd[]"]').forEach(input => {
+        timeEnd.push(input.value || 'None');
+    });
+
+    // Collect items
+    const items = document.querySelectorAll("#itemList li");
+    let itemsToSend = Array.from(items).map(item => item.textContent.trim());
+
+    // Send data via fetch
+    fetch('/process_items', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ 
+            items: itemsToSend, 
+            maxnumber: maxnumberToSend, 
+            noClassAfter: noClassAfter, 
+            noClassBefore: noClassBefore, 
+            timeStart: timeStart, 
+            timeEnd: timeEnd, 
+            showDistance: showDistance,
+            preferredProfs: professorPrefs,
+        })
+    })
+    .then(response => {
+        if (response.redirected) {
+            window.location.href = response.url;
+        } else {
+            console.error('Unexpected response:', response);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+</script>
+
+
+</html>

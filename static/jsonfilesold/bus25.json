@@ -1,0 +1,2598 @@
+{
+    "courses": {
+        "Principles of Financial Accounting": {
+            "CourseCode": "B50 ACCT 2610",
+            "CourseName": "Principles of Financial Accounting",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 113",
+                "Simon / 113",
+                "Simon / 113",
+                "Simon / 122",
+                "Simon / 122",
+                "Simon / 122"
+            ],
+            "Prof": [
+                "Brendan Conroy",
+                "Cheynel",
+                "Cheynel",
+                "Palmer",
+                "Wang Weiman",
+                "Sall"
+            ]
+        },
+        "Principles of Managerial Accounting": {
+            "CourseCode": "B50 ACCT 2620",
+            "CourseName": "Principles of Managerial Accounting",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 112",
+                "Simon / 106",
+                "Simon / 106"
+            ],
+            "Prof": [
+                "Rabier",
+                "Rabier",
+                "Rabier"
+            ]
+        },
+        "Intermediate Financial Accounting I:  Finance Related Topics": {
+            "CourseCode": "B50 ACCT 3610",
+            "CourseName": "Intermediate Financial Accounting I:  Finance Related Topics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 107"
+            ],
+            "Prof": [
+                "Soczek"
+            ]
+        },
+        "Intermediate Financial Accounting Theory II": {
+            "CourseCode": "B50 ACCT 3620",
+            "CourseName": "Intermediate Financial Accounting Theory II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 107"
+            ],
+            "Prof": [
+                "Soczek"
+            ]
+        },
+        "Carbon Accounting": {
+            "CourseCode": "B50 ACCT 366E",
+            "CourseName": "Carbon Accounting",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 109"
+            ],
+            "Prof": [
+                "Kaplan"
+            ]
+        },
+        "Not-For-Profit Accounting": {
+            "CourseCode": "B60 ACCT 500J",
+            "CourseName": "Not-For-Profit Accounting",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 110"
+            ],
+            "Prof": [
+                "Altholz"
+            ]
+        },
+        "Accounting Policy and Research": {
+            "CourseCode": "B60 ACCT 555",
+            "CourseName": "Accounting Policy and Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 109",
+                "Simon / 109"
+            ],
+            "Prof": [
+                "Fields",
+                "Fields"
+            ]
+        },
+        "M&A  Accounting": {
+            "CourseCode": "B50 ACCT 4680",
+            "CourseName": "M&A  Accounting",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150"
+            ],
+            "Prof": [
+                "Soczek"
+            ]
+        },
+        "Taxation of Business Entities": {
+            "CourseCode": "B60 ACCT 572E",
+            "CourseName": "Taxation of Business Entities",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Plunkett"
+            ]
+        },
+        "International Taxation": {
+            "CourseCode": "B60 ACCT 575E",
+            "CourseName": "International Taxation",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Plunkett"
+            ]
+        },
+        "Fraud Prevention and Internal Controls": {
+            "CourseCode": "B60 ACCT 500D",
+            "CourseName": "Fraud Prevention and Internal Controls",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 122"
+            ],
+            "Prof": [
+                "Soczek"
+            ]
+        },
+        "Financial Accounting B": {
+            "CourseCode": "B60 ACCT 501B",
+            "CourseName": "Financial Accounting B",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 109"
+            ],
+            "Prof": [
+                "Fields"
+            ]
+        },
+        "Managerial Control Systems": {
+            "CourseCode": "B60 ACCT 502",
+            "CourseName": "Managerial Control Systems",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 122"
+            ],
+            "Prof": [
+                "Fields"
+            ]
+        },
+        "Financial Issues in Leasing": {
+            "CourseCode": "B62 FIN 536",
+            "CourseName": "Financial Issues in Leasing",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Soczek"
+            ]
+        },
+        "Financial ACCT III (Advanced Acct)": {
+            "CourseCode": "B60 ACCT 563",
+            "CourseName": "Financial ACCT III (Advanced Acct)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 230"
+            ],
+            "Prof": [
+                "Soczek"
+            ]
+        },
+        "Managerial Statistics I": {
+            "CourseCode": "B59 DAT 120",
+            "CourseName": "Managerial Statistics I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 105",
+                "Simon / 105",
+                "Simon / 105",
+                "Simon / 105",
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Vittert",
+                "Vittert",
+                "Vittert",
+                "Vittert",
+                "Balan"
+            ]
+        },
+        "Managerial Statistics II": {
+            "CourseCode": "B59 DAT 121",
+            "CourseName": "Managerial Statistics II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 240",
+                "Simon / 113",
+                "Simon / 105"
+            ],
+            "Prof": [
+                "Balan",
+                "Snir",
+                "Campbell"
+            ]
+        },
+        "Analytics and Modeling for Business Decisions": {
+            "CourseCode": "B59 DAT 220",
+            "CourseName": "Analytics and Modeling for Business Decisions",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 230",
+                "Bauer / 230",
+                "Bauer / 230"
+            ],
+            "Prof": [
+                "Enayaty Ahangar",
+                "Enayaty Ahangar",
+                "Enayaty Ahangar"
+            ]
+        },
+        "Data Management Tools for Business Decisions": {
+            "CourseCode": "B59 DAT 400A",
+            "CourseName": "Data Management Tools for Business Decisions",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 122"
+            ],
+            "Prof": [
+                "Campbell"
+            ]
+        },
+        "Data Analytics for Business Leaders": {
+            "CourseCode": "B69 DAT 5410",
+            "CourseName": "Data Analytics for Business Leaders",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 122",
+                "Simon / 122"
+            ],
+            "Prof": [
+                "Campbell",
+                "Campbell"
+            ]
+        },
+        "Text Mining": {
+            "CourseCode": "B69 DAT 562",
+            "CourseName": "Text Mining",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+            ],
+            "Days": [
+                "M------",
+                "M------",
+                "M------",
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ],
+                [
+                    "18:15",
+                    "19:35"
+                ]
+            ],
+            "Building": [
+                "Bauer / 210S",
+                "Bauer / 210S",
+                "Bauer / 210S",
+                "Bauer / 210S",
+                "Bauer / 210S"
+            ],
+            "Prof": [
+                "Xie",
+                "Xie",
+                "Xie",
+                "Xie",
+                "Xie"
+            ]
+        },
+        "Capital Markets & Financial Management": {
+            "CourseCode": "B52 FIN 340",
+            "CourseName": "Capital Markets & Financial Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 105",
+                "Simon / 105"
+            ],
+            "Prof": [
+                "Sayili",
+                "Sayili"
+            ]
+        },
+        "Private Equity Methods": {
+            "CourseCode": "B52 FIN 400L",
+            "CourseName": "Private Equity Methods",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "Simon / 112"
+            ],
+            "Prof": [
+                "Degenhart"
+            ]
+        },
+        "Private Equity Practice": {
+            "CourseCode": "B52 FIN 400M",
+            "CourseName": "Private Equity Practice",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 230"
+            ],
+            "Prof": [
+                "Degenhart"
+            ]
+        },
+        "Venture Capital Methods": {
+            "CourseCode": "B62 FIN 500W",
+            "CourseName": "Venture Capital Methods",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "--W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 122",
+                "Simon / 113",
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Sayili",
+                "Sayili",
+                "Sayili"
+            ]
+        },
+        "Investment Praxis": {
+            "CourseCode": "B62 FIN 528",
+            "CourseName": "Investment Praxis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 110",
+                "Simon / 110",
+                "Simon / 110",
+                "Simon / 110"
+            ],
+            "Prof": [
+                "Cuny",
+                "Cuny",
+                "Cuny",
+                "Cuny"
+            ]
+        },
+        "Investments": {
+            "CourseCode": "B52 FIN 441",
+            "CourseName": "Investments",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 110",
+                "Simon / 110"
+            ],
+            "Prof": [
+                "Neuhierl",
+                "Neuhierl"
+            ]
+        },
+        "Financial Technology:  Methods and Practice": {
+            "CourseCode": "B62 FIN 550F",
+            "CourseName": "Financial Technology:  Methods and Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 112",
+                "Simon / 112"
+            ],
+            "Prof": [
+                "Neuhierl",
+                "Neuhierl"
+            ]
+        },
+        "Options, Futures and Derivative Securities": {
+            "CourseCode": "B52 FIN 451",
+            "CourseName": "Options, Futures and Derivative Securities",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 113",
+                "Simon / 113"
+            ],
+            "Prof": [
+                "Naranjo",
+                "Naranjo"
+            ]
+        },
+        "Advanced Derivative Securities": {
+            "CourseCode": "B62 FIN 537",
+            "CourseName": "Advanced Derivative Securities",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 103",
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Cai",
+                "Cai"
+            ]
+        },
+        "Private Equity - Methods": {
+            "CourseCode": "B62 FIN 500Y",
+            "CourseName": "Private Equity - Methods",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M------",
+                "M------",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:30"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ],
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 112",
+                "Simon / 112",
+                "Simon / 113"
+            ],
+            "Prof": [
+                "Degenhart",
+                "Degenhart",
+                "Soubra"
+            ]
+        },
+        "Private Equity - Practice": {
+            "CourseCode": "B62 FIN 500Z",
+            "CourseName": "Private Equity - Practice",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:30"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 230",
+                "Bauer / 230"
+            ],
+            "Prof": [
+                "Degenhart",
+                "Degenhart"
+            ]
+        },
+        "CFAR Practicum": {
+            "CourseCode": "B62 FIN 501P",
+            "CourseName": "CFAR Practicum",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "----F--",
+                "----F--",
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 122",
+                "Simon / 122",
+                "Bauer / 130"
+            ],
+            "Prof": [
+                "Soubra",
+                "Soubra",
+                "Solberg"
+            ]
+        },
+        "Options and Futures": {
+            "CourseCode": "B62 FIN 524",
+            "CourseName": "Options and Futures",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 103",
+                "Simon / 103",
+                "Simon / 103",
+                "Simon / 113",
+                "Simon / 113"
+            ],
+            "Prof": [
+                "Fu",
+                "Fu",
+                "Fu",
+                "Dybvig",
+                "Dybvig"
+            ]
+        },
+        "Derivative Securities": {
+            "CourseCode": "B62 FIN 524B",
+            "CourseName": "Derivative Securities",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 113",
+                "Simon / 113"
+            ],
+            "Prof": [
+                "Dybvig",
+                "Dybvig"
+            ]
+        },
+        "Investment Theory": {
+            "CourseCode": "B62 FIN 532",
+            "CourseName": "Investment Theory",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 240",
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Clayton",
+                "Neuhierl"
+            ]
+        },
+        "Advanced Corporate Finance II - Financing": {
+            "CourseCode": "B62 FIN 534B",
+            "CourseName": "Advanced Corporate Finance II - Financing",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "04"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 106",
+                "Simon / 106",
+                "Simon / 110"
+            ],
+            "Prof": [
+                "Tsoutsoura",
+                "Tsoutsoura",
+                "Tsoutsoura"
+            ]
+        },
+        "Mathematical Finance": {
+            "CourseCode": "B62 FIN 539",
+            "CourseName": "Mathematical Finance",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 113",
+                "Simon / 113"
+            ],
+            "Prof": [
+                "Dybvig",
+                "Dybvig"
+            ]
+        },
+        "Legal, Compliance and Taxation Aspects of Wealth Management": {
+            "CourseCode": "B62 FIN 550A",
+            "CourseName": "Legal, Compliance and Taxation Aspects of Wealth Management",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150"
+            ],
+            "Prof": [
+                "Jennings"
+            ]
+        },
+        "Wealth Management - Practice": {
+            "CourseCode": "B62 FIN 550B",
+            "CourseName": "Wealth Management - Practice",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 105",
+                "Simon / 105"
+            ],
+            "Prof": [
+                "Poole",
+                "Poole"
+            ]
+        },
+        "Fixed Income Derivatives": {
+            "CourseCode": "B62 FIN 552",
+            "CourseName": "Fixed Income Derivatives",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "19:00"
+                ],
+                [
+                    "16:00",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Simon / 110",
+                "Simon / 112"
+            ],
+            "Prof": [
+                "Belaygorod",
+                "Belaygorod"
+            ]
+        },
+        "Risk Management and Insurance": {
+            "CourseCode": "B62 FIN 555",
+            "CourseName": "Risk Management and Insurance",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Furtwengler"
+            ]
+        },
+        "ESG Investing": {
+            "CourseCode": "B62 FIN 558E",
+            "CourseName": "ESG Investing",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 106"
+            ],
+            "Prof": [
+                "Sayili"
+            ]
+        },
+        "Glocal Learning: Engaging with the World Locally": {
+            "CourseCode": "B99 INTL 350E",
+            "CourseName": "Glocal Learning: Engaging with the World Locally",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 210N"
+            ],
+            "Prof": [
+                "Shabani"
+            ]
+        },
+        "Microeconomics": {
+            "CourseCode": "B54 MEC 290",
+            "CourseName": "Microeconomics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 112",
+                "Simon / 112",
+                "Simon / 106",
+                "Simon / 106",
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Ahn",
+                "Ahn",
+                "Natenzon",
+                "Natenzon",
+                "Gray"
+            ]
+        },
+        "Global Economy": {
+            "CourseCode": "B54 MEC 292",
+            "CourseName": "Global Economy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 107",
+                "Simon / 107"
+            ],
+            "Prof": [
+                "Luccioni",
+                "Luccioni"
+            ]
+        },
+        "Healthcare Management": {
+            "CourseCode": "B64 MEC 565",
+            "CourseName": "Healthcare Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Aguilar"
+            ]
+        },
+        "Game Theory for Business": {
+            "CourseCode": "B54 MEC 370",
+            "CourseName": "Game Theory for Business",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 108",
+                "Simon / 108"
+            ],
+            "Prof": [
+                "Baccara",
+                "Baccara"
+            ]
+        },
+        "Research in Industry Analysis": {
+            "CourseCode": "B54 MEC 400K",
+            "CourseName": "Research in Industry Analysis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 108",
+                "Simon / 108"
+            ],
+            "Prof": [
+                "MacDonald",
+                "MacDonald"
+            ]
+        },
+        "Research in Healthcare Management": {
+            "CourseCode": "B64 MEC 566",
+            "CourseName": "Research in Healthcare Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "18:00"
+                ]
+            ],
+            "Building": [
+                "Simon / 108"
+            ],
+            "Prof": [
+                "Hamilton"
+            ]
+        },
+        "Economics of the Organization": {
+            "CourseCode": "B64 MEC 538",
+            "CourseName": "Economics of the Organization",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "01"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 103",
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Gray",
+                "Gray"
+            ]
+        },
+        "Compensation, Incentives & Organizations": {
+            "CourseCode": "B64 MEC 538B",
+            "CourseName": "Compensation, Incentives & Organizations",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 103"
+            ],
+            "Prof": [
+                "Gray"
+            ]
+        },
+        "Macroeconomics for Business Leaders": {
+            "CourseCode": "B64 MEC 540",
+            "CourseName": "Macroeconomics for Business Leaders",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 106"
+            ],
+            "Prof": [
+                "Horn"
+            ]
+        },
+        "Economics From the C-Suite Perspective": {
+            "CourseCode": "B64 MEC 8220",
+            "CourseName": "Economics From the C-Suite Perspective",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "21"
+            ],
+            "Days": [
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "19:45",
+                    "21:15"
+                ],
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "Bauer / 330",
+                "Remote / BUS   "
+            ],
+            "Prof": [
+                "Horn",
+                "Horn"
+            ]
+        },
+        "Individual in a Managerial Environment": {
+            "CourseCode": "B53 MGT 100",
+            "CourseName": "Individual in a Managerial Environment",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150",
+                "Bauer / 150",
+                "Bauer / 150",
+                "Bauer / 240",
+                "Bauer / 240",
+                "Bauer / 240"
+            ],
+            "Prof": [
+                "Reshef",
+                "Reshef",
+                "Reshef",
+                "Wu",
+                "Wu",
+                "Wu"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L"
+            ],
+            "Days_lab": [
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "09:00",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "10:50"
+                ],
+                [
+                    "11:00",
+                    "12:50"
+                ],
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ],
+                [
+                    "09:00",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "10:50"
+                ],
+                [
+                    "11:00",
+                    "11:50"
+                ],
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ]
+            ],
+            "Building_lab": [
+                "Simon / 109",
+                "Simon / 109",
+                "Simon / 109",
+                "Simon / 109",
+                "Simon / 109",
+                "Simon / 109",
+                "Simon / 107",
+                "Simon / 107",
+                "Simon / 107",
+                "Simon / 107",
+                "Simon / 107",
+                "Simon / 107"
+            ],
+            "Prof_lab": [
+                "Reshef",
+                "Reshef",
+                "Reshef",
+                "Reshef",
+                "Reshef",
+                "Reshef",
+                "Wu",
+                "Wu",
+                "Wu",
+                "Wu",
+                "Wu",
+                "Wu"
+            ]
+        },
+        "Foundations of Business": {
+            "CourseCode": "B53 MGT 150A",
+            "CourseName": "Foundations of Business",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "--W----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 108",
+                "Simon / 108"
+            ],
+            "Prof": [
+                "Brodie",
+                "Brodie"
+            ]
+        },
+        "Business Fundamentals for Non-Business Students": {
+            "CourseCode": "B53 MGT 200A",
+            "CourseName": "Business Fundamentals for Non-Business Students",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 240",
+                "Bauer / 240"
+            ],
+            "Prof": [
+                "Chapin",
+                "Chapin"
+            ]
+        },
+        "Ownership InsightsThe Competitive Advantage of Family and Employee Owned Firms": {
+            "CourseCode": "B53 MGT 478E",
+            "CourseName": "Ownership InsightsThe Competitive Advantage of Family and Employee Owned Firms",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 109"
+            ],
+            "Prof": [
+                "Burke"
+            ]
+        },
+        "Law and Business Management": {
+            "CourseCode": "B63 MGT 511A",
+            "CourseName": "Law and Business Management",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 106"
+            ],
+            "Prof": [
+                "Taormina"
+            ]
+        },
+        "Ownership Insights:  Competitive Advantage of Family and Employee Owned Firms": {
+            "CourseCode": "B63 MGT 560E",
+            "CourseName": "Ownership Insights:  Competitive Advantage of Family and Employee Owned Firms",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 109"
+            ],
+            "Prof": [
+                "Burke"
+            ]
+        },
+        "Strategy for Organizations": {
+            "CourseCode": "B63 MGT 8330",
+            "CourseName": "Strategy for Organizations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "21"
+            ],
+            "Days": [
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "19:45",
+                    "21:15"
+                ],
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "Bauer / 330",
+                "Remote / BUS   "
+            ],
+            "Prof": [
+                "Carnahan",
+                "Carnahan"
+            ]
+        },
+        "Principles of Marketing": {
+            "CourseCode": "B55 MKT 370",
+            "CourseName": "Principles of Marketing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 130",
+                "Bauer / 130",
+                "Bauer / 160",
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Chun",
+                "Chun",
+                "Tian",
+                "Tian"
+            ]
+        },
+        "Consumer Behavior": {
+            "CourseCode": "B55 MKT 377",
+            "CourseName": "Consumer Behavior",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Johanek"
+            ]
+        },
+        "Marketing Research": {
+            "CourseCode": "B55 MKT 378",
+            "CourseName": "Marketing Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 130"
+            ],
+            "Prof": [
+                "Johanek"
+            ]
+        },
+        "Digital Marketing and Customer Analytics": {
+            "CourseCode": "B55 MKT 400G",
+            "CourseName": "Digital Marketing and Customer Analytics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 130"
+            ],
+            "Prof": [
+                "Wall"
+            ]
+        },
+        "Business & Marketing Innovation": {
+            "CourseCode": "B55 MKT 400I",
+            "CourseName": "Business & Marketing Innovation",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150"
+            ],
+            "Prof": [
+                "Wall"
+            ]
+        },
+        "Marketing Metrics": {
+            "CourseCode": "B65 MKT 531E",
+            "CourseName": "Marketing Metrics",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Wall"
+            ]
+        },
+        "Marketing Strategy": {
+            "CourseCode": "B55 MKT 480",
+            "CourseName": "Marketing Strategy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 107"
+            ],
+            "Prof": [
+                "Lapuka"
+            ]
+        },
+        "Brand Management": {
+            "CourseCode": "B55 MKT 482",
+            "CourseName": "Brand Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150",
+                "Bauer / 150"
+            ],
+            "Prof": [
+                "Lapuka",
+                "Lapuka"
+            ]
+        },
+        "Digital Marketing": {
+            "CourseCode": "B65 MKT 500U",
+            "CourseName": "Digital Marketing",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 160",
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Wall",
+                "Wall"
+            ]
+        },
+        "Human Resources Management": {
+            "CourseCode": "B66 OB 545",
+            "CourseName": "Human Resources Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 108"
+            ],
+            "Prof": [
+                "Frank"
+            ]
+        },
+        "Organization Behavior Within the Firm": {
+            "CourseCode": "B56 OB 360",
+            "CourseName": "Organization Behavior Within the Firm",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 160",
+                "Bauer / 160",
+                "Bauer / 160"
+            ],
+            "Prof": [
+                "Bogard",
+                "Bogard",
+                "Bogard"
+            ]
+        },
+        "People Metrics": {
+            "CourseCode": "B66 OB 535",
+            "CourseName": "People Metrics",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150"
+            ],
+            "Prof": [
+                "Knight"
+            ]
+        },
+        "Leadership in Organizations": {
+            "CourseCode": "B56 OB 462",
+            "CourseName": "Leadership in Organizations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 107"
+            ],
+            "Prof": [
+                "Pellegrini"
+            ]
+        },
+        "Mindfulness and Performance in the Workplace": {
+            "CourseCode": "B66 OB 568E",
+            "CourseName": "Mindfulness and Performance in the Workplace",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Bauer / 150"
+            ],
+            "Prof": [
+                "Dane"
+            ]
+        },
+        "Defining Moments:  Lessons in Leadership and Character from the Top": {
+            "CourseCode": "B66 OB 572",
+            "CourseName": "Defining Moments:  Lessons in Leadership and Character from the Top",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Bauer / 230"
+            ],
+            "Prof": [
+                "Nemanick"
+            ]
+        },
+        "Leading Across Differences": {
+            "CourseCode": "B66 OB 5603",
+            "CourseName": "Leading Across Differences",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 109",
+                "Simon / 110",
+                "Simon / 109"
+            ],
+            "Prof": [
+                "Marcus",
+                "Marcus",
+                "Marcus"
+            ]
+        },
+        "Leading Change": {
+            "CourseCode": "B66 OB 565",
+            "CourseName": "Leading Change",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:15",
+                    "21:15"
+                ]
+            ],
+            "Building": [
+                "Simon / 106"
+            ],
+            "Prof": [
+                "Danieli"
+            ]
+        },
+        "Operations and Manufacturing Management": {
+            "CourseCode": "B57 SCOT 356",
+            "CourseName": "Operations and Manufacturing Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Bauer / 230",
+                "Bauer / 230"
+            ],
+            "Prof": [
+                "Rashkova",
+                "Rashkova"
+            ]
+        }
+    }
+}

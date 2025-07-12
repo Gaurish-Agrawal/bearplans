@@ -1,0 +1,1145 @@
+{
+    "courses": {
+        "Health Administration and Policy": {
+            "CourseCode": "S40 SWSP 5742",
+            "CourseName": "Health Administration and Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Barker"
+            ]
+        },
+        "Epidemiology Methods": {
+            "CourseCode": "S55 MPH 5011",
+            "CourseName": "Epidemiology Methods",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Effah"
+            ]
+        },
+        "Mental and Behavioral Health Epidemiology": {
+            "CourseCode": "S55 MPH 5114",
+            "CourseName": "Mental and Behavioral Health Epidemiology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Duncan"
+            ]
+        },
+        "Health Economics": {
+            "CourseCode": "S55 MPH 5120",
+            "CourseName": "Health Economics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Brown"
+            ]
+        },
+        "Health, Politics, And Policy": {
+            "CourseCode": "S55 MPH 5122",
+            "CourseName": "Health, Politics, And Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Moreland-Russell"
+            ]
+        },
+        "Public Mental Health": {
+            "CourseCode": "S55 MPH 5138",
+            "CourseName": "Public Mental Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Duncan"
+            ]
+        },
+        "Skill Lab: Strategic Planning and Execution": {
+            "CourseCode": "S55 MPH 5177",
+            "CourseName": "Skill Lab: Strategic Planning and Execution",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "TPS: Policy Making, Advocacy and Analysis in the U.S. Legislative System": {
+            "CourseCode": "S55 MPH 5377",
+            "CourseName": "TPS: Policy Making, Advocacy and Analysis in the U.S. Legislative System",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Shabsin"
+            ]
+        },
+        "Developing and Evaluating Implementation Strategies in Health and Social Services": {
+            "CourseCode": "S55 MPH 5554",
+            "CourseName": "Developing and Evaluating Implementation Strategies in Health and Social Services",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Powell"
+            ]
+        },
+        "Capstone II": {
+            "CourseCode": "S55 MPH 5908",
+            "CourseName": "Capstone II",
+            "Credits": "1.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "13:00"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Caburnay"
+            ],
+            "subsection_lab": [],
+            "Days_lab": [],
+            "Times_lab": [],
+            "Building_lab": [],
+            "Prof_lab": []
+        },
+        "Skill Lab: SQL - Intro to Using Relational Databases to Analyze Publicly Available Data": {
+            "CourseCode": "S55 MPH 5981",
+            "CourseName": "Skill Lab: SQL - Intro to Using Relational Databases to Analyze Publicly Available Data",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "TBA"
+            ],
+            "Prof": [
+                "Golla",
+                "Golla"
+            ]
+        },
+        "Motivational Interviewing Fundamentals": {
+            "CourseCode": "S81 SKILL 5048",
+            "CourseName": "Motivational Interviewing Fundamentals",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "Cognitive Processing Therapy": {
+            "CourseCode": "S81 SKILL 5049",
+            "CourseName": "Cognitive Processing Therapy",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Keyes"
+            ]
+        },
+        "Skill Lab: Strategic Planning & Execution": {
+            "CourseCode": "S81 SKILL 5177",
+            "CourseName": "Skill Lab: Strategic Planning & Execution",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "State Level Lobbying": {
+            "CourseCode": "S60 SWCD 5018",
+            "CourseName": "State Level Lobbying",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Shabsin"
+            ]
+        },
+        "Social, Economic & Political Environment": {
+            "CourseCode": "S15 SWCR 5012",
+            "CourseName": "Social, Economic & Political Environment",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "TBA"
+            ],
+            "Prof": [
+                "Pearson",
+                "Fabbre"
+            ]
+        },
+        "Social Work Practice with Individuals, Families & Groups": {
+            "CourseCode": "S15 SWCR 5038",
+            "CourseName": "Social Work Practice with Individuals, Families & Groups",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Cook"
+            ]
+        },
+        "Social Welfare Policies & Services": {
+            "CourseCode": "S15 SWCR 5040",
+            "CourseName": "Social Welfare Policies & Services",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Conover"
+            ]
+        },
+        "Addressing & Preventing Intimate Partner Violence in Practice": {
+            "CourseCode": "S30 SWDP 5311",
+            "CourseName": "Addressing & Preventing Intimate Partner Violence in Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "VonDeLinde"
+            ]
+        },
+        "Cognitive Behavior Therapy": {
+            "CourseCode": "S30 SWDP 5503",
+            "CourseName": "Cognitive Behavior Therapy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Mastnak"
+            ]
+        },
+        "Dialectical Behavior Therapy": {
+            "CourseCode": "S30 SWDP 5504",
+            "CourseName": "Dialectical Behavior Therapy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "Applied Group Work Practice": {
+            "CourseCode": "S30 SWDP 5702",
+            "CourseName": "Applied Group Work Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Carter"
+            ]
+        },
+        "Principles of Clinical Interventions in Behavioral Health": {
+            "CourseCode": "S30 SWDP 5805",
+            "CourseName": "Principles of Clinical Interventions in Behavioral Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "Principles and Practices of Differential Diagnosis": {
+            "CourseCode": "S30 SWDP 5810",
+            "CourseName": "Principles and Practices of Differential Diagnosis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Mastnak"
+            ]
+        },
+        "Social Work Practice with Youth in Families": {
+            "CourseCode": "S30 SWDP 7326",
+            "CourseName": "Social Work Practice with Youth in Families",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Berger"
+            ]
+        },
+        "Social Work Practice in Suicide Prevention, Intervention & Postvention": {
+            "CourseCode": "S30 SWDP 7328",
+            "CourseName": "Social Work Practice in Suicide Prevention, Intervention & Postvention",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "Social Work Practice Across Children and Youth Serving Systems": {
+            "CourseCode": "S30 SWDP 7329",
+            "CourseName": "Social Work Practice Across Children and Youth Serving Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Carter"
+            ]
+        },
+        "Designing Sexual Health Education": {
+            "CourseCode": "S31 SWDP 5154",
+            "CourseName": "Designing Sexual Health Education",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Saah"
+            ]
+        },
+        "Media Methods for Disseminating Sexual Health Education": {
+            "CourseCode": "S31 SWDP 5156",
+            "CourseName": "Media Methods for Disseminating Sexual Health Education",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Saah"
+            ]
+        },
+        "Social Work Practice with LGBTQIA+ Populations": {
+            "CourseCode": "S31 SWDP 5243",
+            "CourseName": "Social Work Practice with LGBTQIA+ Populations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Galupo"
+            ]
+        },
+        "Contemporary Perspectives on Aging": {
+            "CourseCode": "S20 SWHS 2010",
+            "CourseName": "Contemporary Perspectives on Aging",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Morrow-Howell"
+            ]
+        },
+        "Theories of Racial, Social & Economic Justice": {
+            "CourseCode": "S20 SWHS 5040",
+            "CourseName": "Theories of Racial, Social & Economic Justice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Butler-Barnes"
+            ]
+        },
+        "Contemporary Theories and Issues in Behavioral Health": {
+            "CourseCode": "S20 SWHS 5081",
+            "CourseName": "Contemporary Theories and Issues in Behavioral Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Cook"
+            ]
+        },
+        "Human Service Organizations: Theory, Concepts, Issues": {
+            "CourseCode": "S20 SWHS 5089",
+            "CourseName": "Human Service Organizations: Theory, Concepts, Issues",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "------S"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "15:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Rosenberg"
+            ]
+        },
+        "Indigenous Knowledge, Values and Cultures": {
+            "CourseCode": "S20 SWHS 5751",
+            "CourseName": "Indigenous Knowledge, Values and Cultures",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Begay"
+            ]
+        },
+        "Financial Management": {
+            "CourseCode": "S50 SWSA 5030",
+            "CourseName": "Financial Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Phillips"
+            ]
+        },
+        "Special Topics: Brown Consulting": {
+            "CourseCode": "S50 SWSA 5033",
+            "CourseName": "Special Topics: Brown Consulting",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Rosenberg"
+            ]
+        },
+        "Evaluation of Programs & Services": {
+            "CourseCode": "S50 SWSA 5050",
+            "CourseName": "Evaluation of Programs & Services",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "MTWRF--",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "17:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Park",
+                "Park"
+            ]
+        },
+        "Leadership & Management of Human Service Organizations": {
+            "CourseCode": "S50 SWSA 5057",
+            "CourseName": "Leadership & Management of Human Service Organizations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Rosenberg"
+            ]
+        },
+        "Developing Programs In Health and Social Service Settings": {
+            "CourseCode": "S50 SWSA 5069",
+            "CourseName": "Developing Programs In Health and Social Service Settings",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Carter"
+            ]
+        },
+        "Policy Making, Advocacy and Analysis in the US Legislative System": {
+            "CourseCode": "S40 SWSP 5377",
+            "CourseName": "Policy Making, Advocacy and Analysis in the US Legislative System",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Shabsin"
+            ]
+        },
+        "Policy & Advocacy in the Three Branches of Government": {
+            "CourseCode": "S40 SWSP 5635",
+            "CourseName": "Policy & Advocacy in the Three Branches of Government",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Shabsin"
+            ]
+        },
+        "Social Policies, Services & Programs in Aging": {
+            "CourseCode": "S40 SWSP 5780",
+            "CourseName": "Social Policies, Services & Programs in Aging",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Halvorsen"
+            ]
+        },
+        "Regulating Sex: Social Work Perspectives": {
+            "CourseCode": "S40 SWSP 5784",
+            "CourseName": "Regulating Sex: Social Work Perspectives",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Pearson"
+            ]
+        },
+        "Social Policy Analysis & Evaluation": {
+            "CourseCode": "S40 SWSP 5842",
+            "CourseName": "Social Policy Analysis & Evaluation",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Jabbari"
+            ]
+        },
+        "Behavioral Health Policies & Services": {
+            "CourseCode": "S48 SWSP 5012",
+            "CourseName": "Behavioral Health Policies & Services",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "TBA"
+            ],
+            "Prof": [
+                "Ford",
+                "Ford"
+            ]
+        }
+    }
+}

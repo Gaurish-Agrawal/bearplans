@@ -1,0 +1,1820 @@
+{
+    "courses": {
+        "A History of African American Theater": {
+            "CourseCode": "U84 AFAS 3011",
+            "CourseName": "A History of African American Theater",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Duncker / 109"
+            ],
+            "Prof": [
+                "Himes"
+            ]
+        },
+        "Introduction to Cultural Anthropology": {
+            "CourseCode": "U43 IS 160",
+            "CourseName": "Introduction to Cultural Anthropology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Seigle / 205"
+            ],
+            "Prof": [
+                "CANCELED"
+            ]
+        },
+        "Introduction to Archaeology": {
+            "CourseCode": "U69 Anthro 190",
+            "CourseName": "Introduction to Archaeology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "McMillan / G056"
+            ],
+            "Prof": [
+                "Zhuldyz Tashmanbetova"
+            ]
+        },
+        "Introduction to Global Health": {
+            "CourseCode": "U19 SUST 3281",
+            "CourseName": "Introduction to Global Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "McMillan / 150"
+            ],
+            "Prof": [
+                "Rose Hores"
+            ]
+        },
+        "Drawing": {
+            "CourseCode": "U79 Art 101",
+            "CourseName": "Drawing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Lopata House / 21"
+            ],
+            "Prof": [
+                "Roxanne Phillips"
+            ]
+        },
+        "Problem Based Learning in the Biomedical Sciences": {
+            "CourseCode": "U29 Bio 401",
+            "CourseName": "Problem Based Learning in the Biomedical Sciences",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "Eads / 208"
+            ],
+            "Prof": [
+                "Tyler Parsons"
+            ]
+        },
+        "Biology of Aging": {
+            "CourseCode": "U29 Bio 431",
+            "CourseName": "Biology of Aging",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "Farrell T/L Ctr / 205"
+            ],
+            "Prof": [
+                "Ghoshal"
+            ]
+        },
+        "Basic Cancer Biology": {
+            "CourseCode": "U29 Bio 4715",
+            "CourseName": "Basic Cancer Biology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "Busch / 100"
+            ],
+            "Prof": [
+                "Weber"
+            ]
+        },
+        "Cell Biology and Its Molecular Foundation": {
+            "CourseCode": "U29 Bio 472",
+            "CourseName": "Cell Biology and Its Molecular Foundation",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "19:00",
+                    "22:00"
+                ]
+            ],
+            "Building": [
+                "Busch / 202"
+            ],
+            "Prof": [
+                "Lin"
+            ]
+        },
+        "Personal Finance": {
+            "CourseCode": "U44 Bus 150",
+            "CourseName": "Personal Finance",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Seigle / 305"
+            ],
+            "Prof": [
+                "Brady Ritchey"
+            ]
+        },
+        "Data Analysis and Visualization in Tableau": {
+            "CourseCode": "U71 DATA 206",
+            "CourseName": "Data Analysis and Visualization in Tableau",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Manan Shroff"
+            ]
+        },
+        "Strategic Planning": {
+            "CourseCode": "U44 Bus 364",
+            "CourseName": "Strategic Planning",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Mark Franke"
+            ]
+        },
+        "Introductory General Chemistry I PB": {
+            "CourseCode": "U05 Chem 105",
+            "CourseName": "Introductory General Chemistry I PB",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Cupples II / L001"
+            ],
+            "Prof": [
+                "Lutes"
+            ]
+        },
+        "General Chemistry Laboratory I PB": {
+            "CourseCode": "U05 Chem 151",
+            "CourseName": "General Chemistry Laboratory I PB",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "09:00"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 301"
+            ],
+            "Prof": [
+                "Wentz"
+            ]
+        },
+        "Introduction to Medicinal Chemistry PB": {
+            "CourseCode": "U05 Chem 225",
+            "CourseName": "Introduction to Medicinal Chemistry PB",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "21:30"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 301"
+            ],
+            "Prof": [
+                "Swanson"
+            ]
+        },
+        "Organic Chemistry I with Lab PB": {
+            "CourseCode": "U05 Chem 261",
+            "CourseName": "Organic Chemistry I with Lab PB",
+            "Credits": "4.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "01"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:00"
+                ],
+                [
+                    "18:00",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 201",
+                "Wrighton / 201"
+            ],
+            "Prof": [
+                "Iha",
+                "Iha"
+            ]
+        },
+        "Organic Chemistry I PB (Lecture Only)": {
+            "CourseCode": "U05 Chem 2611",
+            "CourseName": "Organic Chemistry I PB (Lecture Only)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 201"
+            ],
+            "Prof": [
+                "Iha"
+            ]
+        },
+        "Philosophy of AI": {
+            "CourseCode": "U22 Phil 322",
+            "CourseName": "Philosophy of AI",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Gabriel Siegel"
+            ]
+        },
+        "Oral Communication": {
+            "CourseCode": "U30 Spch 217",
+            "CourseName": "Oral Communication",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Joe Cruz"
+            ]
+        },
+        "Fundamentals of Clinical Research Management I": {
+            "CourseCode": "U86 HCARE 250",
+            "CourseName": "Fundamentals of Clinical Research Management I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Michelle Jenkerson"
+            ]
+        },
+        "Introduction to Data & Information Management in Health Sciences": {
+            "CourseCode": "U86 HCARE 318",
+            "CourseName": "Introduction to Data & Information Management in Health Sciences",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Michael Yingling"
+            ]
+        },
+        "Drug-Induced Diseases: Detection, Prevention, and Management": {
+            "CourseCode": "U80 CRM 526",
+            "CourseName": "Drug-Induced Diseases: Detection, Prevention, and Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Paul Milligan"
+            ]
+        },
+        "The Business of Clinical Research": {
+            "CourseCode": "U86 HCARE 330",
+            "CourseName": "The Business of Clinical Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Melissa Walker"
+            ]
+        },
+        "Fundamentals of Clinical Research Management": {
+            "CourseCode": "U80 CRM 500",
+            "CourseName": "Fundamentals of Clinical Research Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Abby Keeley"
+            ]
+        },
+        "Drug and Device Development": {
+            "CourseCode": "U80 CRM 518",
+            "CourseName": "Drug and Device Development",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Linda Shapiro Manning"
+            ]
+        },
+        "Compliance, Legal, and Regulatory Issues": {
+            "CourseCode": "U80 CRM 522",
+            "CourseName": "Compliance, Legal, and Regulatory Issues",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Melanie Roewe"
+            ]
+        },
+        "Mind Body Movement: Yoga and Pilates": {
+            "CourseCode": "U31 Dance 221",
+            "CourseName": "Mind Body Movement: Yoga and Pilates",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ],
+                [
+                    "17:00",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Wom Bldg / ST2",
+                "Wom Bldg / ST2"
+            ],
+            "Prof": [
+                "Susan Volkan",
+                "Susan Volkan"
+            ]
+        },
+        "Introduction to Somatic Practices": {
+            "CourseCode": "U31 Dance 285",
+            "CourseName": "Introduction to Somatic Practices",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Mallinckrodt / 101"
+            ],
+            "Prof": [
+                "David Marchant"
+            ]
+        },
+        "Introduction to Statistics": {
+            "CourseCode": "U20 Math 1011",
+            "CourseName": "Introduction to Statistics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Michael Yingling"
+            ]
+        },
+        "Data Fundamentals I": {
+            "CourseCode": "U71 DATA 140",
+            "CourseName": "Data Fundamentals I",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Dorris Scott"
+            ]
+        },
+        "Data Fundamentals II": {
+            "CourseCode": "U71 DATA 145",
+            "CourseName": "Data Fundamentals II",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Dorris Scott"
+            ]
+        },
+        "Introduction to GIS": {
+            "CourseCode": "U19 SUST 200",
+            "CourseName": "Introduction to GIS",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "07:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Jennifer Moore"
+            ]
+        },
+        "Advanced Data Visualization (with R)": {
+            "CourseCode": "U20 Math 224",
+            "CourseName": "Advanced Data Visualization (with R)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Michael Yingling"
+            ]
+        },
+        "Applications in Geospatial Intelligence": {
+            "CourseCode": "U90 GIS 410",
+            "CourseName": "Applications in Geospatial Intelligence",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Tara Mott"
+            ]
+        },
+        "Foundations of Programming for Data Analytics & Applications": {
+            "CourseCode": "U71 DATA 5001",
+            "CourseName": "Foundations of Programming for Data Analytics & Applications",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Elizabeth Brennan"
+            ]
+        },
+        "Foundations of Mathematics for Data Analytics & Applications": {
+            "CourseCode": "U71 DATA 5002",
+            "CourseName": "Foundations of Mathematics for Data Analytics & Applications",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Jeromey Farmer"
+            ]
+        },
+        "Data Visualization and Story Telling": {
+            "CourseCode": "U71 DATA 5013",
+            "CourseName": "Data Visualization and Story Telling",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Jeromey Farmer"
+            ]
+        },
+        "Introduction to Relational Databases and SQL Programming": {
+            "CourseCode": "U71 DATA 5300",
+            "CourseName": "Introduction to Relational Databases and SQL Programming",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Christopher Lehmuth"
+            ]
+        },
+        "Foundations of Data Analytics": {
+            "CourseCode": "U71 DATA 5740",
+            "CourseName": "Foundations of Data Analytics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Paul Boal"
+            ]
+        },
+        "A History of African-American Theater": {
+            "CourseCode": "U21 Drama 3011",
+            "CourseName": "A History of African-American Theater",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Duncker / 109"
+            ],
+            "Prof": [
+                "Himes"
+            ]
+        },
+        "Argumentation": {
+            "CourseCode": "U11 EComp 3120",
+            "CourseName": "Argumentation",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ],
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "Dustin Iler",
+                "Dustin Iler"
+            ]
+        },
+        "Creative Nonfiction": {
+            "CourseCode": "U11 EComp 313",
+            "CourseName": "Creative Nonfiction",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Deanna Benjamin"
+            ]
+        },
+        "Fundamentals of Novel Writing": {
+            "CourseCode": "U11 EComp 4500",
+            "CourseName": "Fundamentals of Novel Writing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:00"
+                ],
+                [
+                    "19:00",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "Kris Campa",
+                "Kris Campa"
+            ]
+        },
+        "International Agricultural Development & Policy": {
+            "CourseCode": "U07 Econ 3711",
+            "CourseName": "International Agricultural Development & Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Sarah Ali"
+            ]
+        },
+        "Advanced Teaching Methods: Elementary - Fall": {
+            "CourseCode": "U08 Educ 5125",
+            "CourseName": "Advanced Teaching Methods: Elementary - Fall",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "Seigle / 111"
+            ],
+            "Prof": [
+                "Justin Schulze"
+            ]
+        },
+        "Advanced Teaching Methods: Secondary English/Language Arts - Fall": {
+            "CourseCode": "U08 Educ 5126",
+            "CourseName": "Advanced Teaching Methods: Secondary English/Language Arts - Fall",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "18:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Sarah Olbrantz"
+            ]
+        },
+        "Advanced Teaching Methods: Secondary STEM - Fall": {
+            "CourseCode": "U08 Educ 5134",
+            "CourseName": "Advanced Teaching Methods: Secondary STEM - Fall",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Rachel Ruggirello"
+            ]
+        },
+        "Improving Content and Instruction through Meaningful Assessments": {
+            "CourseCode": "U08 Educ 5137",
+            "CourseName": "Improving Content and Instruction through Meaningful Assessments",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Christi Sanderson"
+            ]
+        },
+        "MATL Capstone Seminar I": {
+            "CourseCode": "U08 Educ 5140",
+            "CourseName": "MATL Capstone Seminar I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "Seigle / 304"
+            ],
+            "Prof": [
+                "Samantha Smith"
+            ]
+        },
+        "Skills & Strategies for Academic Writing": {
+            "CourseCode": "U15 ELP 108",
+            "CourseName": "Skills & Strategies for Academic Writing",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Stephanie Moore"
+            ]
+        },
+        "English Advantage: Biostatistics and Bioinformatics": {
+            "CourseCode": "U15 ELP 1120",
+            "CourseName": "English Advantage: Biostatistics and Bioinformatics",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:30",
+                    "15:30"
+                ]
+            ],
+            "Building": [
+                "Becker Library / 502"
+            ],
+            "Prof": [
+                "Morgan Griffith"
+            ]
+        },
+        "Presentation Skills for Academic and Professional Settings": {
+            "CourseCode": "U15 ELP 170",
+            "CourseName": "Presentation Skills for Academic and Professional Settings",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:30"
+                ],
+                [
+                    "17:30",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "Ridgley / 122",
+                "Farrell T/L Ctr / 201"
+            ],
+            "Prof": [
+                "Moira Castillo-Schoewe",
+                "Stephanie Moore"
+            ]
+        },
+        "Talking to Americans: Casual and Professional Conversations": {
+            "CourseCode": "U15 ELP 202",
+            "CourseName": "Talking to Americans: Casual and Professional Conversations",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:00"
+                ],
+                [
+                    "18:00",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Simon / 021",
+                "Farrell T/L Ctr / 201"
+            ],
+            "Prof": [
+                "Chris Meierotto",
+                "Chris Meierotto"
+            ]
+        },
+        "Research Writing for International Students & Scholars": {
+            "CourseCode": "U15 ELP 208",
+            "CourseName": "Research Writing for International Students & Scholars",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "--W----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "18:00"
+                ],
+                [
+                    "11:30",
+                    "13:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "Morgan Griffith",
+                "Katie Blackburn Brown"
+            ]
+        },
+        "Language, Culture, and Interaction Strategies for Instruction": {
+            "CourseCode": "U15 ELP 470",
+            "CourseName": "Language, Culture, and Interaction Strategies for Instruction",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Eads / 116"
+            ],
+            "Prof": [
+                "Katie Blackburn Brown"
+            ]
+        },
+        "College Transition Seminar": {
+            "CourseCode": "U03 GS 125M",
+            "CourseName": "College Transition Seminar",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "--W----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ],
+                [
+                    "18:00",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "John Furlong",
+                "Kella Thornton"
+            ]
+        },
+        "Career Development": {
+            "CourseCode": "U03 GS 130H",
+            "CourseName": "Career Development",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Jennifer Finney"
+            ]
+        },
+        "Introduction to Health Professions": {
+            "CourseCode": "U86 HCARE 103",
+            "CourseName": "Introduction to Health Professions",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "Cupples II / L007"
+            ],
+            "Prof": [
+                "Kilinyaa Cothran"
+            ]
+        },
+        "Introduction to Social Work": {
+            "CourseCode": "U68 SOC 1200",
+            "CourseName": "Introduction to Social Work",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Clarissa Jackson"
+            ]
+        },
+        "Biomedical Ethics": {
+            "CourseCode": "U22 Phil 233",
+            "CourseName": "Biomedical Ethics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Lemuel Tang"
+            ]
+        },
+        "SHRM Learning System": {
+            "CourseCode": "U87 HRM 402",
+            "CourseName": "SHRM Learning System",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "15:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Canceled"
+            ]
+        },
+        "Introduction to Group Dynamics": {
+            "CourseCode": "U09 Psych 480",
+            "CourseName": "Introduction to Group Dynamics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Eads / 207"
+            ],
+            "Prof": [
+                "Nicole Goessling"
+            ]
+        },
+        "Process and Design of Research": {
+            "CourseCode": "U85 IA 524",
+            "CourseName": "Process and Design of Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Amy Heath-Carpentier"
+            ]
+        },
+        "National Security Decision-Making": {
+            "CourseCode": "U85 IA 5310",
+            "CourseName": "National Security Decision-Making",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "January Hall / 20"
+            ],
+            "Prof": [
+                "Susan Craig"
+            ]
+        },
+        "Against Development: International Affairs Otherwise": {
+            "CourseCode": "U43 IS 4880",
+            "CourseName": "Against Development: International Affairs Otherwise",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Ridgley / 122"
+            ],
+            "Prof": [
+                "Ignacio S\u00e1nchez Prado"
+            ]
+        },
+        "International Agriculture Development and Policy": {
+            "CourseCode": "U43 IS 3711",
+            "CourseName": "International Agriculture Development and Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Sarah Ali"
+            ]
+        },
+        "Topics in International Politics: International Organizations and Global Governance": {
+            "CourseCode": "U25 PolSci 375",
+            "CourseName": "Topics in International Politics: International Organizations and Global Governance",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Seigle / 305"
+            ],
+            "Prof": [
+                "Pavla Landiss"
+            ]
+        },
+        "Management in Nonprofit Organizations": {
+            "CourseCode": "U76 NPM 507",
+            "CourseName": "Management in Nonprofit Organizations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "CANCELED"
+            ]
+        },
+        "GENERAL PHYSICS I": {
+            "CourseCode": "U23 Phys 211A",
+            "CourseName": "GENERAL PHYSICS I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "18:00"
+                ]
+            ],
+            "Building": [
+                "Crow / 201"
+            ],
+            "Prof": [
+                "Iyer"
+            ]
+        },
+        "GENERAL PHYSICS I Lab": {
+            "CourseCode": "U23 Phys 211L",
+            "CourseName": "GENERAL PHYSICS I Lab",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "Crow / 311"
+            ],
+            "Prof": [
+                "Li"
+            ]
+        },
+        "Psychology of Personality": {
+            "CourseCode": "U09 Psych 353",
+            "CourseName": "Psychology of Personality",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Lisa McGrath"
+            ]
+        },
+        "Cognitive Neuroscience": {
+            "CourseCode": "U09 Psych 3604",
+            "CourseName": "Cognitive Neuroscience",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:00"
+                ]
+            ],
+            "Building": [
+                "Cupples II / L011"
+            ],
+            "Prof": [
+                "Angelique Delarazan"
+            ]
+        },
+        "International Agricultural Development and Policy": {
+            "CourseCode": "U19 SUST 3711",
+            "CourseName": "International Agricultural Development and Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "19:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Sarah Ali"
+            ]
+        }
+    }
+}

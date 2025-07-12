@@ -1,0 +1,1804 @@
+{
+    "courses": {
+        "Introduction to Design Processes I": {
+            "CourseCode": "A46 ARCH 111C",
+            "CourseName": "Introduction to Design Processes I",
+            "Credits": "4.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "17:20"
+                ],
+                [
+                    "14:00",
+                    "17:20"
+                ],
+                [
+                    "14:00",
+                    "17:20"
+                ],
+                [
+                    "14:00",
+                    "17:20"
+                ],
+                [
+                    "14:00",
+                    "17:20"
+                ],
+                [
+                    "14:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Givens / LL",
+                "TBA",
+                "TBA",
+                "TBA",
+                "TBA",
+                "TBA"
+            ],
+            "Prof": [
+                "Safaverdi",
+                "Alsaggaf",
+                "Ellingsen",
+                "Kempf",
+                "Moyano Fernandez",
+                "Lossada"
+            ]
+        },
+        "Representation I": {
+            "CourseCode": "A46 ARCH 151",
+            "CourseName": "Representation I",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06"
+            ],
+            "Days": [
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "16:50"
+                ],
+                [
+                    "14:00",
+                    "16:50"
+                ],
+                [
+                    "14:00",
+                    "16:50"
+                ],
+                [
+                    "14:00",
+                    "16:50"
+                ],
+                [
+                    "14:00",
+                    "16:50"
+                ],
+                [
+                    "14:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 116",
+                "Givens / 116",
+                "Givens / 116",
+                "Givens / 116",
+                "Givens / 116",
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Byun",
+                "Ebbers",
+                "Guo",
+                "Karchunas",
+                "Null",
+                "Ornstein"
+            ]
+        },
+        "Designing Creativity: Innovation Across Disciplines": {
+            "CourseCode": "A46 ARCH 175",
+            "CourseName": "Designing Creativity: Innovation Across Disciplines",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "McMillan / G052"
+            ],
+            "Prof": [
+                "Lindsey"
+            ]
+        },
+        "Design Process": {
+            "CourseCode": "A46 ARCH 209",
+            "CourseName": "Design Process",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Cupples II / L007"
+            ],
+            "Prof": [
+                "Lorberbaum"
+            ]
+        },
+        "Architectural Design I": {
+            "CourseCode": "A46 ARCH 211D",
+            "CourseName": "Architectural Design I",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "TBA",
+                "TBA",
+                "TBA",
+                "TBA"
+            ],
+            "Prof": [
+                "Vale",
+                "Abendroth",
+                "Saeed",
+                "Stitelman",
+                "Stouffer"
+            ]
+        },
+        "Italian Language (Florence)": {
+            "CourseCode": "A46 ARCH 2647",
+            "CourseName": "Italian Language (Florence)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:50",
+                    "19:30"
+                ],
+                [
+                    "09:00",
+                    "10:40"
+                ],
+                [
+                    "09:00",
+                    "10:40"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "[TBA]",
+                "[TBA]",
+                "[TBA]"
+            ]
+        },
+        "Design Foundations Studio": {
+            "CourseCode": "A46 ARCH 400A",
+            "CourseName": "Design Foundations Studio",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "MTWRF--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:30"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Strong"
+            ]
+        },
+        "Shared Ecologies and Design": {
+            "CourseCode": "A48 LAND 304",
+            "CourseName": "Shared Ecologies and Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Denizen"
+            ]
+        },
+        "Community Building": {
+            "CourseCode": "A46 ARCH 307X",
+            "CourseName": "Community Building",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 204"
+            ],
+            "Prof": [
+                "Hansman"
+            ]
+        },
+        "Engaging Community: Understanding the Basics": {
+            "CourseCode": "A46 ARCH 308B",
+            "CourseName": "Engaging Community: Understanding the Basics",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Kramer"
+            ]
+        },
+        "Architectural Design III": {
+            "CourseCode": "A46 ARCH 419",
+            "CourseName": "Architectural Design III",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "M--R---",
+                "M--R---",
+                "M--R---",
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "Weil / 200N  ",
+                "Weil / 200N  ",
+                "Weil / 200N  "
+            ],
+            "Prof": [
+                "Lopez",
+                "Bauer",
+                "Koster",
+                "Rivera"
+            ]
+        },
+        "Re-Discover the Child": {
+            "CourseCode": "A46 ARCH 316F",
+            "CourseName": "Re-Discover the Child",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Seigle / 204"
+            ],
+            "Prof": [
+                "Lorberbaum"
+            ]
+        },
+        "Architectural Design I (M.Arch. 3)": {
+            "CourseCode": "A46 ARCH 317A",
+            "CourseName": "Architectural Design I (M.Arch. 3)",
+            "Credits": "9.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Lindsey"
+            ]
+        },
+        "Architectural Representation I (M.Arch 3)": {
+            "CourseCode": "A46 ARCH 323A",
+            "CourseName": "Architectural Representation I (M.Arch 3)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Heller"
+            ]
+        },
+        "Digital Lighting Design: Rapid Prototyping and the CNC": {
+            "CourseCode": "A46 ARCH 327D",
+            "CourseName": "Digital Lighting Design: Rapid Prototyping and the CNC",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Branham"
+            ]
+        },
+        "Architectural History I: Antiquity to Baroque": {
+            "CourseCode": "A46 ARCH 3280",
+            "CourseName": "Architectural History I: Antiquity to Baroque",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Busch / 100"
+            ],
+            "Prof": [
+                "Allen"
+            ]
+        },
+        "Innovative Bamboo": {
+            "CourseCode": "A46 ARCH 331B",
+            "CourseName": "Innovative Bamboo",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Brown"
+            ]
+        },
+        "Furniture Design, Emphasis Metal": {
+            "CourseCode": "A46 ARCH 347F",
+            "CourseName": "Furniture Design, Emphasis Metal",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Stouffer"
+            ]
+        },
+        "Projective Excavation: Drawing out the Untold History of St. Louis's Chinatown": {
+            "CourseCode": "A46 ARCH 364C",
+            "CourseName": "Projective Excavation: Drawing out the Untold History of St. Louis's Chinatown",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Murphy"
+            ]
+        },
+        "Impossible Collaborations: Architecture and Machine Learning (Florence)": {
+            "CourseCode": "A46 ARCH 3752",
+            "CourseName": "Impossible Collaborations: Architecture and Machine Learning (Florence)",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Murphy"
+            ]
+        },
+        "Impossible Collaborations: Architecture and Machine Learning": {
+            "CourseCode": "A46 ARCH 375M",
+            "CourseName": "Impossible Collaborations: Architecture and Machine Learning",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Mhatre"
+            ]
+        },
+        "Fifteenth & Sixteenth Century Florence, Rome & Venice:  Rethinking Renaissance Visual Culture": {
+            "CourseCode": "A46 ARCH 3823",
+            "CourseName": "Fifteenth & Sixteenth Century Florence, Rome & Venice:  Rethinking Renaissance Visual Culture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M------",
+                "M------",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "11:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "09:00",
+                    "11:50"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "Giraldi-Haller",
+                "Giraldi-Haller",
+                "Giraldi-Haller"
+            ]
+        },
+        "Lets Go to the Market (Florence)": {
+            "CourseCode": "A46 ARCH 3828",
+            "CourseName": "Lets Go to the Market (Florence)",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Murphy"
+            ]
+        },
+        "Sustainability Exchange: Community and University Practicums": {
+            "CourseCode": "A46 ARCH 405H",
+            "CourseName": "Sustainability Exchange: Community and University Practicums",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "January Hall / 110"
+            ],
+            "Prof": [
+                "Krummenacher"
+            ]
+        },
+        "Architectural Design V": {
+            "CourseCode": "A46 ARCH 511",
+            "CourseName": "Architectural Design V",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Architectural Design V (Florence)": {
+            "CourseCode": "A46 ARCH 411F",
+            "CourseName": "Architectural Design V (Florence)",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Murphy"
+            ]
+        },
+        "Design Culture": {
+            "CourseCode": "A46 ARCH 418A",
+            "CourseName": "Design Culture",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Luchini"
+            ]
+        },
+        "Architectural History I:  Antiquity to Baroque": {
+            "CourseCode": "A46 ARCH 4280",
+            "CourseName": "Architectural History I:  Antiquity to Baroque",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Busch / 100"
+            ],
+            "Prof": [
+                "Allen"
+            ]
+        },
+        "Design Agendas: Modern Architecture in St. Louis, 1930s-1970s and Beyond": {
+            "CourseCode": "A46 ARCH 428P",
+            "CourseName": "Design Agendas: Modern Architecture in St. Louis, 1930s-1970s and Beyond",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Mumford"
+            ]
+        },
+        "Immeasurably Small and Inconceivably Immense": {
+            "CourseCode": "A46 ARCH 434J",
+            "CourseName": "Immeasurably Small and Inconceivably Immense",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Safaverdi"
+            ]
+        },
+        "BIM in Practice": {
+            "CourseCode": "A46 ARCH 436B",
+            "CourseName": "BIM in Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Abendroth"
+            ]
+        },
+        "Environmental Systems I": {
+            "CourseCode": "A46 ARCH 438",
+            "CourseName": "Environmental Systems I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Yin"
+            ]
+        },
+        "Building Systems": {
+            "CourseCode": "A46 ARCH 445",
+            "CourseName": "Building Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 105"
+            ],
+            "Prof": [
+                "Moyano Fernandez"
+            ]
+        },
+        "Structures I": {
+            "CourseCode": "A46 ARCH 447A",
+            "CourseName": "Structures I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Shinn"
+            ]
+        },
+        "Towards Common Ground": {
+            "CourseCode": "A46 ARCH 457K",
+            "CourseName": "Towards Common Ground",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Kempf"
+            ]
+        },
+        "DeCon & ReCon: Design A Pavilion to Demonstrate Circular Economy in Architectural Design": {
+            "CourseCode": "A46 ARCH 465P",
+            "CourseName": "DeCon & ReCon: Design A Pavilion to Demonstrate Circular Economy in Architectural Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Yin"
+            ]
+        },
+        "NOMA National Design Competition": {
+            "CourseCode": "A46 ARCH 486A",
+            "CourseName": "NOMA National Design Competition",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Betts"
+            ]
+        },
+        "Explore & Contribute:  Collaboration between Washington University & Henry Elementary School": {
+            "CourseCode": "A46 ARCH 490A",
+            "CourseName": "Explore & Contribute:  Collaboration between Washington University & Henry Elementary School",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Duncker / 101"
+            ],
+            "Prof": [
+                "Lorberbaum"
+            ]
+        },
+        "Pre-Design Seminar": {
+            "CourseCode": "A46 ARCH 518A",
+            "CourseName": "Pre-Design Seminar",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Stitelman"
+            ]
+        },
+        "LAND Arch URB: landscapearchitectureurbanism": {
+            "CourseCode": "A46 ARCH 525K",
+            "CourseName": "LAND Arch URB: landscapearchitectureurbanism",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 25"
+            ],
+            "Prof": [
+                "Daskalakis"
+            ]
+        },
+        "Alvar Aalto and Contemporary Architecture: Comparative Critical Analyses of Built Works": {
+            "CourseCode": "A46 ARCH 527U",
+            "CourseName": "Alvar Aalto and Contemporary Architecture: Comparative Critical Analyses of Built Works",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "McCarter"
+            ]
+        },
+        "Women in Architecture": {
+            "CourseCode": "A46 ARCH 528V",
+            "CourseName": "Women in Architecture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Hauk"
+            ]
+        },
+        "Advanced Building Systems": {
+            "CourseCode": "A46 ARCH 538C",
+            "CourseName": "Advanced Building Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "January Hall / 110"
+            ],
+            "Prof": [
+                "Ahrens"
+            ]
+        },
+        "Degrowth: Theories of Design for an Abundant World": {
+            "CourseCode": "A46 ARCH 546G",
+            "CourseName": "Degrowth: Theories of Design for an Abundant World",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 6"
+            ],
+            "Prof": [
+                "Allen"
+            ]
+        },
+        "Narratives in Design": {
+            "CourseCode": "A46 ARCH 550",
+            "CourseName": "Narratives in Design",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Bonvehi Rosich"
+            ]
+        },
+        "Seeds": {
+            "CourseCode": "A48 LAND 553A",
+            "CourseName": "Seeds",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Peemoeller"
+            ]
+        },
+        "The Japan House Workshop": {
+            "CourseCode": "A46 ARCH 562J",
+            "CourseName": "The Japan House Workshop",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Hauk"
+            ]
+        },
+        "Public Space and City Life: Contemporary Discourses on Public Space": {
+            "CourseCode": "A49 MUD 565E",
+            "CourseName": "Public Space and City Life: Contemporary Discourses on Public Space",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Hoal"
+            ]
+        },
+        "Design Thinking: Research and Design Methods": {
+            "CourseCode": "A46 ARCH 580",
+            "CourseName": "Design Thinking: Research and Design Methods",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "--W----",
+                "--W----",
+                "--W----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "Givens / 113",
+                "Steinberg / 205",
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Stitelman",
+                "Bauer",
+                "Bonvehi Rosich",
+                "Koster"
+            ]
+        },
+        "Theories & Methods of Historical Research": {
+            "CourseCode": "A46 ARCH 601",
+            "CourseName": "Theories & Methods of Historical Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Mumford"
+            ]
+        },
+        "Architectural Design VII": {
+            "CourseCode": "A46 ARCH 611",
+            "CourseName": "Architectural Design VII",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Degree Project": {
+            "CourseCode": "A46 ARCH 616",
+            "CourseName": "Degree Project",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Luchini"
+            ]
+        },
+        "Professional Practice I": {
+            "CourseCode": "A46 ARCH 646",
+            "CourseName": "Professional Practice I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Johannes"
+            ]
+        },
+        "Landscape Architecture Design Studio I": {
+            "CourseCode": "A48 LAND 401",
+            "CourseName": "Landscape Architecture Design Studio I",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Denizen"
+            ]
+        },
+        "Landscape Representation I:  Hand Drafting, Drawing, & Sketching": {
+            "CourseCode": "A48 LAND 421",
+            "CourseName": "Landscape Representation I:  Hand Drafting, Drawing, & Sketching",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "21:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Compadre"
+            ]
+        },
+        "Landscape Architecture Design Studio III": {
+            "CourseCode": "A48 LAND 501",
+            "CourseName": "Landscape Architecture Design Studio III",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Compadre"
+            ]
+        },
+        "Visualizing Ecological Processes": {
+            "CourseCode": "A48 LAND 521A",
+            "CourseName": "Visualizing Ecological Processes",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Ellingsen"
+            ]
+        },
+        "Plants & Environment": {
+            "CourseCode": "A48 LAND 541A",
+            "CourseName": "Plants & Environment",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "12:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 115"
+            ],
+            "Prof": [
+                "Ladd"
+            ]
+        },
+        "Grading + Landform": {
+            "CourseCode": "A48 LAND 541B",
+            "CourseName": "Grading + Landform",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "12:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 115"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Landscape Technology": {
+            "CourseCode": "A48 LAND 565",
+            "CourseName": "Landscape Technology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Emmelkamp"
+            ]
+        },
+        "Landscape Architecture History & Theory": {
+            "CourseCode": "A48 LAND 571A",
+            "CourseName": "Landscape Architecture History & Theory",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 115"
+            ],
+            "Prof": [
+                "Carlson"
+            ]
+        },
+        "Research in the Landscape: Methods and Practices": {
+            "CourseCode": "A48 LAND 575",
+            "CourseName": "Research in the Landscape: Methods and Practices",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Bonvehi Rosich"
+            ]
+        },
+        "Landscape Architecture Design Studio V": {
+            "CourseCode": "A48 LAND 601",
+            "CourseName": "Landscape Architecture Design Studio V",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Compadre"
+            ]
+        },
+        "Informal Cities Workshop: Designing Urbanity: Collective Housing in Emergent Cities": {
+            "CourseCode": "A49 MUD 562H",
+            "CourseName": "Informal Cities Workshop: Designing Urbanity: Collective Housing in Emergent Cities",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----FSS"
+            ],
+            "Times": [
+                [
+                    "00:00",
+                    "00:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Bernstine"
+            ]
+        },
+        "Metropolitan Development:  What's in a Plan?": {
+            "CourseCode": "A49 MUD 652H",
+            "CourseName": "Metropolitan Development:  What's in a Plan?",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Bernstine"
+            ]
+        },
+        "Metropolitan Urbanism": {
+            "CourseCode": "A49 MUD 656",
+            "CourseName": "Metropolitan Urbanism",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 115"
+            ],
+            "Prof": [
+                "Heyda"
+            ]
+        },
+        "Elements of Urban Design": {
+            "CourseCode": "A49 MUD 711",
+            "CourseName": "Elements of Urban Design",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Heyda"
+            ]
+        }
+    }
+}

@@ -1,0 +1,6130 @@
+{
+    "courses": {
+        "Introduction to Biomedical Engineering": {
+            "CourseCode": "E62 BME 140",
+            "CourseName": "Introduction to Biomedical Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100",
+                "Brauer Hall / 012",
+                "Whitaker / 135",
+                "Brauer Hall / 2011"
+            ],
+            "Prof": [
+                "Klaesner",
+                "Widder",
+                "Widder",
+                "Widder"
+            ]
+        },
+        "Introduction to Biomedical Circuits": {
+            "CourseCode": "E62 BME 220",
+            "CourseName": "Introduction to Biomedical Circuits",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01",
+                "01"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012",
+                "Brauer Hall / 2011"
+            ],
+            "Prof": [
+                "Thoroughman",
+                "O'Brien"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "-T-----",
+                "-T-----",
+                "-T-----",
+                "-T-----"
+            ],
+            "Times_lab": [
+                [
+                    "16:00",
+                    "17:20"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building_lab": [
+                "Brauer Hall / 2011",
+                "Whitaker / 135",
+                "Brauer Hall / 2011",
+                "Whitaker / 135"
+            ],
+            "Prof_lab": [
+                "Klaesner",
+                "Klaesner",
+                "Klaesner",
+                "Klaesner"
+            ]
+        },
+        "Biomedical Circuits Laboratory": {
+            "CourseCode": "E62 BME 220L",
+            "CourseName": "Biomedical Circuits Laboratory",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 2011"
+            ],
+            "Prof": [
+                "O'Brien"
+            ]
+        },
+        "Biomechanics": {
+            "CourseCode": "E62 BME 240",
+            "CourseName": "Biomechanics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "01"
+            ],
+            "Days": [
+                "-T-R---",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218",
+                "Brauer Hall / 2011"
+            ],
+            "Prof": [
+                "Shao",
+                "Widder"
+            ]
+        },
+        "Biomechanics Laboratory": {
+            "CourseCode": "E62 BME 240L",
+            "CourseName": "Biomechanics Laboratory",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 2011"
+            ],
+            "Prof": [
+                "Widder"
+            ]
+        },
+        "Quantitative Physiology I": {
+            "CourseCode": "E62 BME 301A",
+            "CourseName": "Quantitative Physiology I",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100"
+            ],
+            "Prof": [
+                "Widder"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "---R---",
+                "---R---",
+                "----F--",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "14:30",
+                    "18:20"
+                ],
+                [
+                    "14:30",
+                    "18:20"
+                ],
+                [
+                    "09:00",
+                    "12:50"
+                ],
+                [
+                    "09:00",
+                    "12:50"
+                ]
+            ],
+            "Building_lab": [
+                "Whitaker / 130",
+                "Brauer Hall / 2011",
+                "Whitaker / 130",
+                "Whitaker / 135"
+            ],
+            "Prof_lab": [
+                "Widder",
+                "Widder",
+                "Widder",
+                "Widder"
+            ]
+        },
+        "Bioengineering Thermodynamics": {
+            "CourseCode": "E62 BME 320B",
+            "CourseName": "Bioengineering Thermodynamics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100"
+            ],
+            "Prof": [
+                "Pappu"
+            ]
+        },
+        "Transport Phenomena in Biomedical Engineering": {
+            "CourseCode": "E62 BME 366",
+            "CourseName": "Transport Phenomena in Biomedical Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 216"
+            ],
+            "Prof": [
+                "Shao"
+            ]
+        },
+        "Senior Capstone Design A": {
+            "CourseCode": "E62 BME 401A",
+            "CourseName": "Senior Capstone Design A",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100"
+            ],
+            "Prof": [
+                "Klaesner"
+            ]
+        },
+        "Biomedical Data Science": {
+            "CourseCode": "E62 BME 5401",
+            "CourseName": "Biomedical Data Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012"
+            ],
+            "Prof": [
+                "Silva"
+            ]
+        },
+        "Mathematics of Imaging Science": {
+            "CourseCode": "E35 ESE 5931",
+            "CourseName": "Mathematics of Imaging Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Jha"
+            ]
+        },
+        "Bioelectric Phenomena": {
+            "CourseCode": "E62 BME 471",
+            "CourseName": "Bioelectric Phenomena",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Moran"
+            ]
+        },
+        "Biofabrication & Medical Devices": {
+            "CourseCode": "E62 BME 579",
+            "CourseName": "Biofabrication & Medical Devices",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 216"
+            ],
+            "Prof": [
+                "Rutz"
+            ]
+        },
+        "Ultrasound Imaging": {
+            "CourseCode": "E62 BME 594",
+            "CourseName": "Ultrasound Imaging",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 216"
+            ],
+            "Prof": [
+                "Chen"
+            ]
+        },
+        "Graduate Seminar": {
+            "CourseCode": "E37 MEMS 501",
+            "CourseName": "Graduate Seminar",
+            "Credits": "0.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012"
+            ],
+            "Prof": [
+                "Bersi"
+            ]
+        },
+        "BME Doctoral Seminar Series": {
+            "CourseCode": "E62 BME 501C",
+            "CourseName": "BME Doctoral Seminar Series",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Shao"
+            ]
+        },
+        "Seminar in Imaging Science and Engineering": {
+            "CourseCode": "E35 ESE 596",
+            "CourseName": "Seminar in Imaging Science and Engineering",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Lew"
+            ]
+        },
+        "Biomaterials Science": {
+            "CourseCode": "E62 BME 523",
+            "CourseName": "Biomaterials Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Schreiber"
+            ]
+        },
+        "Molecular Cell Biology for Engineers": {
+            "CourseCode": "E62 BME 530A",
+            "CourseName": "Molecular Cell Biology for Engineers",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012"
+            ],
+            "Prof": [
+                "Schreiber"
+            ]
+        },
+        "Algorithms for Computational Biology": {
+            "CourseCode": "E81 CSE 587A",
+            "CourseName": "Algorithms for Computational Biology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "13:50"
+                ]
+            ],
+            "Building": [
+                "Farrell T/L Ctr / HLDN"
+            ],
+            "Prof": [
+                "Brent"
+            ]
+        },
+        "Mechanobiology of Cells and Matrices": {
+            "CourseCode": "E37 MEMS 5565",
+            "CourseName": "Mechanobiology of Cells and Matrices",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Seigle / 106"
+            ],
+            "Prof": [
+                "Pathak"
+            ]
+        },
+        "Journal Club in Neuroengineering": {
+            "CourseCode": "E62 BME 5915",
+            "CourseName": "Journal Club in Neuroengineering",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Life Sciences / 118"
+            ],
+            "Prof": [
+                "Cui"
+            ]
+        },
+        "Introduction to Computer Science": {
+            "CourseCode": "E81 CSE 501N",
+            "CourseName": "Introduction to Computer Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Brown / 100",
+                "Brown / 100"
+            ],
+            "Prof": [
+                "Shook",
+                "Shook"
+            ]
+        },
+        "Seminar: Computer Science I": {
+            "CourseCode": "E81 CSE 131R",
+            "CourseName": "Seminar: Computer Science I",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 70"
+            ],
+            "Prof": [
+                "Cannarozzi"
+            ]
+        },
+        "Introduction to Computer Engineering": {
+            "CourseCode": "E81 CSE 132",
+            "CourseName": "Introduction to Computer Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "11",
+                "12",
+                "13",
+                "14"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 218",
+                "Urbauer / 216",
+                "Urbauer / 218",
+                "Urbauer / 216"
+            ],
+            "Prof": [
+                "Orr",
+                "Orr",
+                "Orr",
+                "Orr"
+            ]
+        },
+        "Web Development": {
+            "CourseCode": "E81 CSE 204A",
+            "CourseName": "Web Development",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 121   ",
+                "Whitaker / 216"
+            ],
+            "Prof": [
+                "Tihen",
+                "Pantoja"
+            ]
+        },
+        "Introduction to Data Science": {
+            "CourseCode": "E81 CSE 217A",
+            "CourseName": "Introduction to Data Science",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "---R---",
+                "---R---",
+                "---R---",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 018",
+                "Simon / 018",
+                "January Hall / 110",
+                "January Hall / 110"
+            ],
+            "Prof": [
+                "Singh",
+                "Singh",
+                "Neumann",
+                "Neumann"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "-T-----",
+                "-T-----",
+                "-T-----",
+                "-T-----"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building_lab": [
+                "Eads / 016",
+                "Eads / 016",
+                "January Hall / 110",
+                "January Hall / 110"
+            ],
+            "Prof_lab": [
+                "Singh",
+                "Singh",
+                "Neumann",
+                "Neumann"
+            ]
+        },
+        "Introduction to Parallel and Concurrent Programming": {
+            "CourseCode": "E81 CSE 231S",
+            "CourseName": "Introduction to Parallel and Concurrent Programming",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 362"
+            ],
+            "Prof": [
+                "Cosgrove"
+            ]
+        },
+        "Logic and Discrete Mathematics": {
+            "CourseCode": "E81 CSE 240",
+            "CourseName": "Logic and Discrete Mathematics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Wilson / 214",
+                "Busch / 100"
+            ],
+            "Prof": [
+                "Garnett",
+                "Garnett"
+            ]
+        },
+        "Data Structures and Algorithms": {
+            "CourseCode": "E81 CSE 502N",
+            "CourseName": "Data Structures and Algorithms",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 105",
+                "Steinberg / 105"
+            ],
+            "Prof": [
+                "Cole",
+                "Cole"
+            ]
+        },
+        "Seminar: Data Structures and Algorithms": {
+            "CourseCode": "E81 CSE 247R",
+            "CourseName": "Seminar: Data Structures and Algorithms",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "----F--",
+                "------S"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207",
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Ma",
+                "Ma"
+            ]
+        },
+        "Introduction to Human-Centered Design": {
+            "CourseCode": "E81 CSE 256A",
+            "CourseName": "Introduction to Human-Centered Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 362"
+            ],
+            "Prof": [
+                "Kelleher"
+            ]
+        },
+        "Introduction to Digital Logic and Computer Design": {
+            "CourseCode": "E35 ESE 260",
+            "CourseName": "Introduction to Digital Logic and Computer Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Hillman / 70"
+            ],
+            "Prof": [
+                "Feher"
+            ]
+        },
+        "Introduction to Intelligent Agents Using Science Fiction": {
+            "CourseCode": "E81 CSE 311A",
+            "CourseName": "Introduction to Intelligent Agents Using Science Fiction",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 017"
+            ],
+            "Prof": [
+                "Yeoh"
+            ]
+        },
+        "Data Manipulation and Management": {
+            "CourseCode": "E81 CSE 314A",
+            "CourseName": "Data Manipulation and Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Goodman"
+            ]
+        },
+        "Rapid Prototype Development and Creative Programming": {
+            "CourseCode": "E81 CSE 503S",
+            "CourseName": "Rapid Prototype Development and Creative Programming",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "11",
+                "12",
+                "13",
+                "14"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 222",
+                "Urbauer / 218",
+                "Urbauer / 216",
+                "Urbauer / 214"
+            ],
+            "Prof": [
+                "Sproull",
+                "Sproull",
+                "Sproull",
+                "Sproull"
+            ]
+        },
+        "Object-Oriented Software Development Laboratory": {
+            "CourseCode": "E81 CSE 504N",
+            "CourseName": "Object-Oriented Software Development Laboratory",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Eads / 016",
+                "Eads / 016"
+            ],
+            "Prof": [
+                "Shidal",
+                "Shidal"
+            ]
+        },
+        "Analysis of Algorithms": {
+            "CourseCode": "E81 CSE 347",
+            "CourseName": "Analysis of Algorithms",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Rebstock / 215",
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "Agrawal",
+                "Sibai"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "--W----",
+                "--W----",
+                "--W----",
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building_lab": [
+                "Simon / 017",
+                "Simon / 018",
+                "Simon / 018",
+                "Simon / 018"
+            ],
+            "Prof_lab": [
+                "Agrawal",
+                "Agrawal",
+                "Sibai",
+                "Sibai"
+            ]
+        },
+        "Signals, Data and Equity": {
+            "CourseCode": "E35 ESE 359",
+            "CourseName": "Signals, Data and Equity",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 361"
+            ],
+            "Prof": [
+                "Wormleighton"
+            ]
+        },
+        "Introduction to Systems Software": {
+            "CourseCode": "E81 CSE 361S",
+            "CourseName": "Introduction to Systems Software",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "Orr"
+            ]
+        },
+        "Computer Architecture": {
+            "CourseCode": "E35 ESE 362",
+            "CourseName": "Computer Architecture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Somers Family / 251"
+            ],
+            "Prof": [
+                "Chamberlain"
+            ]
+        },
+        "AI and Society": {
+            "CourseCode": "E81 CSE 411A",
+            "CourseName": "AI and Society",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "January Hall / 110"
+            ],
+            "Prof": [
+                "Vorobeychik"
+            ]
+        },
+        "Introduction to Artificial Intelligence": {
+            "CourseCode": "E81 CSE 412A",
+            "CourseName": "Introduction to Artificial Intelligence",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Crow / 204",
+                "Crow / 204"
+            ],
+            "Prof": [
+                "M Tabakhi",
+                "M Tabakhi"
+            ]
+        },
+        "Web Privacy and Security": {
+            "CourseCode": "E81 CSE 413A",
+            "CourseName": "Web Privacy and Security",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Eads / 215"
+            ],
+            "Prof": [
+                "Iqbal"
+            ]
+        },
+        "Data Science for Complex Networks": {
+            "CourseCode": "E81 CSE 416A",
+            "CourseName": "Data Science for Complex Networks",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Eads / 216"
+            ],
+            "Prof": [
+                "Neumann"
+            ]
+        },
+        "Introduction to Machine Learning": {
+            "CourseCode": "E81 CSE 417T",
+            "CourseName": "Introduction to Machine Learning",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 60"
+            ],
+            "Prof": [
+                "Ho"
+            ]
+        },
+        "Introduction to AI for Health": {
+            "CourseCode": "E81 CSE 419A",
+            "CourseName": "Introduction to AI for Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 010   "
+            ],
+            "Prof": [
+                "Lu"
+            ]
+        },
+        "Programming Systems and Languages": {
+            "CourseCode": "E81 CSE 425S",
+            "CourseName": "Programming Systems and Languages",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 361",
+                "McDonnell / 361"
+            ],
+            "Prof": [
+                "Cosgrove",
+                "Cosgrove"
+            ]
+        },
+        "Multi-Paradigm Programming in C++": {
+            "CourseCode": "E81 CSE 428S",
+            "CourseName": "Multi-Paradigm Programming in C++",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "17:50"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 222"
+            ],
+            "Prof": [
+                "Mitz"
+            ]
+        },
+        "Seminar: Capture The Flag (CTF) Studio": {
+            "CourseCode": "E81 CSE 433R",
+            "CourseName": "Seminar: Capture The Flag (CTF) Studio",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Eads / 116"
+            ],
+            "Prof": [
+                "Cole"
+            ]
+        },
+        "Introduction to Computer Security": {
+            "CourseCode": "E81 CSE 433S",
+            "CourseName": "Introduction to Computer Security",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Mallinckrodt / 302"
+            ],
+            "Prof": [
+                "Zhang"
+            ]
+        },
+        "Reverse Engineering and Malware Analysis": {
+            "CourseCode": "E81 CSE 434S",
+            "CourseName": "Reverse Engineering and Malware Analysis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Eads / 116"
+            ],
+            "Prof": [
+                "Cole"
+            ]
+        },
+        "Database Management Systems": {
+            "CourseCode": "E81 CSE 435S",
+            "CourseName": "Database Management Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Duncker / 101"
+            ],
+            "Prof": [
+                "Singh"
+            ]
+        },
+        "Software Engineering Workshop": {
+            "CourseCode": "E81 CSE 437S",
+            "CourseName": "Software Engineering Workshop",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Simon / 017"
+            ],
+            "Prof": [
+                "Chernyak"
+            ]
+        },
+        "Mobile Application Development": {
+            "CourseCode": "E81 CSE 438S",
+            "CourseName": "Mobile Application Development",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 023"
+            ],
+            "Prof": [
+                "Sproull"
+            ]
+        },
+        "Introduction to Cryptography": {
+            "CourseCode": "E81 CSE 442T",
+            "CourseName": "Introduction to Cryptography",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Sever / 300"
+            ],
+            "Prof": [
+                "Garnett"
+            ]
+        },
+        "Video Game Programming": {
+            "CourseCode": "E81 CSE 450A",
+            "CourseName": "Video Game Programming",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Eads / 016",
+                "Eads / 016"
+            ],
+            "Prof": [
+                "Santos",
+                "Santos"
+            ]
+        },
+        "Video Game Programming II": {
+            "CourseCode": "E81 CSE 451A",
+            "CourseName": "Video Game Programming II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Eads / 016"
+            ],
+            "Prof": [
+                "Santos"
+            ]
+        },
+        "Software Engineering for External Clients": {
+            "CourseCode": "E81 CSE 454A",
+            "CourseName": "Software Engineering for External Clients",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Louderman / 461"
+            ],
+            "Prof": [
+                "Shidal"
+            ]
+        },
+        "Introduction to Visualization": {
+            "CourseCode": "E81 CSE 457A",
+            "CourseName": "Introduction to Visualization",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Ottley"
+            ]
+        },
+        "Digital Systems Laboratory": {
+            "CourseCode": "E35 ESE 465",
+            "CourseName": "Digital Systems Laboratory",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 115"
+            ],
+            "Prof": [
+                "Richter"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 115"
+            ],
+            "Prof_lab": [
+                "Richter"
+            ]
+        },
+        "Embedded Computing Systems": {
+            "CourseCode": "E35 ESE 467",
+            "CourseName": "Embedded Computing Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Crow / 205"
+            ],
+            "Prof": [
+                "Ivanovich"
+            ]
+        },
+        "Deep Reinforcement Learning": {
+            "CourseCode": "E81 CSE 510A",
+            "CourseName": "Deep Reinforcement Learning",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Zhang"
+            ]
+        },
+        "Data Mining": {
+            "CourseCode": "E81 CSE 514A",
+            "CourseName": "Data Mining",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Hillman / 60"
+            ],
+            "Prof": [
+                "Ma"
+            ]
+        },
+        "Bayesian Methods in Machine Learning": {
+            "CourseCode": "E81 CSE 515T",
+            "CourseName": "Bayesian Methods in Machine Learning",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Seigle / 301"
+            ],
+            "Prof": [
+                "Garnett"
+            ]
+        },
+        "Advanced Machine Learning": {
+            "CourseCode": "E81 CSE 519T",
+            "CourseName": "Advanced Machine Learning",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Cupples II / L009"
+            ],
+            "Prof": [
+                "Juba"
+            ]
+        },
+        "Systems Security": {
+            "CourseCode": "E81 CSE 523S",
+            "CourseName": "Systems Security",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Crowley"
+            ]
+        },
+        "Computation in Economics and Social Choice": {
+            "CourseCode": "E81 CSE 525T",
+            "CourseName": "Computation in Economics and Social Choice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 318"
+            ],
+            "Prof": [
+                "Kehne"
+            ]
+        },
+        "Coding and Information Theory for Data Science": {
+            "CourseCode": "E81 CSE 533T",
+            "CourseName": "Coding and Information Theory for Data Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Louderman / 461"
+            ],
+            "Prof": [
+                "Raviv"
+            ]
+        },
+        "Large-Scale Optimization for Data Science": {
+            "CourseCode": "E35 ESE 513",
+            "CourseName": "Large-Scale Optimization for Data Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 60"
+            ],
+            "Prof": [
+                "Kamilov"
+            ]
+        },
+        "Modeling and Performance Evaluation of Computer Systems": {
+            "CourseCode": "E81 CSE 538T",
+            "CourseName": "Modeling and Performance Evaluation of Computer Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 121   "
+            ],
+            "Prof": [
+                "Guerin"
+            ]
+        },
+        "Advanced Algorithms": {
+            "CourseCode": "E81 CSE 541T",
+            "CourseName": "Advanced Algorithms",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Seigle / 301"
+            ],
+            "Prof": [
+                "Baruah"
+            ]
+        },
+        "Concurrency and Memory Safe System Software Development": {
+            "CourseCode": "E81 CSE 542S",
+            "CourseName": "Concurrency and Memory Safe System Software Development",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 216"
+            ],
+            "Prof": [
+                "Gill"
+            ]
+        },
+        "Algorithms for Nonlinear Optimization": {
+            "CourseCode": "E81 CSE 543T",
+            "CourseName": "Algorithms for Nonlinear Optimization",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 113"
+            ],
+            "Prof": [
+                "Chen"
+            ]
+        },
+        "Geometric Computing for Biomedicine": {
+            "CourseCode": "E81 CSE 554A",
+            "CourseName": "Geometric Computing for Biomedicine",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Seigle / 103"
+            ],
+            "Prof": [
+                "Ju"
+            ]
+        },
+        "Computer Systems Architecture I": {
+            "CourseCode": "E35 ESE 560",
+            "CourseName": "Computer Systems Architecture I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Hall"
+            ]
+        },
+        "Large Language Models": {
+            "CourseCode": "E81 CSE 561A",
+            "CourseName": "Large Language Models",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Crow / 206"
+            ],
+            "Prof": [
+                "Huang"
+            ]
+        },
+        "Acceleration of Algorithms in Reconfigurable Logic": {
+            "CourseCode": "E35 ESE 565",
+            "CourseName": "Acceleration of Algorithms in Reconfigurable Logic",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 70"
+            ],
+            "Prof": [
+                "Cabrera"
+            ]
+        },
+        "Recent Advances in Wireless and Mobile Networking": {
+            "CourseCode": "E81 CSE 574S",
+            "CourseName": "Recent Advances in Wireless and Mobile Networking",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Sever / 102"
+            ],
+            "Prof": [
+                "Jain"
+            ]
+        },
+        "Introduction to Graduate Study in CSE": {
+            "CourseCode": "E81 CSE 591",
+            "CourseName": "Introduction to Graduate Study in CSE",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:30",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Brent"
+            ]
+        },
+        "Advances in Computer Vision": {
+            "CourseCode": "E81 CSE 659A",
+            "CourseName": "Advances in Computer Vision",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Jacobs"
+            ]
+        },
+        "Research Seminar on Computer Science Pedagogy": {
+            "CourseCode": "E81 CSE 7001",
+            "CourseName": "Research Seminar on Computer Science Pedagogy",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "13:50"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 205"
+            ],
+            "Prof": [
+                "Siever"
+            ]
+        },
+        "Introduction to Energy, Environmental and Chemical Engineering": {
+            "CourseCode": "E44 EECE 101",
+            "CourseName": "Introduction to Energy, Environmental and Chemical Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Silbaugh"
+            ]
+        },
+        "Topics in Energy, Environmental and Chemical Engineering": {
+            "CourseCode": "E44 EECE 103",
+            "CourseName": "Topics in Energy, Environmental and Chemical Engineering",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 020"
+            ],
+            "Prof": [
+                "Ehrhard"
+            ]
+        },
+        "Process Analysis and Thermodynamics": {
+            "CourseCode": "E44 EECE 205",
+            "CourseName": "Process Analysis and Thermodynamics",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "16:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Zhang"
+            ],
+            "subsection_lab": [
+                "B"
+            ],
+            "Days_lab": [
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "14:00",
+                    "14:50"
+                ]
+            ],
+            "Building_lab": [
+                "Jubel / 120   "
+            ],
+            "Prof_lab": [
+                "Zhang"
+            ]
+        },
+        "Materials Science": {
+            "CourseCode": "E44 EECE 305",
+            "CourseName": "Materials Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "13:50"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Russell"
+            ]
+        },
+        "Transport Phenomena II: Energy and Mass Transfer": {
+            "CourseCode": "E44 EECE 307",
+            "CourseName": "Transport Phenomena II: Energy and Mass Transfer",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "MTWR---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 201"
+            ],
+            "Prof": [
+                "Wang"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "15:00",
+                    "15:50"
+                ]
+            ],
+            "Building_lab": [
+                "Weil / 010   "
+            ],
+            "Prof_lab": [
+                "Wang"
+            ]
+        },
+        "Water Resources Engineering": {
+            "CourseCode": "E44 EECE 308",
+            "CourseName": "Water Resources Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 214"
+            ],
+            "Prof": [
+                "Wyckoff"
+            ]
+        },
+        "Green Engineering": {
+            "CourseCode": "E44 EECE 311",
+            "CourseName": "Green Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 202"
+            ],
+            "Prof": [
+                "Turner"
+            ]
+        },
+        "Air Quality Engineering with Lab": {
+            "CourseCode": "E44 EECE 314",
+            "CourseName": "Air Quality Engineering with Lab",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Kumfer"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "14:50"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 214"
+            ],
+            "Prof_lab": [
+                "Kumfer"
+            ]
+        },
+        "Chemical Process Dynamics and Control": {
+            "CourseCode": "E44 EECE 401",
+            "CourseName": "Chemical Process Dynamics and Control",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "10:50"
+                ]
+            ],
+            "Building": [
+                "Somers Family / 251"
+            ],
+            "Prof": [
+                "Silbaugh"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "09:00",
+                    "09:50"
+                ]
+            ],
+            "Building_lab": [
+                "Somers Family / 251"
+            ],
+            "Prof_lab": [
+                "Silbaugh"
+            ]
+        },
+        "Chemical Reaction Engineering": {
+            "CourseCode": "E44 EECE 403",
+            "CourseName": "Chemical Reaction Engineering",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 010   "
+            ],
+            "Prof": [
+                "Xu"
+            ],
+            "subsection_lab": [
+                "A",
+                "B"
+            ],
+            "Days_lab": [
+                "----F--",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ]
+            ],
+            "Building_lab": [
+                "Danforth Ctr / 233",
+                "Cupples II / L011"
+            ],
+            "Prof_lab": [
+                "Xu",
+                "Xu"
+            ]
+        },
+        "Unit Operations Laboratory": {
+            "CourseCode": "E44 EECE 405",
+            "CourseName": "Unit Operations Laboratory",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 302"
+            ],
+            "Prof": [
+                "Brennan"
+            ],
+            "subsection_lab": [
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "-T-----",
+                "--W----",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "16:50"
+                ],
+                [
+                    "13:00",
+                    "16:50"
+                ],
+                [
+                    "13:00",
+                    "16:50"
+                ]
+            ],
+            "Building_lab": [
+                "Brauer Hall / 007",
+                "Brauer Hall / 007",
+                "Brauer Hall / 007"
+            ],
+            "Prof_lab": [
+                "Brennan",
+                "Brennan",
+                "Brennan"
+            ]
+        },
+        "Environmental Biotechnology": {
+            "CourseCode": "E44 EECE 407",
+            "CourseName": "Environmental Biotechnology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 115"
+            ],
+            "Prof": [
+                "Ling"
+            ]
+        },
+        "Process Design, Economics and Simulation": {
+            "CourseCode": "E44 EECE 409",
+            "CourseName": "Process Design, Economics and Simulation",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "12:00",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   ",
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Kumfer",
+                "Kumfer"
+            ]
+        },
+        "Energy Conversion and Storage": {
+            "CourseCode": "E44 EECE 413",
+            "CourseName": "Energy Conversion and Storage",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 301"
+            ],
+            "Prof": [
+                "Jiao"
+            ]
+        },
+        "Introduction to Chemical Engineering": {
+            "CourseCode": "E44 EECE 5001",
+            "CourseName": "Introduction to Chemical Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Rudolph / 203"
+            ],
+            "Prof": [
+                "Wu"
+            ]
+        },
+        "Advanced Thermodynamics in EECE": {
+            "CourseCode": "E44 EECE 502",
+            "CourseName": "Advanced Thermodynamics in EECE",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "10:50"
+                ]
+            ],
+            "Building": [
+                "Seigle / 305"
+            ],
+            "Prof": [
+                "Thimsen"
+            ]
+        },
+        "Mathematical Methods in EECE": {
+            "CourseCode": "E44 EECE 503",
+            "CourseName": "Mathematical Methods in EECE",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 1"
+            ],
+            "Prof": [
+                "Zhu"
+            ]
+        },
+        "Aerosol Science and Technology": {
+            "CourseCode": "E44 EECE 504",
+            "CourseName": "Aerosol Science and Technology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 201"
+            ],
+            "Prof": [
+                "Wang"
+            ]
+        },
+        "Aquatic Chemistry": {
+            "CourseCode": "E44 EECE 505",
+            "CourseName": "Aquatic Chemistry",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Umrath / 140"
+            ],
+            "Prof": [
+                "Jun"
+            ]
+        },
+        "Seminar in Energy, Environmental, and Chemical Engineering": {
+            "CourseCode": "E44 EECE 509",
+            "CourseName": "Seminar in Energy, Environmental, and Chemical Engineering",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "12:20"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012"
+            ],
+            "Prof": [
+                "Foston"
+            ]
+        },
+        "Combustion Phenomena": {
+            "CourseCode": "E37 MEMS 5404",
+            "CourseName": "Combustion Phenomena",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Rudolph / 203"
+            ],
+            "Prof": [
+                "Axelbaum"
+            ]
+        },
+        "Measurement Techniques for Particle Characterization": {
+            "CourseCode": "E44 EECE 516",
+            "CourseName": "Measurement Techniques for Particle Characterization",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 216"
+            ],
+            "Prof": [
+                "Ditto"
+            ]
+        },
+        "Environmental Organic Chemistry": {
+            "CourseCode": "E44 EECE 531",
+            "CourseName": "Environmental Organic Chemistry",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 115"
+            ],
+            "Prof": [
+                "Parker"
+            ]
+        },
+        "Biomass Energy Systems and Engineering": {
+            "CourseCode": "E44 EECE 552",
+            "CourseName": "Biomass Energy Systems and Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Rudolph / 102"
+            ],
+            "Prof": [
+                "Foston"
+            ]
+        },
+        "Polymers for Energy, Sustainability, and Human Health": {
+            "CourseCode": "E44 EECE 573",
+            "CourseName": "Polymers for Energy, Sustainability, and Human Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Sever / 102"
+            ],
+            "Prof": [
+                "Cooper"
+            ]
+        },
+        "First-Year Foundations for McKelvey Engineers": {
+            "CourseCode": "E60 Engr 120",
+            "CourseName": "First-Year Foundations for McKelvey Engineers",
+            "Credits": "1.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100"
+            ],
+            "Prof": [
+                "Gillis-Davis"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+            ],
+            "Days_lab": [
+                "--W----",
+                "--W----",
+                "---R---",
+                "---R---",
+                "---R---",
+                "----F--",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ]
+            ],
+            "Building_lab": [
+                "Whitaker / 318",
+                "Urbauer / 214",
+                "Whitaker / 318",
+                "Urbauer / 214",
+                "Urbauer / 218",
+                "Whitaker / 318",
+                "Urbauer / 210"
+            ],
+            "Prof_lab": [
+                "Goedereis",
+                "McDonald",
+                "Swafford",
+                "Carter",
+                "Allen",
+                "Gillis-Davis",
+                "Cummins"
+            ]
+        },
+        "Business + Computer Science Joint-Degree Seminar": {
+            "CourseCode": "E60 Engr 160",
+            "CourseName": "Business + Computer Science Joint-Degree Seminar",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "15:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 302"
+            ],
+            "Prof": [
+                "Swafford"
+            ]
+        },
+        "Technical Writing": {
+            "CourseCode": "E60 Engr 310",
+            "CourseName": "Technical Writing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "-T-R---",
+                "-T-R---",
+                "M-W----",
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "M-W----",
+                "M------",
+                "-T-R---",
+                "-T-R---",
+                "M-W----",
+                "--W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "17:30",
+                    "20:00"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "17:30",
+                    "20:00"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Eads / 203",
+                "Danforth Ctr / 233",
+                "Urbauer / 210",
+                "Urbauer / 210",
+                "Busch / 14",
+                "Sever / 300",
+                "Simon / 020",
+                "Urbauer / 210",
+                "Urbauer / 210",
+                "Urbauer / 210",
+                "Cupples II / L009",
+                "Cupples I / 218",
+                "Lopata Hall / 103",
+                "Whitaker / 216",
+                "Danforth Ctr / 233",
+                "Cupples II / L007",
+                "Lopata Hall / 103"
+            ],
+            "Prof": [
+                "Dahlheimer",
+                "Essner",
+                "Creighton",
+                "Creighton",
+                "Waitman",
+                "Hamilton",
+                "Mittanck",
+                "Tarwater",
+                "Gan",
+                "Schwelle",
+                "Harnish",
+                "Rosenberg",
+                "Hamilton",
+                "Dunbar",
+                "Essner",
+                "Anghel",
+                "Dutt"
+            ]
+        },
+        "Engineering Statistics with Probability": {
+            "CourseCode": "E60 Engr 328",
+            "CourseName": "Engineering Statistics with Probability",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 162"
+            ],
+            "Prof": [
+                "Krone"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "--W----",
+                "--W----",
+                "--W----",
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "10:00",
+                    "10:50"
+                ],
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "13:50"
+                ],
+                [
+                    "15:00",
+                    "15:50"
+                ]
+            ],
+            "Building_lab": [
+                "Lopata Hall / 101",
+                "Weil / 010   ",
+                "Lopata Hall / 101",
+                "McMillan / G052"
+            ],
+            "Prof_lab": [
+                "Krone",
+                "Krone",
+                "Krone",
+                "Krone"
+            ]
+        },
+        "Introduction to Engineering Entrepreneurship": {
+            "CourseCode": "E60 Engr 329",
+            "CourseName": "Introduction to Engineering Entrepreneurship",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "15:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 116"
+            ],
+            "Prof": [
+                "Krone"
+            ]
+        },
+        "Engineering Ethics and Sustainability": {
+            "CourseCode": "E60 Engr 4501",
+            "CourseName": "Engineering Ethics and Sustainability",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "-T-----",
+                "-T-----",
+                "-T-----",
+                "---R---",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "15:00",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "17:00",
+                    "18:00"
+                ],
+                [
+                    "14:30",
+                    "15:20"
+                ],
+                [
+                    "15:30",
+                    "16:20"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120",
+                "Green Hall / L0120",
+                "Green Hall / L0120",
+                "Green Hall / L0120",
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Kim",
+                "Kim",
+                "Kim",
+                "Krone",
+                "Krone"
+            ]
+        },
+        "Engineering Leadership and Team Building": {
+            "CourseCode": "E60 Engr 4502",
+            "CourseName": "Engineering Leadership and Team Building",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "M------",
+                "--W----",
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:50"
+                ],
+                [
+                    "16:00",
+                    "17:50"
+                ],
+                [
+                    "14:30",
+                    "15:20"
+                ],
+                [
+                    "15:30",
+                    "16:20"
+                ]
+            ],
+            "Building": [
+                "Eads / 116",
+                "Whitaker / 216",
+                "Mallinckrodt / 305",
+                "Mallinckrodt / 305"
+            ],
+            "Prof": [
+                "Brumbaugh Walter",
+                "Brumbaugh Walter",
+                "Brumbaugh Walter",
+                "Brumbaugh Walter"
+            ]
+        },
+        "Conflict Management and Negotiation": {
+            "CourseCode": "E60 Engr 4503",
+            "CourseName": "Conflict Management and Negotiation",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "-T-----",
+                "--W----",
+                "-T-----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "12:00",
+                    "12:50"
+                ],
+                [
+                    "15:00",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 101",
+                "Simon / 020",
+                "Wrighton / 301",
+                "Wrighton / 301"
+            ],
+            "Prof": [
+                "Mittanck",
+                "Mittanck",
+                "Krone",
+                "Krone"
+            ]
+        },
+        "Publication Writing": {
+            "CourseCode": "E60 Engr 5505",
+            "CourseName": "Publication Writing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Simon / 020"
+            ],
+            "Prof": [
+                "Mittanck"
+            ]
+        },
+        "Communication Tools for Academic & Professional Success in Engineering": {
+            "CourseCode": "E60 Engr 505",
+            "CourseName": "Communication Tools for Academic & Professional Success in Engineering",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "M-W----",
+                "-T-R---",
+                "-T-R---",
+                "M-W----",
+                "-T-R---",
+                "M-W----",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "09:50"
+                ],
+                [
+                    "11:00",
+                    "11:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "09:00",
+                    "09:50"
+                ],
+                [
+                    "09:00",
+                    "09:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "09:00",
+                    "09:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "11:00",
+                    "11:50"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 210",
+                "Rudolph / 282",
+                "Cupples I / 207",
+                "Cupples II / L011",
+                "Weil / 010   ",
+                "Urbauer / 210",
+                "Brauer Hall / 012",
+                "Urbauer / 210",
+                "Cupples I / 207",
+                "Lopata Hall / 302",
+                "Whitaker / 318"
+            ],
+            "Prof": [
+                "Hooker",
+                "Schwelle",
+                "Essner",
+                "Janis",
+                "Meierotto",
+                "Gan",
+                "Castillo-Schoewe",
+                "Schwelle",
+                "Meierotto",
+                "Allen",
+                "Flores"
+            ]
+        },
+        "Presentation Skills for Scientists and Engineers": {
+            "CourseCode": "E60 Engr 520P",
+            "CourseName": "Presentation Skills for Scientists and Engineers",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Life Sciences / 118"
+            ],
+            "Prof": [
+                "Creighton"
+            ]
+        },
+        "Introduction to Electrical and Systems Engineering": {
+            "CourseCode": "E35 ESE 105",
+            "CourseName": "Introduction to Electrical and Systems Engineering",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 162"
+            ],
+            "Prof": [
+                "Sinopoli"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "----F--",
+                "----F--",
+                "----F--",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ],
+                [
+                    "15:00",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ]
+            ],
+            "Building_lab": [
+                "Lopata Hall / 103",
+                "Ridgley / 122",
+                "Cupples II / L007",
+                "Ridgley / 122"
+            ],
+            "Prof_lab": [
+                "Sinopoli",
+                "Sinopoli",
+                "Sinopoli",
+                "Sinopoli"
+            ]
+        },
+        "Introduction to Engineering Design": {
+            "CourseCode": "E35 ESE 205",
+            "CourseName": "Introduction to Engineering Design",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Mallinckrodt / 305"
+            ],
+            "Prof": [
+                "Feher"
+            ],
+            "subsection_lab": [
+                "A",
+                "B"
+            ],
+            "Days_lab": [
+                "--W----",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "08:00",
+                    "09:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 214",
+                "Urbauer / 208"
+            ],
+            "Prof_lab": [
+                "Feher",
+                "Feher"
+            ]
+        },
+        "Linear Algebra and Component Analysis": {
+            "CourseCode": "E35 ESE 2180",
+            "CourseName": "Linear Algebra and Component Analysis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 70"
+            ],
+            "Prof": [
+                "Clark"
+            ]
+        },
+        "Introduction to Electrical and Electronic Circuits": {
+            "CourseCode": "E35 ESE 230",
+            "CourseName": "Introduction to Electrical and Electronic Circuits",
+            "Credits": "4.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Wilson / 214"
+            ],
+            "Prof": [
+                "Nussinov"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C"
+            ],
+            "Days_lab": [
+                "--W----",
+                "--W----",
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 208",
+                "Urbauer / 208",
+                "Urbauer / 208"
+            ],
+            "Prof_lab": [
+                "Nussinov",
+                "Nussinov",
+                "Nussinov"
+            ]
+        },
+        "Electrical & Electronic Circuits Laboratory": {
+            "CourseCode": "E35 ESE 231",
+            "CourseName": "Electrical & Electronic Circuits Laboratory",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "--W----",
+                "--W----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 208",
+                "Urbauer / 208",
+                "Urbauer / 208"
+            ],
+            "Prof": [
+                "Nussinov",
+                "Nussinov",
+                "Nussinov"
+            ]
+        },
+        "Special Topics in Robotics: Practicum in Robotic Systems Design": {
+            "CourseCode": "E35 ESE 3050",
+            "CourseName": "Special Topics in Robotics: Practicum in Robotic Systems Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:50"
+                ]
+            ],
+            "Building": [
+                "Green Hall / 1157"
+            ],
+            "Prof": [
+                "Mell"
+            ]
+        },
+        "Special Topics in Systems Engineering: Modeling and Design of Social Choice Systems": {
+            "CourseCode": "E35 ESE 3090",
+            "CourseName": "Special Topics in Systems Engineering: Modeling and Design of Social Choice Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 362"
+            ],
+            "Prof": [
+                "Wormleighton"
+            ]
+        },
+        "Engineering Mathematics A": {
+            "CourseCode": "E35 ESE 318",
+            "CourseName": "Engineering Mathematics A",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100",
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Brennan",
+                "Zhu"
+            ]
+        },
+        "Engineering Mathematics B": {
+            "CourseCode": "E35 ESE 319",
+            "CourseName": "Engineering Mathematics B",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Louderman / 458",
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "Hasting",
+                "Brennan"
+            ]
+        },
+        "Probability and Statistics for Engineering": {
+            "CourseCode": "E35 ESE 326",
+            "CourseName": "Probability and Statistics for Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Brown / 118"
+            ],
+            "Prof": [
+                "Zhang"
+            ]
+        },
+        "Engineering Electromagnetics Principles": {
+            "CourseCode": "E35 ESE 330",
+            "CourseName": "Engineering Electromagnetics Principles",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Lawrence"
+            ]
+        },
+        "Electronics Laboratory": {
+            "CourseCode": "E35 ESE 331",
+            "CourseName": "Electronics Laboratory",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 115"
+            ],
+            "Prof": [
+                "Wang"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "10:00",
+                    "12:50"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 115"
+            ],
+            "Prof_lab": [
+                "Wang"
+            ]
+        },
+        "Optimization for Engineered Planning, Decisions and Operations": {
+            "CourseCode": "E35 ESE 4031",
+            "CourseName": "Optimization for Engineered Planning, Decisions and Operations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Seigle / 210"
+            ],
+            "Prof": [
+                "Kantaros"
+            ]
+        },
+        "Optimization": {
+            "CourseCode": "E35 ESE 415",
+            "CourseName": "Optimization",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "Zeng"
+            ]
+        },
+        "Introduction to Machine Learning and Pattern Classification": {
+            "CourseCode": "E35 ESE 417",
+            "CourseName": "Introduction to Machine Learning and Pattern Classification",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 100"
+            ],
+            "Prof": [
+                "Zhang"
+            ]
+        },
+        "Special Topics in Optimization and Learning: Practicum in Deep Learning": {
+            "CourseCode": "E35 ESE 419",
+            "CourseName": "Special Topics in Optimization and Learning: Practicum in Deep Learning",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 302"
+            ],
+            "Prof": [
+                "Tunay"
+            ]
+        },
+        "Financial Mathematics": {
+            "CourseCode": "E35 ESE 427",
+            "CourseName": "Financial Mathematics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "Kurenok"
+            ]
+        },
+        "Quantum Mechanics for Engineers": {
+            "CourseCode": "E35 ESE 4301",
+            "CourseName": "Quantum Mechanics for Engineers",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 218"
+            ],
+            "Prof": [
+                "Lew"
+            ]
+        },
+        "Radio Frequency and Microwave Technology for Wireless Systems": {
+            "CourseCode": "E35 ESE 433",
+            "CourseName": "Radio Frequency and Microwave Technology for Wireless Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 215"
+            ],
+            "Prof": [
+                "Nagulu"
+            ]
+        },
+        "Solid State Power Circuits and Applications": {
+            "CourseCode": "E35 ESE 434",
+            "CourseName": "Solid State Power Circuits and Applications",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Rudolph / 102"
+            ],
+            "Prof": [
+                "Davies"
+            ]
+        },
+        "Electrical Energy Laboratory": {
+            "CourseCode": "E35 ESE 435",
+            "CourseName": "Electrical Energy Laboratory",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 115"
+            ],
+            "Prof": [
+                "Abdelkamel"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "-T-----"
+            ],
+            "Times_lab": [
+                [
+                    "19:00",
+                    "22:00"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 115"
+            ],
+            "Prof_lab": [
+                "Abdelkamel"
+            ]
+        },
+        "Semiconductor Devices": {
+            "CourseCode": "E35 ESE 436",
+            "CourseName": "Semiconductor Devices",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Busch / 202"
+            ],
+            "Prof": [
+                "Wang"
+            ]
+        },
+        "Control Systems": {
+            "CourseCode": "E35 ESE 441",
+            "CourseName": "Control Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "Ching"
+            ]
+        },
+        "Sensors and Actuators": {
+            "CourseCode": "E35 ESE 444",
+            "CourseName": "Sensors and Actuators",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Cupples II / 200"
+            ],
+            "Prof": [
+                "Becnel"
+            ]
+        },
+        "Control Systems Design Laboratory": {
+            "CourseCode": "E35 ESE 4480",
+            "CourseName": "Control Systems Design Laboratory",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Green Hall / 1157"
+            ],
+            "Prof": [
+                "Mell"
+            ]
+        },
+        "Digital Signal Processing": {
+            "CourseCode": "E35 ESE 482",
+            "CourseName": "Digital Signal Processing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Sutton"
+            ]
+        },
+        "Signals and Imaging Laboratory": {
+            "CourseCode": "E35 ESE 488",
+            "CourseName": "Signals and Imaging Laboratory",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Trobaugh"
+            ]
+        },
+        "Electrical Engineering Capstone Design Projects": {
+            "CourseCode": "E35 ESE 498",
+            "CourseName": "Electrical Engineering Capstone Design Projects",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Wang"
+            ]
+        },
+        "Systems Science and Engineering Capstone Design Project": {
+            "CourseCode": "E35 ESE 499",
+            "CourseName": "Systems Science and Engineering Capstone Design Project",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Umrath / 140"
+            ],
+            "Prof": [
+                "Wang"
+            ]
+        },
+        "Mathematics of Modern Engineering I": {
+            "CourseCode": "E35 ESE 501",
+            "CourseName": "Mathematics of Modern Engineering I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Crow / 201"
+            ],
+            "Prof": [
+                "Kurenok"
+            ]
+        },
+        "Probability and Stochastic Processes": {
+            "CourseCode": "E35 ESE 520",
+            "CourseName": "Probability and Stochastic Processes",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 300"
+            ],
+            "Prof": [
+                "Kurenok"
+            ]
+        },
+        "Practicum in Data Analytics & Statistics": {
+            "CourseCode": "E35 ESE 527",
+            "CourseName": "Practicum in Data Analytics & Statistics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 101"
+            ],
+            "Prof": [
+                "La Rosa"
+            ]
+        },
+        "Special Topics in Information Science & Learning: Statistical Foundations of High-dimensional Inform": {
+            "CourseCode": "E35 ESE 5290",
+            "CourseName": "Special Topics in Information Science & Learning: Statistical Foundations of High-dimensional Inform",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 020"
+            ],
+            "Prof": [
+                "Hu"
+            ]
+        },
+        "Introduction to Quantum Optics": {
+            "CourseCode": "E35 ESE 536",
+            "CourseName": "Introduction to Quantum Optics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Shen"
+            ]
+        },
+        "Control Systems Design by State Space Methods": {
+            "CourseCode": "E35 ESE 543",
+            "CourseName": "Control Systems Design by State Space Methods",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Wise"
+            ]
+        },
+        "Stochastic Control": {
+            "CourseCode": "E35 ESE 545",
+            "CourseName": "Stochastic Control",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 113"
+            ],
+            "Prof": [
+                "Chen"
+            ]
+        },
+        "Linear Dynamic Systems I": {
+            "CourseCode": "E35 ESE 551",
+            "CourseName": "Linear Dynamic Systems I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Ridgley / 219"
+            ],
+            "Prof": [
+                "Li"
+            ]
+        },
+        "Analog Integrated Circuits": {
+            "CourseCode": "E35 ESE 562",
+            "CourseName": "Analog Integrated Circuits",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 207"
+            ],
+            "Prof": [
+                "Chakrabartty"
+            ]
+        },
+        "Nonlinear Optical Microscopy": {
+            "CourseCode": "E35 ESE 5830",
+            "CourseName": "Nonlinear Optical Microscopy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 010   "
+            ],
+            "Prof": [
+                "Sorrells"
+            ]
+        },
+        "Electrical & Systems Engineering Graduate Seminar": {
+            "CourseCode": "E35 ESE 590",
+            "CourseName": "Electrical & Systems Engineering Graduate Seminar",
+            "Credits": "0.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "10:50"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Feher"
+            ]
+        },
+        "Machine Shop Practicum": {
+            "CourseCode": "E37 MEMS 1001",
+            "CourseName": "Machine Shop Practicum",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+            ],
+            "Days": [
+                "M------",
+                "M------",
+                "-T-----",
+                "--W----",
+                "---R---",
+                "---R---",
+                "-T-----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:20"
+                ],
+                [
+                    "09:00",
+                    "11:20"
+                ],
+                [
+                    "09:00",
+                    "11:20"
+                ],
+                [
+                    "09:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:20"
+                ],
+                [
+                    "13:00",
+                    "15:20"
+                ],
+                [
+                    "13:00",
+                    "15:20"
+                ]
+            ],
+            "Building": [
+                "Urbauer / 112",
+                "Urbauer / 112",
+                "Urbauer / 112",
+                "Urbauer / 112",
+                "Urbauer / 112",
+                "Urbauer / 112",
+                "Urbauer / 112",
+                "Urbauer / 112"
+            ],
+            "Prof": [
+                "Tapella",
+                "Pfingsten",
+                "Tapella",
+                "Tapella",
+                "Tapella",
+                "Mastnak",
+                "Pfingsten",
+                "Mastnak"
+            ]
+        },
+        "Advanced Machine Shop Practicum": {
+            "CourseCode": "E37 MEMS 1004",
+            "CourseName": "Advanced Machine Shop Practicum",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:50"
+                ]
+            ],
+            "Building": [
+                "Jubel / 138   "
+            ],
+            "Prof": [
+                "Tapella"
+            ]
+        },
+        "Introduction to Mechanical Engineering and Mechanical Design": {
+            "CourseCode": "E37 MEMS 101",
+            "CourseName": "Introduction to Mechanical Engineering and Mechanical Design",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---",
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 138   ",
+                "Jubel / 138   ",
+                "Jubel / 138   ",
+                "Jubel / 138   "
+            ],
+            "Prof": [
+                "Krampf",
+                "Krampf",
+                "Krampf",
+                "Asinugo"
+            ]
+        },
+        "Introduction to Electrical and Electronic Circuits for Mechanical Engineering": {
+            "CourseCode": "E37 MEMS 2000",
+            "CourseName": "Introduction to Electrical and Electronic Circuits for Mechanical Engineering",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "14:50"
+                ],
+                [
+                    "15:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Wilson / 214",
+                "Cupples II / 230"
+            ],
+            "Prof": [
+                "Nussinov",
+                "Nussinov"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C"
+            ],
+            "Days_lab": [
+                "---R---",
+                "---R---",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "10:00",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building_lab": [
+                "Urbauer / 208",
+                "Urbauer / 208",
+                "Urbauer / 208"
+            ],
+            "Prof_lab": [
+                "[TBA]",
+                "[TBA]",
+                "[TBA]"
+            ]
+        },
+        "Computer-Aided Design": {
+            "CourseCode": "E37 MEMS 202",
+            "CourseName": "Computer-Aided Design",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 130",
+                "Whitaker / 130",
+                "Whitaker / 130"
+            ],
+            "Prof": [
+                "Krampf",
+                "Woodhams",
+                "Woodhams"
+            ]
+        },
+        "Statics and Mechanics of Materials": {
+            "CourseCode": "E37 MEMS 253",
+            "CourseName": "Statics and Mechanics of Materials",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W-F--",
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "13:50"
+                ],
+                [
+                    "10:00",
+                    "10:50"
+                ]
+            ],
+            "Building": [
+                "Wrighton / 250",
+                "Seigle / L002"
+            ],
+            "Prof": [
+                "Lake",
+                "Woodhams"
+            ]
+        },
+        "Dynamics": {
+            "CourseCode": "E37 MEMS 255",
+            "CourseName": "Dynamics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "11:50"
+                ]
+            ],
+            "Building": [
+                "Crow / 206"
+            ],
+            "Prof": [
+                "Karunamoorthy"
+            ]
+        },
+        "Thermodynamics": {
+            "CourseCode": "E37 MEMS 301",
+            "CourseName": "Thermodynamics",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Hillman / 60"
+            ],
+            "Prof": [
+                "Li"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "14:00",
+                    "14:50"
+                ]
+            ],
+            "Building_lab": [
+                "Hillman / 60"
+            ],
+            "Prof_lab": [
+                "Li"
+            ]
+        },
+        "Multidisciplinary Design & Prototyping": {
+            "CourseCode": "E37 MEMS 312",
+            "CourseName": "Multidisciplinary Design & Prototyping",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Green Hall / L0120"
+            ],
+            "Prof": [
+                "Potter"
+            ],
+            "subsection_lab": [
+                "A",
+                "B"
+            ],
+            "Days_lab": [
+                "--W----",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building_lab": [
+                "Jubel / 138   ",
+                "Jubel / 138   "
+            ],
+            "Prof_lab": [
+                "Potter",
+                "Potter"
+            ]
+        },
+        "Fluid Mechanics": {
+            "CourseCode": "E37 MEMS 3410",
+            "CourseName": "Fluid Mechanics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 60",
+                "Hillman / 60"
+            ],
+            "Prof": [
+                "Boyd",
+                "Boyd"
+            ]
+        },
+        "Solid Mechanics": {
+            "CourseCode": "E37 MEMS 350",
+            "CourseName": "Solid Mechanics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012"
+            ],
+            "Prof": [
+                "Bersi"
+            ]
+        },
+        "Vibrations Lab": {
+            "CourseCode": "E37 MEMS 4050",
+            "CourseName": "Vibrations Lab",
+            "Credits": "1.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 162"
+            ],
+            "Prof": [
+                "Bayly"
+            ],
+            "subsection_lab": [
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I",
+                "J",
+                "K",
+                "L",
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q"
+            ],
+            "Days_lab": [
+                "-T-----",
+                "-T-----",
+                "-T-----",
+                "--W----",
+                "--W----",
+                "---R---",
+                "---R---",
+                "----F--",
+                "----F--",
+                "-T-----",
+                "-T-----",
+                "-T-----",
+                "--W----",
+                "--W----",
+                "---R---",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "09:30",
+                    "11:20"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "09:30",
+                    "11:20"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ]
+            ],
+            "Building_lab": [
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111",
+                "Jolley / 111"
+            ],
+            "Prof_lab": [
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo",
+                "Asinugo"
+            ]
+        },
+        "Manufacturing Processes": {
+            "CourseCode": "E37 MEMS 4101",
+            "CourseName": "Manufacturing Processes",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Mallinckrodt / 303"
+            ],
+            "Prof": [
+                "Holland"
+            ]
+        },
+        "Mechanical Engineering Design Project": {
+            "CourseCode": "E37 MEMS 411",
+            "CourseName": "Mechanical Engineering Design Project",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "10:50"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 162"
+            ],
+            "Prof": [
+                "Okamoto"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+            ],
+            "Days_lab": [
+                "M------",
+                "-T-----",
+                "-T-----",
+                "--W----",
+                "---R---",
+                "---R---",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ],
+                [
+                    "14:00",
+                    "15:50"
+                ],
+                [
+                    "12:00",
+                    "13:50"
+                ]
+            ],
+            "Building_lab": [
+                "Jolley / 110",
+                "Jolley / 110",
+                "Jolley / 110",
+                "Jolley / 110",
+                "Jolley / 110",
+                "Jolley / 110",
+                "Jolley / 110"
+            ],
+            "Prof_lab": [
+                "Potter",
+                "Potter",
+                "Potter",
+                "Potter",
+                "Potter",
+                "Potter",
+                "Potter"
+            ]
+        },
+        "Vibrations": {
+            "CourseCode": "E37 MEMS 4310",
+            "CourseName": "Vibrations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W-F--",
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "11:50"
+                ],
+                [
+                    "09:00",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Jubel / 121   ",
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Peters",
+                "Karunamoorthy"
+            ]
+        },
+        "Materials Selection in Design": {
+            "CourseCode": "E37 MEMS 5102",
+            "CourseName": "Materials Selection in Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Mallinckrodt / 303"
+            ],
+            "Prof": [
+                "Flores"
+            ]
+        },
+        "CAE-Driven Mechanical Design": {
+            "CourseCode": "E37 MEMS 5104",
+            "CourseName": "CAE-Driven Mechanical Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 130"
+            ],
+            "Prof": [
+                "Jakiela"
+            ]
+        },
+        "Nonlinear Vibrations": {
+            "CourseCode": "E37 MEMS 5301",
+            "CourseName": "Nonlinear Vibrations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Bayly"
+            ]
+        },
+        "Fluid Dynamics I": {
+            "CourseCode": "E37 MEMS 5410",
+            "CourseName": "Fluid Dynamics I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 361"
+            ],
+            "Prof": [
+                "Boyd"
+            ]
+        },
+        "Computational Fluid Dynamics": {
+            "CourseCode": "E37 MEMS 5412",
+            "CourseName": "Computational Fluid Dynamics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 111"
+            ],
+            "Prof": [
+                "Cary"
+            ]
+        },
+        "Physical Acoustics": {
+            "CourseCode": "E37 MEMS 5417",
+            "CourseName": "Physical Acoustics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Cupples II / L009"
+            ],
+            "Prof": [
+                "Meacham"
+            ]
+        },
+        "Solar Thermal Energy Systems": {
+            "CourseCode": "E37 MEMS 5422",
+            "CourseName": "Solar Thermal Energy Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Louderman / 461"
+            ],
+            "Prof": [
+                "Weisensee"
+            ]
+        },
+        "Sustainable Environmental Building Systems": {
+            "CourseCode": "E37 MEMS 5423",
+            "CourseName": "Sustainable Environmental Building Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Eads / 204"
+            ],
+            "Prof": [
+                "Janis"
+            ]
+        },
+        "Thermo-Fluid Modeling of Renewable Energy Systems": {
+            "CourseCode": "E37 MEMS 5424",
+            "CourseName": "Thermo-Fluid Modeling of Renewable Energy Systems",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 121   "
+            ],
+            "Prof": [
+                "Agarwal"
+            ]
+        },
+        "Mechanics of Continua": {
+            "CourseCode": "E37 MEMS 5501",
+            "CourseName": "Mechanics of Continua",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Louderman / 461"
+            ],
+            "Prof": [
+                "Roccabianca"
+            ]
+        },
+        "Plates and Shells": {
+            "CourseCode": "E37 MEMS 5502",
+            "CourseName": "Plates and Shells",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "January Hall / 110"
+            ],
+            "Prof": [
+                "Sellers"
+            ]
+        },
+        "Fatigue and Fracture Analysis": {
+            "CourseCode": "E37 MEMS 5507",
+            "CourseName": "Fatigue and Fracture Analysis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "19:00",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Cupples II / 230"
+            ],
+            "Prof": [
+                "Sellers"
+            ]
+        },
+        "Engineering Mechanobiology": {
+            "CourseCode": "E37 MEMS 5566",
+            "CourseName": "Engineering Mechanobiology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Jubel / 120   "
+            ],
+            "Prof": [
+                "Genin"
+            ]
+        },
+        "Mechanical Behavior of Composites": {
+            "CourseCode": "E37 MEMS 5605",
+            "CourseName": "Mechanical Behavior of Composites",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Duncker / 101"
+            ],
+            "Prof": [
+                "Renieri"
+            ]
+        },
+        "Introduction to Polymer Science and Engineering": {
+            "CourseCode": "E37 MEMS 5608",
+            "CourseName": "Introduction to Polymer Science and Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Jubel / 121   "
+            ],
+            "Prof": [
+                "Singamaneni"
+            ]
+        },
+        "Quantitative Materials Science & Engineering": {
+            "CourseCode": "E37 MEMS 5610",
+            "CourseName": "Quantitative Materials Science & Engineering",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 362"
+            ],
+            "Prof": [
+                "Holland"
+            ]
+        },
+        "Polymeric Materials Synthesis and Modification": {
+            "CourseCode": "E37 MEMS 5614",
+            "CourseName": "Polymeric Materials Synthesis and Modification",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Cupples II / 200"
+            ],
+            "Prof": [
+                "Guan"
+            ]
+        },
+        "Advanced Study of Solid-State Electronics": {
+            "CourseCode": "E37 MEMS 5617",
+            "CourseName": "Advanced Study of Solid-State Electronics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Cupples I / 215"
+            ],
+            "Prof": [
+                "Bae"
+            ]
+        },
+        "Thermodynamics of Materials": {
+            "CourseCode": "E37 MEMS 5619",
+            "CourseName": "Thermodynamics of Materials",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Mallinckrodt / 302"
+            ],
+            "Prof": [
+                "Mishra"
+            ]
+        },
+        "Flight Dynamics": {
+            "CourseCode": "E37 MEMS 5707",
+            "CourseName": "Flight Dynamics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Whitaker / 218"
+            ],
+            "Prof": [
+                "Jackson"
+            ]
+        }
+    }
+}

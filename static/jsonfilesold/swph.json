@@ -1,0 +1,2432 @@
+{
+    "courses": {
+        "Research Methods": {
+            "CourseCode": "S55 MPH 5000",
+            "CourseName": "Research Methods",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M------",
+                "--W----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 120",
+                "Hillman / 130",
+                "Hillman / 130"
+            ],
+            "Prof": [
+                "Eyler",
+                "Eyler",
+                "Shields"
+            ]
+        },
+        "Health Behavior & Health Promotion": {
+            "CourseCode": "S20 SWHS 3022",
+            "CourseName": "Health Behavior & Health Promotion",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 124",
+                "Goldfarb / 330"
+            ],
+            "Prof": [
+                "Mckay",
+                "Caburnay"
+            ]
+        },
+        "Epidemiology": {
+            "CourseCode": "S55 MPH 5002",
+            "CourseName": "Epidemiology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "M------",
+                "-T-----",
+                "---R---",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 130",
+                "Hillman / 120",
+                "Hillman / 130",
+                "Hillman / 130"
+            ],
+            "Prof": [
+                "Tabak",
+                "Tutlam",
+                "Filiatreau",
+                "Effah"
+            ]
+        },
+        "Biostatistics": {
+            "CourseCode": "S55 MPH 5003",
+            "CourseName": "Biostatistics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "-T-----",
+                "M------",
+                "-T-----",
+                "M------",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 130",
+                "Goldfarb / 330",
+                "Remote / SW    ",
+                "Goldfarb / 37",
+                "Hillman / 130"
+            ],
+            "Prof": [
+                "Steensma",
+                "Ji",
+                "Harris",
+                "Steensma",
+                "Steensma"
+            ]
+        },
+        "Health Administration & Policy": {
+            "CourseCode": "S40 SWSP 5742",
+            "CourseName": "Health Administration & Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "--W----",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 330",
+                "Hillman / 130"
+            ],
+            "Prof": [
+                "Barker",
+                "Moreland-Russell"
+            ]
+        },
+        "Environmental Health": {
+            "CourseCode": "S55 MPH 5005",
+            "CourseName": "Environmental Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "--W----",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 120",
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "Serrano",
+                "Serrano"
+            ]
+        },
+        "Cross-Cutting Themes in Public Health": {
+            "CourseCode": "S55 MPH 5010",
+            "CourseName": "Cross-Cutting Themes in Public Health",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "13:00"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Duncan"
+            ]
+        },
+        "Skill Lab: Grant Writing: Foundation Grants": {
+            "CourseCode": "S55 MPH 5041",
+            "CourseName": "Skill Lab: Grant Writing: Foundation Grants",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "Skill Lab: Grant Writing: Government Grants": {
+            "CourseCode": "S55 MPH 5042",
+            "CourseName": "Skill Lab: Grant Writing: Government Grants",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "14:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Fleck"
+            ]
+        },
+        "Social Entrepreneurship": {
+            "CourseCode": "S50 SWSA 5060",
+            "CourseName": "Social Entrepreneurship",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 246"
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "Social Innovation": {
+            "CourseCode": "S50 SWSA 5063",
+            "CourseName": "Social Innovation",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 110"
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "Global Health": {
+            "CourseCode": "S55 MPH 5102",
+            "CourseName": "Global Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 330"
+            ],
+            "Prof": [
+                "Nartey"
+            ]
+        },
+        "Translating Epidemiology into Policy": {
+            "CourseCode": "S90 SWDT 5117",
+            "CourseName": "Translating Epidemiology into Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "Brownson"
+            ]
+        },
+        "Quantitative Methods for Health Policy Analysis": {
+            "CourseCode": "S90 SWDT 5121",
+            "CourseName": "Quantitative Methods for Health Policy Analysis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 135"
+            ],
+            "Prof": [
+                "Brown"
+            ]
+        },
+        "TPS: Global Mental Health": {
+            "CourseCode": "S55 MPH 5132",
+            "CourseName": "TPS: Global Mental Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Bayetti"
+            ]
+        },
+        "Fundamentals of Mental Health for Public Health": {
+            "CourseCode": "S55 MPH 5133",
+            "CourseName": "Fundamentals of Mental Health for Public Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Bayetti"
+            ]
+        },
+        "Skill Lab: Strategic Planning & Execution": {
+            "CourseCode": "S81 SKILL 5177",
+            "CourseName": "Skill Lab: Strategic Planning & Execution",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "Applied Linear Modeling": {
+            "CourseCode": "S55 MPH 5230",
+            "CourseName": "Applied Linear Modeling",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "11:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 330"
+            ],
+            "Prof": [
+                "Malone"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "11:00",
+                    "12:00"
+                ]
+            ],
+            "Building_lab": [
+                "Goldfarb / 330"
+            ],
+            "Prof_lab": [
+                "Malone"
+            ]
+        },
+        "Planning, Implementation, & Evaluation Evidence-Based Programs & Interventions (PIE)": {
+            "CourseCode": "S55 MPH 5240",
+            "CourseName": "Planning, Implementation, & Evaluation Evidence-Based Programs & Interventions (PIE)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200",
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Levy",
+                "Han"
+            ]
+        },
+        "Advanced Data Analysis": {
+            "CourseCode": "S55 MPH 5245",
+            "CourseName": "Advanced Data Analysis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "---R---",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200",
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Johnson",
+                "Johnson"
+            ]
+        },
+        "TPS: Global Nutrition and the Environment: Foods Systems in a Changing World": {
+            "CourseCode": "S55 MPH 5321",
+            "CourseName": "TPS: Global Nutrition and the Environment: Foods Systems in a Changing World",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Iannotti"
+            ]
+        },
+        "TPS: Child Maltreatment Prevention": {
+            "CourseCode": "S55 MPH 5325",
+            "CourseName": "TPS: Child Maltreatment Prevention",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 37"
+            ],
+            "Prof": [
+                "Jonson-Reid"
+            ]
+        },
+        "TPS: Global Reproductive Health": {
+            "CourseCode": "S55 MPH 5374",
+            "CourseName": "TPS: Global Reproductive Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Levy"
+            ]
+        },
+        "TPS: System Dynamics Modeling for Strategic Design": {
+            "CourseCode": "S55 MPH 5382",
+            "CourseName": "TPS: System Dynamics Modeling for Strategic Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Ballard"
+            ]
+        },
+        "Applied Deep Learning Using Health Data": {
+            "CourseCode": "S90 SWDT 5601",
+            "CourseName": "Applied Deep Learning Using Health Data",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Yang"
+            ]
+        },
+        "Capstone I": {
+            "CourseCode": "S55 MPH 5907",
+            "CourseName": "Capstone I",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "14:00"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Cooper"
+            ]
+        },
+        "Skill Lab: Statistical Analysis: SAS": {
+            "CourseCode": "S81 SKILL 5960",
+            "CourseName": "Skill Lab: Statistical Analysis: SAS",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 110"
+            ],
+            "Prof": [
+                "Duncan"
+            ]
+        },
+        "Skill Lab: Data Visualization": {
+            "CourseCode": "S55 MPH 5972",
+            "CourseName": "Skill Lab: Data Visualization",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 120"
+            ],
+            "Prof": [
+                "Floros"
+            ]
+        },
+        "Skill Lab: Strategic Healthcare Leadership": {
+            "CourseCode": "S55 MPH 5987",
+            "CourseName": "Skill Lab: Strategic Healthcare Leadership",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Nelson"
+            ]
+        },
+        "Skill Lab: Gun Violence Epidemiology and Policy in the United States": {
+            "CourseCode": "S55 MPH 6107",
+            "CourseName": "Skill Lab: Gun Violence Epidemiology and Policy in the United States",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "14:15",
+                    "17:15"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "McMurtry"
+            ]
+        },
+        "Skill Lab: Political Strategy for Gun Policy in the United States": {
+            "CourseCode": "S55 MPH 6108",
+            "CourseName": "Skill Lab: Political Strategy for Gun Policy in the United States",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "14:15",
+                    "17:15"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "McMurtry"
+            ]
+        },
+        "Skill Lab: Grant Writing - Foundation Grants": {
+            "CourseCode": "S81 SKILL 5041",
+            "CourseName": "Skill Lab: Grant Writing - Foundation Grants",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Cameron"
+            ]
+        },
+        "Skill Lab: Grant Writing - Government Grants": {
+            "CourseCode": "S81 SKILL 5042",
+            "CourseName": "Skill Lab: Grant Writing - Government Grants",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "14:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Fleck"
+            ]
+        },
+        "Motivational Interviewing Fundamentals": {
+            "CourseCode": "S81 SKILL 5048",
+            "CourseName": "Motivational Interviewing Fundamentals",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 130"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "English Language Support for Academic Communication in Brown School Programs": {
+            "CourseCode": "S81 SKILL 5061",
+            "CourseName": "English Language Support for Academic Communication in Brown School Programs",
+            "Credits": "0.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "----F--",
+                "----F--",
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "11:00"
+                ],
+                [
+                    "11:00",
+                    "13:00"
+                ],
+                [
+                    "13:30",
+                    "15:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200",
+                "Hillman / 200",
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Helling",
+                "Helling",
+                "Helling"
+            ]
+        },
+        "Prolonged Exposure Therapy": {
+            "CourseCode": "S81 SKILL 5080",
+            "CourseName": "Prolonged Exposure Therapy",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 120"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "Brief Cognitive Behavioral Therapy (BCBT) For Anxious Youth": {
+            "CourseCode": "S81 SKILL 5081",
+            "CourseName": "Brief Cognitive Behavioral Therapy (BCBT) For Anxious Youth",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----FS-"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Mauro"
+            ]
+        },
+        "MSW Research Seminar I": {
+            "CourseCode": "S81 SKILL 5151",
+            "CourseName": "MSW Research Seminar I",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 110"
+            ],
+            "Prof": [
+                "Drake"
+            ]
+        },
+        "Introduction to System Dynamics for Advancing Equity": {
+            "CourseCode": "S81 SKILL 5504",
+            "CourseName": "Introduction to System Dynamics for Advancing Equity",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "16:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Pritchard"
+            ]
+        },
+        "Fundamentals of Community Organizing": {
+            "CourseCode": "S60 SWCD 5027",
+            "CourseName": "Fundamentals of Community Organizing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Metzger"
+            ]
+        },
+        "Development Practice in International Settings": {
+            "CourseCode": "S60 SWCD 5056",
+            "CourseName": "Development Practice in International Settings",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 110"
+            ],
+            "Prof": [
+                "Tucker"
+            ]
+        },
+        "Social & Economic Development, Redevelopment: East St Louis Seminar Part I": {
+            "CourseCode": "S60 SWCD 5076",
+            "CourseName": "Social & Economic Development, Redevelopment: East St Louis Seminar Part I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "15:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Kirkland"
+            ]
+        },
+        "System Dynamics Modeling for Strategic Design": {
+            "CourseCode": "S65 SWCD 5660",
+            "CourseName": "System Dynamics Modeling for Strategic Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Ballard"
+            ]
+        },
+        "Research Methods with Statistical Applications": {
+            "CourseCode": "S15 SWCR 5007",
+            "CourseName": "Research Methods with Statistical Applications",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "----FS-",
+                "-T-----",
+                "M------",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "17:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 124",
+                "Remote / SW    ",
+                "Remote / SW    ",
+                "Goldfarb / 37"
+            ],
+            "Prof": [
+                "Auslander",
+                "Park",
+                "Park",
+                "Nabunya"
+            ]
+        },
+        "Human Behavior": {
+            "CourseCode": "S15 SWCR 5011",
+            "CourseName": "Human Behavior",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "---R---",
+                "--W----",
+                "M------",
+                "---R---",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    ",
+                "Hillman / 300",
+                "Hillman / 200",
+                "Hillman / 120",
+                "Goldfarb / 330"
+            ],
+            "Prof": [
+                "Ford",
+                "Cook",
+                "Patton",
+                "Washington",
+                "Howell"
+            ]
+        },
+        "Social, Economic & Political Environment": {
+            "CourseCode": "S15 SWCR 5012",
+            "CourseName": "Social, Economic & Political Environment",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "03"
+            ],
+            "Days": [
+                "-T-----",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300",
+                "Hillman / 120"
+            ],
+            "Prof": [
+                "Gibson",
+                "Theising"
+            ]
+        },
+        "Social Justice & Human Diversity": {
+            "CourseCode": "S15 SWCR 5015",
+            "CourseName": "Social Justice & Human Diversity",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06"
+            ],
+            "Days": [
+                "M------",
+                "--W----",
+                "-T-----",
+                "---R---",
+                "--W----",
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "09:30",
+                    "17:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200",
+                "Goldfarb / 124",
+                "Hillman / 300",
+                "Goldfarb / 39",
+                "Goldfarb / 38",
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Saah",
+                "Saah",
+                "Fabbre",
+                "Fabbre",
+                "Pearson",
+                "Campbell"
+            ]
+        },
+        "Social Work Practice with Individuals, Families & Groups": {
+            "CourseCode": "S15 SWCR 5038",
+            "CourseName": "Social Work Practice with Individuals, Families & Groups",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "-T-R---",
+                "--W----",
+                "M------",
+                "--W----",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "10:30",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 33",
+                "Hillman / 120",
+                "Hillman / 200",
+                "Hillman / 130",
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Carter",
+                "Ford",
+                "Hoffman",
+                "Cook",
+                "VonDeLinde"
+            ]
+        },
+        "Social Welfare Policies & Services": {
+            "CourseCode": "S15 SWCR 5040",
+            "CourseName": "Social Welfare Policies & Services",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "M------",
+                "-T-----",
+                "-T-----",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 124",
+                "Goldfarb / 124",
+                "Hillman / 120",
+                "Goldfarb / 37"
+            ],
+            "Prof": [
+                "Shabsin",
+                "Shabsin",
+                "Fuchs",
+                "Conover"
+            ]
+        },
+        "Child Maltreatment Prevention": {
+            "CourseCode": "S30 SWDP 5325",
+            "CourseName": "Child Maltreatment Prevention",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 37"
+            ],
+            "Prof": [
+                "Jonson-Reid"
+            ]
+        },
+        "Clinical Interventions in Health & Integrated Health": {
+            "CourseCode": "S30 SWDP 5453",
+            "CourseName": "Clinical Interventions in Health & Integrated Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "Stacy"
+            ]
+        },
+        "Cognitive Behavior Therapy": {
+            "CourseCode": "S30 SWDP 5503",
+            "CourseName": "Cognitive Behavior Therapy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 130"
+            ],
+            "Prof": [
+                "Mastnak"
+            ]
+        },
+        "Principles of Clinical Interventions in Behavioral Health": {
+            "CourseCode": "S30 SWDP 5805",
+            "CourseName": "Principles of Clinical Interventions in Behavioral Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Lindsay"
+            ]
+        },
+        "Principles & Practices of Differential Diagnosis": {
+            "CourseCode": "S30 SWDP 5810",
+            "CourseName": "Principles & Practices of Differential Diagnosis",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 120"
+            ],
+            "Prof": [
+                "Mastnak"
+            ]
+        },
+        "Global Mental Health": {
+            "CourseCode": "S30 SWDP 6215",
+            "CourseName": "Global Mental Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Bayetti"
+            ]
+        },
+        "Social Work Practice in Early & Middle Childhood": {
+            "CourseCode": "S30 SWDP 7325",
+            "CourseName": "Social Work Practice in Early & Middle Childhood",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 135"
+            ],
+            "Prof": [
+                "Berger"
+            ]
+        },
+        "Principles, Practices & Services in Substance Use Disorder Treatment": {
+            "CourseCode": "S30 SWDP 9453",
+            "CourseName": "Principles, Practices & Services in Substance Use Disorder Treatment",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 120"
+            ],
+            "Prof": [
+                "Marotta"
+            ]
+        },
+        "Indigenous Mental Health Practice": {
+            "CourseCode": "S31 SWDP 4005",
+            "CourseName": "Indigenous Mental Health Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Begay"
+            ]
+        },
+        "Social Work Practice with Refugees & Immigrants": {
+            "CourseCode": "S31 SWDP 4100",
+            "CourseName": "Social Work Practice with Refugees & Immigrants",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 246"
+            ],
+            "Prof": [
+                "Naseh"
+            ]
+        },
+        "Sex, Society, and Social Work: Issues and Interventions": {
+            "CourseCode": "S31 SWDP 5152",
+            "CourseName": "Sex, Society, and Social Work: Issues and Interventions",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Pearson"
+            ]
+        },
+        "Special Topics: Core Components & Skills for Trauma-Informed Practice": {
+            "CourseCode": "S31 SWDP 5183",
+            "CourseName": "Special Topics: Core Components & Skills for Trauma-Informed Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----FS-"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Edmond"
+            ]
+        },
+        "Foundations of Data Analysis": {
+            "CourseCode": "S90 SWDT 5001",
+            "CourseName": "Foundations of Data Analysis",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Ahn"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "M------"
+            ],
+            "Times_lab": [
+                [
+                    "13:00",
+                    "15:00"
+                ]
+            ],
+            "Building_lab": [
+                "Hillman / 370"
+            ],
+            "Prof_lab": [
+                "Ahn"
+            ]
+        },
+        "Foundations of Data Management I": {
+            "CourseCode": "S90 SWDT 5101",
+            "CourseName": "Foundations of Data Management I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Drake"
+            ]
+        },
+        "Designing for Dissemination, Implementation & Sustainability: How to Maximize Impact and Equity": {
+            "CourseCode": "S90 SWDT 5563",
+            "CourseName": "Designing for Dissemination, Implementation & Sustainability: How to Maximize Impact and Equity",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "18:00"
+                ]
+            ],
+            "Building": [
+                "Remote / MED   "
+            ],
+            "Prof": [
+                "Mazzucca"
+            ]
+        },
+        "System Dynamics Simulation for Strategic Design": {
+            "CourseCode": "S90 SWDT 5661",
+            "CourseName": "System Dynamics Simulation for Strategic Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Ballard"
+            ]
+        },
+        "Introduction to Dissemination & Implementation Science": {
+            "CourseCode": "S90 SWDT 5664",
+            "CourseName": "Introduction to Dissemination & Implementation Science",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "Remote / MED   "
+            ],
+            "Prof": [
+                "Baumann Walker"
+            ]
+        },
+        "Introduction to Advanced Research": {
+            "CourseCode": "S90 SWDT 6550",
+            "CourseName": "Introduction to Advanced Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 38"
+            ],
+            "Prof": [
+                "Butler-Barnes"
+            ]
+        },
+        "Conceptual Foundations of Social Science Research": {
+            "CourseCode": "S90 SWDT 6555",
+            "CourseName": "Conceptual Foundations of Social Science Research",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 359"
+            ],
+            "Prof": [
+                "Fowler"
+            ]
+        },
+        "Professional Development Seminar I": {
+            "CourseCode": "S90 SWDT 6815",
+            "CourseName": "Professional Development Seminar I",
+            "Credits": "Var.",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "13:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 37"
+            ],
+            "Prof": [
+                "Guo"
+            ]
+        },
+        "T32 Seminar in Mental Health & Addictions Services Research": {
+            "CourseCode": "S90 SWDT 6893",
+            "CourseName": "T32 Seminar in Mental Health & Addictions Services Research",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "12:00",
+                    "13:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 33"
+            ],
+            "Prof": [
+                "Bucholz"
+            ]
+        },
+        "Generalized Linear Models": {
+            "CourseCode": "S90 SWDT 6910",
+            "CourseName": "Generalized Linear Models",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Guo"
+            ]
+        },
+        "Introduction to Agent-based Modeling": {
+            "CourseCode": "S90 SWDT 6915",
+            "CourseName": "Introduction to Agent-based Modeling",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 270"
+            ],
+            "Prof": [
+                "Hammond"
+            ]
+        },
+        "Theoretical & Empirical Bases For Practice With Children, Youth & Families": {
+            "CourseCode": "S20 SWHS 1011",
+            "CourseName": "Theoretical & Empirical Bases For Practice With Children, Youth & Families",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Butler-Barnes"
+            ]
+        },
+        "Theoretical Approaches to Interpersonal Violence Across the Life Course": {
+            "CourseCode": "S20 SWHS 1025",
+            "CourseName": "Theoretical Approaches to Interpersonal Violence Across the Life Course",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 124"
+            ],
+            "Prof": [
+                "VonDeLinde"
+            ]
+        },
+        "Management & Leadership of Organizations": {
+            "CourseCode": "S20 SWHS 5017",
+            "CourseName": "Management & Leadership of Organizations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "MTWRF--",
+                "--W----",
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "17:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200",
+                "Goldfarb / 330",
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Gibson",
+                "Anasti",
+                "Han"
+            ]
+        },
+        "Contemporary Theories & Issues in Behavioral Health": {
+            "CourseCode": "S20 SWHS 5081",
+            "CourseName": "Contemporary Theories & Issues in Behavioral Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Remote / SW    "
+            ],
+            "Prof": [
+                "Begay"
+            ]
+        },
+        "Foundations of Field Education": {
+            "CourseCode": "S70 SWPR 6000",
+            "CourseName": "Foundations of Field Education",
+            "Credits": "0.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06"
+            ],
+            "Days": [
+                "--W----",
+                "M------",
+                "---R---",
+                "-T-----",
+                "----F--",
+                "-----S-"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:30"
+                ],
+                [
+                    "09:00",
+                    "11:30"
+                ],
+                [
+                    "09:00",
+                    "11:30"
+                ],
+                [
+                    "09:00",
+                    "11:30"
+                ],
+                [
+                    "09:00",
+                    "11:30"
+                ],
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Goldfarb / 39",
+                "Goldfarb / 39",
+                "Hillman / 300",
+                "Goldfarb / 330",
+                "Hillman / 300",
+                "Hillman / 120"
+            ],
+            "Prof": [
+                "Thurman",
+                "Thurman",
+                "Stafford",
+                "Han",
+                "Thurman",
+                "Ford"
+            ]
+        },
+        "Economics of Social Welfare": {
+            "CourseCode": "S50 SWSA 5011",
+            "CourseName": "Economics of Social Welfare",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-----SS"
+            ],
+            "Times": [
+                [
+                    "08:00",
+                    "17:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "Roll"
+            ]
+        },
+        "Leading & Managing Employees, Volunteers & Teams": {
+            "CourseCode": "S50 SWSA 5019",
+            "CourseName": "Leading & Managing Employees, Volunteers & Teams",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 110"
+            ],
+            "Prof": [
+                "Tucker"
+            ]
+        },
+        "Financial Management": {
+            "CourseCode": "S50 SWSA 5030",
+            "CourseName": "Financial Management",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 370"
+            ],
+            "Prof": [
+                "Phillips"
+            ]
+        },
+        "Evaluation of Programs & Services": {
+            "CourseCode": "S50 SWSA 5050",
+            "CourseName": "Evaluation of Programs & Services",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "Elkana"
+            ]
+        },
+        "Revenue Development & Communication": {
+            "CourseCode": "S50 SWSA 5070",
+            "CourseName": "Revenue Development & Communication",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:30"
+                ]
+            ],
+            "Building": [
+                "Hillman / 200"
+            ],
+            "Prof": [
+                "Fleck"
+            ]
+        },
+        "Social Policy Analysis & Evaluation": {
+            "CourseCode": "S40 SWSP 5842",
+            "CourseName": "Social Policy Analysis & Evaluation",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "------S",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "16:00"
+                ],
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300",
+                "Goldfarb / 135"
+            ],
+            "Prof": [
+                "Ferris",
+                "Stafford"
+            ]
+        },
+        "Domestic Social & Economic Development Policy": {
+            "CourseCode": "S40 SWSP 5861",
+            "CourseName": "Domestic Social & Economic Development Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 300"
+            ],
+            "Prof": [
+                "Metzger"
+            ]
+        },
+        "International Social & Economic Development Policy": {
+            "CourseCode": "S40 SWSP 5862",
+            "CourseName": "International Social & Economic Development Policy",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "Building": [
+                "Hillman / 110"
+            ],
+            "Prof": [
+                "Tucker"
+            ]
+        }
+    }
+}

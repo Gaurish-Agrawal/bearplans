@@ -1,0 +1,2308 @@
+{
+    "courses": {
+        "Drawing": {
+            "CourseCode": "F10 ART 101A",
+            "CourseName": "Drawing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 210",
+                "Bixby / 210",
+                "Bixby / 212"
+            ],
+            "Prof": [
+                "Dowd",
+                "Pike",
+                "Xandersmith"
+            ]
+        },
+        "2-D Design": {
+            "CourseCode": "F10 ART 105",
+            "CourseName": "2-D Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---",
+                "M-W----",
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "16:30",
+                    "19:50"
+                ],
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 214",
+                "Bixby / 214",
+                "Bixby / 214",
+                "Bixby / 214",
+                "Bixby / 214"
+            ],
+            "Prof": [
+                "Hubbell",
+                "Wassenaar",
+                "Kuo",
+                "Ward-Brown",
+                "Ward-Brown"
+            ]
+        },
+        "3-D Design": {
+            "CourseCode": "F10 ART 107",
+            "CourseName": "3-D Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----",
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 200",
+                "Bixby / 200",
+                "Bixby / 200",
+                "Bixby / 200"
+            ],
+            "Prof": [
+                "Chavez",
+                "Nadler",
+                "Stouffer",
+                "Chavez"
+            ]
+        },
+        "Digital Studio": {
+            "CourseCode": "F10 ART 143",
+            "CourseName": "Digital Studio",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 050",
+                "Walker Hall / 050"
+            ],
+            "Prof": [
+                "Bennett",
+                "Nunez"
+            ]
+        },
+        "Practices in Art + Design": {
+            "CourseCode": "F10 ART 183B",
+            "CourseName": "Practices in Art + Design",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "11:50"
+                ]
+            ],
+            "Building": [
+                "Busch / 100"
+            ],
+            "Prof": [
+                "Early"
+            ]
+        },
+        "Intro Sculpture": {
+            "CourseCode": "F20 ART 513C",
+            "CourseName": "Intro Sculpture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Risley"
+            ]
+        },
+        "Intro Printmaking": {
+            "CourseCode": "F10 ART 215A",
+            "CourseName": "Intro Printmaking",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 110"
+            ],
+            "Prof": [
+                "Johnston"
+            ]
+        },
+        "Intro Photo: Digital Photography": {
+            "CourseCode": "F20 ART 517V",
+            "CourseName": "Intro Photo: Digital Photography",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 26",
+                "Steinberg / 26"
+            ],
+            "Prof": [
+                "Becker",
+                "Colten"
+            ]
+        },
+        "Intro Painting: Painting as Verb": {
+            "CourseCode": "F20 ART 621G",
+            "CourseName": "Intro Painting: Painting as Verb",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 7"
+            ],
+            "Prof": [
+                "Briceno"
+            ]
+        },
+        "Intro Time-Based: Working with Time": {
+            "CourseCode": "F20 ART 529H",
+            "CourseName": "Intro Time-Based: Working with Time",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Weiss"
+            ]
+        },
+        "Introduction to Fashion Design": {
+            "CourseCode": "F10 ART 231",
+            "CourseName": "Introduction to Fashion Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 11",
+                "Bixby / 11",
+                "Bixby / 11"
+            ],
+            "Prof": [
+                "Desch",
+                "Desch",
+                "Ingram"
+            ]
+        },
+        "Typography I": {
+            "CourseCode": "F20 ART 537C",
+            "CourseName": "Typography I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Smith"
+            ]
+        },
+        "Word and Image I": {
+            "CourseCode": "F10 ART 238B",
+            "CourseName": "Word and Image I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 25"
+            ],
+            "Prof": [
+                "Cassidy"
+            ]
+        },
+        "Typography and Letterform: The Design of Language": {
+            "CourseCode": "F10 ART 283",
+            "CourseName": "Typography and Letterform: The Design of Language",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 124"
+            ],
+            "Prof": [
+                "Leffell Koren"
+            ]
+        },
+        "Pictures for Communication": {
+            "CourseCode": "F10 ART 295",
+            "CourseName": "Pictures for Communication",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 205"
+            ],
+            "Prof": [
+                "Ridolfi"
+            ]
+        },
+        "Image Making for Graphic Design": {
+            "CourseCode": "F20 ART 597B",
+            "CourseName": "Image Making for Graphic Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 213"
+            ],
+            "Prof": [
+                "Hubbell"
+            ]
+        },
+        "Painting: Art Practice (Speculative Propositions)": {
+            "CourseCode": "F20 ART 611N",
+            "CourseName": "Painting: Art Practice (Speculative Propositions)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "deVera"
+            ]
+        },
+        "Sculpture: Art Practice (Symbiosis)": {
+            "CourseCode": "F20 ART 514K",
+            "CourseName": "Sculpture: Art Practice (Symbiosis)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Todd"
+            ]
+        },
+        "Printmaking: Art Practice (Propaganda to Decoration)": {
+            "CourseCode": "F20 ART 615B",
+            "CourseName": "Printmaking: Art Practice (Propaganda to Decoration)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 110"
+            ],
+            "Prof": [
+                "Dawson"
+            ]
+        },
+        "Patternmaking and Production (Florence)": {
+            "CourseCode": "F10 ART 323P",
+            "CourseName": "Patternmaking and Production (Florence)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "18:45"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Cushard"
+            ]
+        },
+        "Fashion Design I: Pattern Drafting": {
+            "CourseCode": "F10 ART 324A",
+            "CourseName": "Fashion Design I: Pattern Drafting",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 15"
+            ],
+            "Prof": [
+                "Ingram"
+            ]
+        },
+        "UX Research Methods for Design": {
+            "CourseCode": "F10 ART 332J",
+            "CourseName": "UX Research Methods for Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02",
+                "03"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   ",
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Hu",
+                "Hu"
+            ]
+        },
+        "Communication Design:  Word & Image II": {
+            "CourseCode": "F10 ART 337E",
+            "CourseName": "Communication Design:  Word & Image II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 050",
+                "Walker Hall / 204"
+            ],
+            "Prof": [
+                "Ravikrishnan",
+                "Nagarajan"
+            ]
+        },
+        "Communication Design:  Typography II": {
+            "CourseCode": "F10 ART 337F",
+            "CourseName": "Communication Design:  Typography II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 050",
+                "Walker Hall / 204"
+            ],
+            "Prof": [
+                "SILVERBERG",
+                "Auman"
+            ]
+        },
+        "Communication Design: Interaction Foundations": {
+            "CourseCode": "F10 ART 337I",
+            "CourseName": "Communication Design: Interaction Foundations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Fawcett"
+            ]
+        },
+        "Motion Graphics for Designers": {
+            "CourseCode": "F20 ART 637Q",
+            "CourseName": "Motion Graphics for Designers",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 204"
+            ],
+            "Prof": [
+                "Auman"
+            ]
+        },
+        "Content to Cover: the Design of Books": {
+            "CourseCode": "F20 ART 572B",
+            "CourseName": "Content to Cover: the Design of Books",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 124"
+            ],
+            "Prof": [
+                "Leffell Koren"
+            ]
+        },
+        "Advanced Studio Practices (Florence, Italy)": {
+            "CourseCode": "F10 ART 3829",
+            "CourseName": "Advanced Studio Practices (Florence, Italy)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:15",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Methods and Contexts I": {
+            "CourseCode": "F10 ART 391",
+            "CourseName": "Methods and Contexts I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "----F--",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "09:15",
+                    "12:00"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 204",
+                "TBA"
+            ],
+            "Prof": [
+                "Colten",
+                "Smaldone"
+            ]
+        },
+        "Fashion Design: Capstone I": {
+            "CourseCode": "F10 ART 423A",
+            "CourseName": "Fashion Design: Capstone I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 16"
+            ],
+            "Prof": [
+                "Ruppert-Stroescu"
+            ]
+        },
+        "Advanced Patternmaking and Production": {
+            "CourseCode": "F10 ART 423G",
+            "CourseName": "Advanced Patternmaking and Production",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 16"
+            ],
+            "Prof": [
+                "Ingram"
+            ]
+        },
+        "UX Research Methods of Design": {
+            "CourseCode": "F10 ART 432J",
+            "CourseName": "UX Research Methods of Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "02",
+                "03"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   ",
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Hu",
+                "Hu"
+            ]
+        },
+        "Capstone in Design 1: Research Methods (Form and Function)": {
+            "CourseCode": "F10 ART 433C",
+            "CourseName": "Capstone in Design 1: Research Methods (Form and Function)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 213",
+                "Steinberg / 26"
+            ],
+            "Prof": [
+                "Auman",
+                "Irwin"
+            ]
+        },
+        "Capstone in Design 1: Research Methods (Form and Interaction)": {
+            "CourseCode": "F10 ART 433D",
+            "CourseName": "Capstone in Design 1: Research Methods (Form and Interaction)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 24"
+            ],
+            "Prof": [
+                "Hanahan"
+            ]
+        },
+        "Capstone in Illustration 1: Research Methods (Image and Story)": {
+            "CourseCode": "F10 ART 433E",
+            "CourseName": "Capstone in Illustration 1: Research Methods (Image and Story)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 213"
+            ],
+            "Prof": [
+                "Nagarajan"
+            ]
+        },
+        "The Illustrator's Sketchbook": {
+            "CourseCode": "F20 ART 633K",
+            "CourseName": "The Illustrator's Sketchbook",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 204"
+            ],
+            "Prof": [
+                "Nagarajan"
+            ]
+        },
+        "Design for Social Impact": {
+            "CourseCode": "F10 ART 435P",
+            "CourseName": "Design for Social Impact",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 24"
+            ],
+            "Prof": [
+                "Acayo Laker"
+            ]
+        },
+        "Comm. Design: Visual Voice": {
+            "CourseCode": "F10 ART 437M",
+            "CourseName": "Comm. Design: Visual Voice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 213"
+            ],
+            "Prof": [
+                "Hubbell"
+            ]
+        },
+        "Capstone Studio I": {
+            "CourseCode": "F10 ART 461",
+            "CourseName": "Capstone Studio I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 205"
+            ],
+            "Prof": [
+                "Adams"
+            ]
+        },
+        "Group Critique": {
+            "CourseCode": "F10 ART 643B",
+            "CourseName": "Group Critique",
+            "Credits": "4.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M------",
+                "M------"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:20"
+                ],
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   ",
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Nadler",
+                "Bulawsky"
+            ]
+        },
+        "1st Year Colloquium": {
+            "CourseCode": "F10 ART 553A",
+            "CourseName": "1st Year Colloquium",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Calvert"
+            ]
+        },
+        "Illustration Studio 1: Drawing and Voice": {
+            "CourseCode": "F10 ART 561",
+            "CourseName": "Illustration Studio 1: Drawing and Voice",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "09:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 050"
+            ],
+            "Prof": [
+                "Zettwoch"
+            ]
+        },
+        "The Illustrated Periodical": {
+            "CourseCode": "F10 ART 571",
+            "CourseName": "The Illustrated Periodical",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Dowd"
+            ]
+        },
+        "Special Collections: Practice & Purpose": {
+            "CourseCode": "F10 ART 573",
+            "CourseName": "Special Collections: Practice & Purpose",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Novak"
+            ]
+        },
+        "Illustration & Visual Culture Thesis Studio I": {
+            "CourseCode": "F10 ART 661",
+            "CourseName": "Illustration & Visual Culture Thesis Studio I",
+            "Credits": "9.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "09:30",
+                    "15:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Ravikrishnan"
+            ]
+        },
+        "Research For Practice": {
+            "CourseCode": "F10 ART 663",
+            "CourseName": "Research For Practice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Bennett"
+            ]
+        },
+        "Readings in Visual and Material Culture": {
+            "CourseCode": "F10 ART 675",
+            "CourseName": "Readings in Visual and Material Culture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Kolk"
+            ]
+        },
+        "Engaging Community: Understanding the Basics": {
+            "CourseCode": "F20 ART 608B",
+            "CourseName": "Engaging Community: Understanding the Basics",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Kramer"
+            ]
+        },
+        "The Racialized Sporting Landscape of St. Louis: Athletics, Aesthetics, Bias, and Opportunity": {
+            "CourseCode": "F20 ART 408C",
+            "CourseName": "The Racialized Sporting Landscape of St. Louis: Athletics, Aesthetics, Bias, and Opportunity",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Cohan"
+            ]
+        },
+        "Painting": {
+            "CourseCode": "F20 ART 411",
+            "CourseName": "Painting",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 7"
+            ],
+            "Prof": [
+                "Briceno"
+            ]
+        },
+        "Compositions in Clay": {
+            "CourseCode": "F20 ART 613Q",
+            "CourseName": "Compositions in Clay",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 122",
+                "Walker Hall / 122"
+            ],
+            "Prof": [
+                "Moon",
+                "Moon"
+            ]
+        },
+        "Textile-based Technology for Health": {
+            "CourseCode": "F20 ART 423F",
+            "CourseName": "Textile-based Technology for Health",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 15"
+            ],
+            "Prof": [
+                "Ruppert-Stroescu"
+            ]
+        },
+        "Experimental Fashion Design": {
+            "CourseCode": "F20 ART 624G",
+            "CourseName": "Experimental Fashion Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 15"
+            ],
+            "Prof": [
+                "Desch"
+            ]
+        },
+        "The Art of Medicine": {
+            "CourseCode": "F20 ART 130B",
+            "CourseName": "The Art of Medicine",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "15:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Wilson / 214"
+            ],
+            "Prof": [
+                "Messbarger"
+            ]
+        },
+        "Animated Worlds": {
+            "CourseCode": "F20 ART 635K",
+            "CourseName": "Animated Worlds",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Kemper / 040L"
+            ],
+            "Prof": [
+                "Navy"
+            ]
+        },
+        "Illustration Entrepreneur": {
+            "CourseCode": "F20 ART 537A",
+            "CourseName": "Illustration Entrepreneur",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 6"
+            ],
+            "Prof": [
+                "Bosch"
+            ]
+        },
+        "Introduction to Letterpress Printing": {
+            "CourseCode": "F20 ART 671",
+            "CourseName": "Introduction to Letterpress Printing",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 124"
+            ],
+            "Prof": [
+                "Oberkirsch"
+            ]
+        },
+        "Anatomy Figure Structure": {
+            "CourseCode": "F20 ART 601E",
+            "CourseName": "Anatomy Figure Structure",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 210"
+            ],
+            "Prof": [
+                "Adams"
+            ]
+        },
+        "Eco-Art": {
+            "CourseCode": "F20 ART 609B",
+            "CourseName": "Eco-Art",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 205"
+            ],
+            "Prof": [
+                "Wassenaar"
+            ]
+        },
+        "Intro Printmaking: Contemporary Processes": {
+            "CourseCode": "F20 ART 215T",
+            "CourseName": "Intro Printmaking: Contemporary Processes",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 110"
+            ],
+            "Prof": [
+                "Reed"
+            ]
+        },
+        "Intro Photo: Architecture Through the Lens": {
+            "CourseCode": "F20 ART 217M",
+            "CourseName": "Intro Photo: Architecture Through the Lens",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "17:30",
+                    "20:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 26"
+            ],
+            "Prof": [
+                "Colten"
+            ]
+        },
+        "Intro Photo: Drone Photography": {
+            "CourseCode": "F20 ART 217P",
+            "CourseName": "Intro Photo: Drone Photography",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:30",
+                    "15:00"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 24"
+            ],
+            "Prof": [
+                "Kirkwood"
+            ]
+        },
+        "Business of Fashion": {
+            "CourseCode": "F20 ART 523K",
+            "CourseName": "Business of Fashion",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Eads / 207"
+            ],
+            "Prof": [
+                "Bourgeois"
+            ]
+        },
+        "Artificial Intelligence and Art": {
+            "CourseCode": "F20 ART 540",
+            "CourseName": "Artificial Intelligence and Art",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Kemper / 040L"
+            ],
+            "Prof": [
+                "Azzarella"
+            ]
+        },
+        "Digital Game Design": {
+            "CourseCode": "F20 ART 541G",
+            "CourseName": "Digital Game Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Nunez"
+            ]
+        },
+        "Italian Language (Florence)": {
+            "CourseCode": "F20 ART 2647",
+            "CourseName": "Italian Language (Florence)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M-W----",
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "17:50",
+                    "19:30"
+                ],
+                [
+                    "09:00",
+                    "10:40"
+                ],
+                [
+                    "09:00",
+                    "10:40"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "[TBA]",
+                "[TBA]",
+                "[TBA]"
+            ]
+        },
+        "Semester Abroad Program Seminar": {
+            "CourseCode": "F20 ART 2661",
+            "CourseName": "Semester Abroad Program Seminar",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "11:00",
+                    "11:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Cushard"
+            ]
+        },
+        "Visualizing Literature: Texture/Structure": {
+            "CourseCode": "F20 ART 692",
+            "CourseName": "Visualizing Literature: Texture/Structure",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 204"
+            ],
+            "Prof": [
+                "Corcoran"
+            ]
+        },
+        "Special Topics (Florence, Italy)": {
+            "CourseCode": "F20 ART 3015",
+            "CourseName": "Special Topics (Florence, Italy)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----",
+                "M-W----",
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "16:15",
+                    "19:00"
+                ],
+                [
+                    "10:45",
+                    "12:05"
+                ],
+                [
+                    "13:00",
+                    "15:45"
+                ],
+                [
+                    "13:00",
+                    "15:45"
+                ],
+                [
+                    "16:10",
+                    "17:30"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "Akins",
+                "Akins",
+                "Akins",
+                "Akins",
+                "Akins"
+            ]
+        },
+        "Digital Fabrication for Object Making": {
+            "CourseCode": "F20 ART 613J",
+            "CourseName": "Digital Fabrication for Object Making",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Todd"
+            ]
+        },
+        "Structural Ceramics": {
+            "CourseCode": "F20 ART 619J",
+            "CourseName": "Structural Ceramics",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 122"
+            ],
+            "Prof": [
+                "Moon"
+            ]
+        },
+        "Design Within Context: Scroll to Screen": {
+            "CourseCode": "F20 ART 426J",
+            "CourseName": "Design Within Context: Scroll to Screen",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Dingwall"
+            ]
+        },
+        "African American Design History": {
+            "CourseCode": "F20 ART 632Q",
+            "CourseName": "African American Design History",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Dingwall"
+            ]
+        },
+        "Interaction Design: Understanding Health and Well-Being": {
+            "CourseCode": "F20 ART 336A",
+            "CourseName": "Interaction Design: Understanding Health and Well-Being",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "---R---",
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "16:30",
+                    "19:20"
+                ],
+                [
+                    "16:30",
+                    "19:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 050",
+                "Walker Hall / 050"
+            ],
+            "Prof": [
+                "Spitz",
+                "Spitz"
+            ]
+        },
+        "Visual Principles for the Screen": {
+            "CourseCode": "F20 ART 337T",
+            "CourseName": "Visual Principles for the Screen",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 6",
+                "Remote / SF    ",
+                "Steinberg / 6"
+            ],
+            "Prof": [
+                "Nunez",
+                "Drummond",
+                "Williams"
+            ]
+        },
+        "Furniture Design, Emphasis Metal": {
+            "CourseCode": "F20 ART 347F",
+            "CourseName": "Furniture Design, Emphasis Metal",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Stouffer"
+            ]
+        },
+        "The Italian Renaissance in the City of Florence": {
+            "CourseCode": "F20 ART 3823",
+            "CourseName": "The Italian Renaissance in the City of Florence",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02",
+                "03"
+            ],
+            "Days": [
+                "M------",
+                "M------",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "11:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "09:00",
+                    "11:50"
+                ]
+            ],
+            "Building": [
+                "(None) /       ",
+                "(None) /       ",
+                "(None) /       "
+            ],
+            "Prof": [
+                "Giraldi-Haller",
+                "Giraldi-Haller",
+                "Giraldi-Haller"
+            ]
+        },
+        "Museum & Gallery Operations": {
+            "CourseCode": "F20 ART 690A",
+            "CourseName": "Museum & Gallery Operations",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Stulen"
+            ]
+        },
+        "Printmaking:  Art Practice (Propaganda to Decoration)": {
+            "CourseCode": "F20 ART 515B",
+            "CourseName": "Printmaking:  Art Practice (Propaganda to Decoration)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Bixby / 110"
+            ],
+            "Prof": [
+                "Dawson"
+            ]
+        },
+        "Design within Context: Scroll to Screen": {
+            "CourseCode": "F20 ART 526J",
+            "CourseName": "Design within Context: Scroll to Screen",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Dingwall"
+            ]
+        },
+        "Applied Illustration": {
+            "CourseCode": "F20 ART 633L",
+            "CourseName": "Applied Illustration",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Kinsella"
+            ]
+        },
+        "Communication Design: Typography II": {
+            "CourseCode": "F20 ART 537G",
+            "CourseName": "Communication Design: Typography II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 050",
+                "Walker Hall / 204"
+            ],
+            "Prof": [
+                "SILVERBERG",
+                "Auman"
+            ]
+        },
+        "Communication Design: Visual Voice": {
+            "CourseCode": "F20 ART 537M",
+            "CourseName": "Communication Design: Visual Voice",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 213"
+            ],
+            "Prof": [
+                "Hubbell"
+            ]
+        },
+        "Typography and Letterform: the Design of Language": {
+            "CourseCode": "F20 ART 583D",
+            "CourseName": "Typography and Letterform: the Design of Language",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 124"
+            ],
+            "Prof": [
+                "Leffell Koren"
+            ]
+        },
+        "Sculpture Art Practice (Symbiosis)": {
+            "CourseCode": "F20 ART 614K",
+            "CourseName": "Sculpture Art Practice (Symbiosis)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Todd"
+            ]
+        }
+    }
+}

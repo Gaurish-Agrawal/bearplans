@@ -1,0 +1,740 @@
+{
+    "courses": {
+        "Earth's Future: Causes and Consequences of Global Climate Change": {
+            "CourseCode": "I60 BEYOND 101",
+            "CourseName": "Earth's Future: Causes and Consequences of Global Climate Change",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "McDonnell / 162"
+            ],
+            "Prof": [
+                "Wysession"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "Days_lab": [
+                "--W----",
+                "--W----",
+                "---R---",
+                "---R---",
+                "----F--"
+            ],
+            "Times_lab": [
+                [
+                    "15:00",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "13:00",
+                    "13:50"
+                ]
+            ],
+            "Building_lab": [
+                "Wrighton / 301",
+                "January Hall / 10A",
+                "Eads / 207",
+                "Eads / 215",
+                "Danforth Ctr / 236"
+            ],
+            "Prof_lab": [
+                "TBA",
+                "TBA",
+                "TBA",
+                "TBA",
+                "TBA"
+            ]
+        },
+        "The Business of Elections": {
+            "CourseCode": "I60 BEYOND 102",
+            "CourseName": "The Business of Elections",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Seigle / L006"
+            ],
+            "Prof": [
+                "Malter"
+            ]
+        },
+        "The Endgame of Entrepreneurship: Leveraging Capitalism for Good": {
+            "CourseCode": "I60 BEYOND 105",
+            "CourseName": "The Endgame of Entrepreneurship: Leveraging Capitalism for Good",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "16:00",
+                    "18:50"
+                ]
+            ],
+            "Building": [
+                "Seigle / 301"
+            ],
+            "Prof": [
+                "Steensma"
+            ]
+        },
+        "When I'm Sixty-Four: Preparing Ourselves and Society for a Good Long Life": {
+            "CourseCode": "I60 BEYOND 123",
+            "CourseName": "When I'm Sixty-Four: Preparing Ourselves and Society for a Good Long Life",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "16:20"
+                ]
+            ],
+            "Building": [
+                "Hillman / 60"
+            ],
+            "Prof": [
+                "Stark"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "Days_lab": [
+                "--W----",
+                "--W----",
+                "--W----",
+                "---R---",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "11:00",
+                    "11:50"
+                ],
+                [
+                    "11:00",
+                    "11:50"
+                ],
+                [
+                    "14:00",
+                    "14:50"
+                ],
+                [
+                    "14:30",
+                    "15:20"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ]
+            ],
+            "Building_lab": [
+                "Wrighton / 260",
+                "Mallinckrodt / 303",
+                "Cupples II / L007",
+                "Weil / 010   ",
+                "Eads / 210"
+            ],
+            "Prof_lab": [
+                "Lero",
+                "Thomas",
+                "Kehrer-Dunlap",
+                "Dinman",
+                "Poiter"
+            ]
+        },
+        "The Art of Medicine": {
+            "CourseCode": "I60 BEYOND 130",
+            "CourseName": "The Art of Medicine",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "15:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Wilson / 214"
+            ],
+            "Prof": [
+                "Messbarger"
+            ],
+            "subsection_lab": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "Days_lab": [
+                "---R---",
+                "---R---",
+                "---R---",
+                "---R---"
+            ],
+            "Times_lab": [
+                [
+                    "15:00",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ],
+                [
+                    "15:00",
+                    "15:50"
+                ],
+                [
+                    "16:00",
+                    "16:50"
+                ]
+            ],
+            "Building_lab": [
+                "Simon / 022",
+                "Eads / 115",
+                "Eads / 115",
+                "Eads / 102"
+            ],
+            "Prof_lab": [
+                "Chen",
+                "Ockun",
+                "Paul",
+                "Shah"
+            ]
+        },
+        "To Sustainability and Beyond: People, Planet, Prosperity (P3)": {
+            "CourseCode": "I60 BEYOND 140",
+            "CourseName": "To Sustainability and Beyond: People, Planet, Prosperity (P3)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Cupples II / 230"
+            ],
+            "Prof": [
+                "Trivers"
+            ]
+        },
+        "Designing Creativity: Innovation Across Disciplines": {
+            "CourseCode": "I60 BEYOND 175",
+            "CourseName": "Designing Creativity: Innovation Across Disciplines",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "McMillan / G052"
+            ],
+            "Prof": [
+                "Lindsey"
+            ]
+        },
+        "Introduction to Graduate Research in Computational and Data Sciences": {
+            "CourseCode": "I53 DCDS 501",
+            "CourseName": "Introduction to Graduate Research in Computational and Data Sciences",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "09:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Fowler"
+            ]
+        },
+        "IMSE Graduate Seminar": {
+            "CourseCode": "I52 IMSE 501",
+            "CourseName": "IMSE Graduate Seminar",
+            "Credits": "Var.",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "13:50"
+                ]
+            ],
+            "Building": [
+                "Brauer Hall / 012"
+            ],
+            "Prof": [
+                "Bae"
+            ]
+        },
+        "The Racialized Sporting Landscape of St. Louis: Athletics Aesthetics, Bias, and Opportunity": {
+            "CourseCode": "I50 INTER D 308C",
+            "CourseName": "The Racialized Sporting Landscape of St. Louis: Athletics Aesthetics, Bias, and Opportunity",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [],
+            "Days": [],
+            "Times": [],
+            "Building": [],
+            "Prof": []
+        },
+        "Design Within Context: Scroll to Screen": {
+            "CourseCode": "I50 INTER D 3261",
+            "CourseName": "Design Within Context: Scroll to Screen",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [],
+            "Days": [],
+            "Times": [],
+            "Building": [],
+            "Prof": []
+        },
+        "African American Design History": {
+            "CourseCode": "I50 INTER D 3321",
+            "CourseName": "African American Design History",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [],
+            "Days": [],
+            "Times": [],
+            "Building": [],
+            "Prof": []
+        },
+        "Sustainability Exchange: Community and University Practicums": {
+            "CourseCode": "I50 INTER D 405",
+            "CourseName": "Sustainability Exchange: Community and University Practicums",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [],
+            "Days": [],
+            "Times": [],
+            "Building": [],
+            "Prof": []
+        },
+        "McDonnell Academy Global Leadership Seminar": {
+            "CourseCode": "I50 INTER D 502",
+            "CourseName": "McDonnell Academy Global Leadership Seminar",
+            "Credits": "0.0",
+            "needs_lab": false,
+            "subsection": [],
+            "Days": [],
+            "Times": [],
+            "Building": [],
+            "Prof": []
+        },
+        "McDonnell Academy Global Leadership Visions Communications Seminar": {
+            "CourseCode": "I50 INTER D 503",
+            "CourseName": "McDonnell Academy Global Leadership Visions Communications Seminar",
+            "Credits": "0.0",
+            "needs_lab": false,
+            "subsection": [],
+            "Days": [],
+            "Times": [],
+            "Building": [],
+            "Prof": []
+        },
+        "Heritage and Values of the United States Air Force 1": {
+            "CourseCode": "I02 MAIR 1010",
+            "CourseName": "Heritage and Values of the United States Air Force 1",
+            "Credits": "0.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "14:10",
+                    "15:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "AF Asst. Professor"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "15:30",
+                    "17:30"
+                ]
+            ],
+            "Building_lab": [
+                "TBA"
+            ],
+            "Prof_lab": [
+                "AF Asst. Professor"
+            ]
+        },
+        "Team and Leadership Fundamentals 1": {
+            "CourseCode": "I02 MAIR 2010",
+            "CourseName": "Team and Leadership Fundamentals 1",
+            "Credits": "0.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "AF Asst. Professor"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "15:30",
+                    "17:30"
+                ]
+            ],
+            "Building_lab": [
+                "TBA"
+            ],
+            "Prof_lab": [
+                "AF Asst. Professor"
+            ]
+        },
+        "Leading People and Effective Communication 1": {
+            "CourseCode": "I02 MAIR 3010",
+            "CourseName": "Leading People and Effective Communication 1",
+            "Credits": "0.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "AF Asst. Professor"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "15:30",
+                    "17:30"
+                ]
+            ],
+            "Building_lab": [
+                "TBA"
+            ],
+            "Prof_lab": [
+                "AF Asst. Professor"
+            ]
+        },
+        "National Security Affairs/Preparation for Active Duty": {
+            "CourseCode": "I02 MAIR 4010",
+            "CourseName": "National Security Affairs/Preparation for Active Duty",
+            "Credits": "0.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "21:00"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "AF Asst. Professor"
+            ],
+            "subsection_lab": [
+                "A"
+            ],
+            "Days_lab": [
+                "--W----"
+            ],
+            "Times_lab": [
+                [
+                    "15:30",
+                    "17:30"
+                ]
+            ],
+            "Building_lab": [
+                "TBA"
+            ],
+            "Prof_lab": [
+                "AF Asst. Professor"
+            ]
+        },
+        "Introduction to Leadership I": {
+            "CourseCode": "I25 MILS 1010",
+            "CourseName": "Introduction to Leadership I",
+            "Credits": "2.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Eads / 115"
+            ],
+            "Prof": [
+                "Goode"
+            ]
+        },
+        "Innovative Team Leadership": {
+            "CourseCode": "I25 MILS 2010",
+            "CourseName": "Innovative Team Leadership",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Danforth Ctr / 236"
+            ],
+            "Prof": [
+                "Wheat"
+            ]
+        },
+        "Adaptive Team Leadership": {
+            "CourseCode": "I25 MILS 3010",
+            "CourseName": "Adaptive Team Leadership",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "14:30",
+                    "15:50"
+                ],
+                [
+                    "14:30",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Lopata Hall / 302",
+                "Cupples II / 203"
+            ],
+            "Prof": [
+                "Waters",
+                "Waters"
+            ]
+        },
+        "Adaptive Leadership": {
+            "CourseCode": "I25 MILS 4010",
+            "CourseName": "Adaptive Leadership",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ],
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Simon / 020",
+                "Simon / 022"
+            ],
+            "Prof": [
+                "Hill",
+                "Hill"
+            ]
+        },
+        "Modern American Military History": {
+            "CourseCode": "I25 MILS 4500",
+            "CourseName": "Modern American Military History",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-----",
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "17:00",
+                    "19:00"
+                ],
+                [
+                    "17:00",
+                    "19:00"
+                ]
+            ],
+            "Building": [
+                "North Campus / 1124",
+                "North Campus / 1124"
+            ],
+            "Prof": [
+                "Copeland",
+                "Copeland"
+            ]
+        }
+    }
+}

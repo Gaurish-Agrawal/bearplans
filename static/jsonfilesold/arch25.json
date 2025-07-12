@@ -1,0 +1,1454 @@
+{
+    "courses": {
+        "Introduction to Design Processes II": {
+            "CourseCode": "A46 ARCH 112C",
+            "CourseName": "Introduction to Design Processes II",
+            "Credits": "4.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Givens / LL"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Architecture for Non-Architects": {
+            "CourseCode": "A46 ARCH 144",
+            "CourseName": "Architecture for Non-Architects",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "10:50"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Freixas"
+            ]
+        },
+        "Representation II": {
+            "CourseCode": "A46 ARCH 152",
+            "CourseName": "Representation II",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "14:00",
+                    "16:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Practices in Architecture, Landscape Architecture, and Urban Design": {
+            "CourseCode": "A46 ARCH 185",
+            "CourseName": "Practices in Architecture, Landscape Architecture, and Urban Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Design Process": {
+            "CourseCode": "A46 ARCH 209",
+            "CourseName": "Design Process",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 115"
+            ],
+            "Prof": [
+                "Lorberbaum"
+            ]
+        },
+        "Architectural Design II": {
+            "CourseCode": "A46 ARCH 212D",
+            "CourseName": "Architectural Design II",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Up-Cycles: Form, Function, and Design": {
+            "CourseCode": "A46 ARCH 216V",
+            "CourseName": "Up-Cycles: Form, Function, and Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Walker Hall / 103"
+            ],
+            "Prof": [
+                "Stouffer"
+            ]
+        },
+        "Drawing on the City": {
+            "CourseCode": "A46 ARCH 303A",
+            "CourseName": "Drawing on the City",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Hansman"
+            ]
+        },
+        "Architectural Design IV": {
+            "CourseCode": "A46 ARCH 312B",
+            "CourseName": "Architectural Design IV",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Portfolio Design": {
+            "CourseCode": "A46 ARCH 316A",
+            "CourseName": "Portfolio Design",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Koster"
+            ]
+        },
+        "Re-Discover the Child": {
+            "CourseCode": "A46 ARCH 316F",
+            "CourseName": "Re-Discover the Child",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "14:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Lorberbaum"
+            ]
+        },
+        "Architectural Design II (M.Arch. 3)": {
+            "CourseCode": "A46 ARCH 318A",
+            "CourseName": "Architectural Design II (M.Arch. 3)",
+            "Credits": "9.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M-W-F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Architectural Representation II (M.Arch 3)": {
+            "CourseCode": "A46 ARCH 323B",
+            "CourseName": "Architectural Representation II (M.Arch 3)",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M---F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Stitelman"
+            ]
+        },
+        "Architectural History II: Architecture Since 1880": {
+            "CourseCode": "A46 ARCH 4284",
+            "CourseName": "Architectural History II: Architecture Since 1880",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Hauk"
+            ]
+        },
+        "Urban Books": {
+            "CourseCode": "A46 ARCH 335X",
+            "CourseName": "Urban Books",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Bixby / 124"
+            ],
+            "Prof": [
+                "Lima"
+            ]
+        },
+        "Architectural Design VI": {
+            "CourseCode": "A46 ARCH 512",
+            "CourseName": "Architectural Design VI",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Designing the Modern City": {
+            "CourseCode": "A49 MUD 421W",
+            "CourseName": "Designing the Modern City",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Mumford"
+            ]
+        },
+        "East Asian Urbanisms": {
+            "CourseCode": "A46 ARCH 422L",
+            "CourseName": "East Asian Urbanisms",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Hauk"
+            ]
+        },
+        "Grounds for Play": {
+            "CourseCode": "A46 ARCH 423G",
+            "CourseName": "Grounds for Play",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Kempf"
+            ]
+        },
+        "The Promiscuous Project: Artifacts of Cultural Transgressions": {
+            "CourseCode": "A46 ARCH 425H",
+            "CourseName": "The Promiscuous Project: Artifacts of Cultural Transgressions",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Mhatre"
+            ]
+        },
+        "Architectural History III: Advanced Theory": {
+            "CourseCode": "A46 ARCH 4288",
+            "CourseName": "Architectural History III: Advanced Theory",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Allen"
+            ],
+            "subsection_lab": [],
+            "Days_lab": [],
+            "Times_lab": [],
+            "Building_lab": [],
+            "Prof_lab": []
+        },
+        "Encountering the Otherwise": {
+            "CourseCode": "A46 ARCH 434K",
+            "CourseName": "Encountering the Otherwise",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Safaverdi"
+            ]
+        },
+        "Precast Concrete Enclosures": {
+            "CourseCode": "A46 ARCH 435F",
+            "CourseName": "Precast Concrete Enclosures",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Moyano Fernandez"
+            ]
+        },
+        "Environmental Systems I": {
+            "CourseCode": "A46 ARCH 438",
+            "CourseName": "Environmental Systems I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "Freixas"
+            ]
+        },
+        "Environmental Systems II": {
+            "CourseCode": "A46 ARCH 439",
+            "CourseName": "Environmental Systems II",
+            "Credits": "3.0",
+            "needs_lab": true,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 116"
+            ],
+            "Prof": [
+                "McGrath"
+            ],
+            "subsection_lab": [],
+            "Days_lab": [],
+            "Times_lab": [],
+            "Building_lab": [],
+            "Prof_lab": []
+        },
+        "Structures II": {
+            "CourseCode": "A46 ARCH 448A",
+            "CourseName": "Structures II",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "18:30",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "Shinn"
+            ]
+        },
+        "Community Design Sprints": {
+            "CourseCode": "A46 ARCH 455D",
+            "CourseName": "Community Design Sprints",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "----F--",
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ],
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "TBA",
+                "TBA"
+            ],
+            "Prof": [
+                "Bernstine",
+                "Bernstine"
+            ]
+        },
+        "Explore & Contribute:  Collaboration between Washington University & Henry Elementary School": {
+            "CourseCode": "A46 ARCH 490A",
+            "CourseName": "Explore & Contribute:  Collaboration between Washington University & Henry Elementary School",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Lorberbaum"
+            ]
+        },
+        "Pathways:  A Collaboration with Sumner High School": {
+            "CourseCode": "A46 ARCH 491B",
+            "CourseName": "Pathways:  A Collaboration with Sumner High School",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "(None) /       "
+            ],
+            "Prof": [
+                "Murphy"
+            ]
+        },
+        "Senior Capstone in Architecture": {
+            "CourseCode": "A46 ARCH 499",
+            "CourseName": "Senior Capstone in Architecture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Walking Class: a Moving Approach to Landscape Architecture": {
+            "CourseCode": "A46 ARCH 503A",
+            "CourseName": "Walking Class: a Moving Approach to Landscape Architecture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Ellingsen"
+            ]
+        },
+        "Architectural Design V": {
+            "CourseCode": "A46 ARCH 511",
+            "CourseName": "Architectural Design V",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "01"
+            ],
+            "Days": [
+                "M--R---",
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ],
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 300N  ",
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]",
+                "[TBA]"
+            ]
+        },
+        "Architectural Design V (Barcelona)": {
+            "CourseCode": "A46 ARCH 511S",
+            "CourseName": "Architectural Design V (Barcelona)",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Pre-Design Seminar": {
+            "CourseCode": "A46 ARCH 518A",
+            "CourseName": "Pre-Design Seminar",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Critical and Creative Algorithms": {
+            "CourseCode": "A46 ARCH 521N",
+            "CourseName": "Critical and Creative Algorithms",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Allen"
+            ]
+        },
+        "Visions of a Brighter Future: The History of Progressive Design at Worlds Fairs": {
+            "CourseCode": "A46 ARCH 523N",
+            "CourseName": "Visions of a Brighter Future: The History of Progressive Design at Worlds Fairs",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Moore"
+            ]
+        },
+        "Everyday Urbanism: Global and Local Practices": {
+            "CourseCode": "A49 MUD 528S",
+            "CourseName": "Everyday Urbanism: Global and Local Practices",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 25"
+            ],
+            "Prof": [
+                "Stitelman"
+            ]
+        },
+        "The Critical Evolution of Modern Architecture: CIAM, Team 10, and Other Modern Traditions": {
+            "CourseCode": "A46 ARCH 528X",
+            "CourseName": "The Critical Evolution of Modern Architecture: CIAM, Team 10, and Other Modern Traditions",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Mumford"
+            ]
+        },
+        "Narratives in Design": {
+            "CourseCode": "A46 ARCH 550",
+            "CourseName": "Narratives in Design",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "11:30",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "Kempf"
+            ]
+        },
+        "The Island We Eat I: Seeding Resilience in Puerto Ricos Food Future": {
+            "CourseCode": "A46 ARCH 560D",
+            "CourseName": "The Island We Eat I: Seeding Resilience in Puerto Ricos Food Future",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Bonvehi Rosich"
+            ]
+        },
+        "The Island We Eat II: Seeding Resilience in Puerto Ricos Food Future": {
+            "CourseCode": "A46 ARCH 560E",
+            "CourseName": "The Island We Eat II: Seeding Resilience in Puerto Ricos Food Future",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "Bonvehi Rosich"
+            ]
+        },
+        "Advanced Seminar in Urban Sustainability I": {
+            "CourseCode": "A49 MUD 565D",
+            "CourseName": "Advanced Seminar in Urban Sustainability I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M------"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 118"
+            ],
+            "Prof": [
+                "Hoal"
+            ]
+        },
+        "Design Thinking: Research and Design Methods": {
+            "CourseCode": "A46 ARCH 580",
+            "CourseName": "Design Thinking: Research and Design Methods",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Givens / 115"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Architectural Design VII": {
+            "CourseCode": "A46 ARCH 611",
+            "CourseName": "Architectural Design VII",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Degree Project": {
+            "CourseCode": "A46 ARCH 616",
+            "CourseName": "Degree Project",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Professional Practice I": {
+            "CourseCode": "A46 ARCH 646",
+            "CourseName": "Professional Practice I",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01",
+                "02"
+            ],
+            "Days": [
+                "-T-R---",
+                "-T-R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "09:50"
+                ],
+                [
+                    "10:00",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Givens / 113",
+                "Givens / 113"
+            ],
+            "Prof": [
+                "Johannes",
+                "Johannes"
+            ]
+        },
+        "Metropolitan Sustainability": {
+            "CourseCode": "A49 MUD 658",
+            "CourseName": "Metropolitan Sustainability",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "---R---"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Kim"
+            ]
+        },
+        "Landscape Architecture Design Studio II": {
+            "CourseCode": "A48 LAND 402",
+            "CourseName": "Landscape Architecture Design Studio II",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Landscape Architecture Design Studio IV": {
+            "CourseCode": "A48 LAND 502L",
+            "CourseName": "Landscape Architecture Design Studio IV",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Walking Class: a moving approach to Landscape Art and Architecture": {
+            "CourseCode": "A48 LAND 503A",
+            "CourseName": "Walking Class: a moving approach to Landscape Art and Architecture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "11:20"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Ellingsen"
+            ]
+        },
+        "Landscape Representation II:  Digital Tools": {
+            "CourseCode": "A48 LAND 520",
+            "CourseName": "Landscape Representation II:  Digital Tools",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "09:00",
+                    "12:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 24"
+            ],
+            "Prof": [
+                "Denizen"
+            ]
+        },
+        "GIS for Site Design": {
+            "CourseCode": "A48 LAND 542A",
+            "CourseName": "GIS for Site Design",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "12:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Planting Design": {
+            "CourseCode": "A48 LAND 542B",
+            "CourseName": "Planting Design",
+            "Credits": "1.5",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "08:30",
+                    "12:20"
+                ]
+            ],
+            "Building": [
+                "Weil / 330   "
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Attending Crises, Projecting Futures": {
+            "CourseCode": "A48 LAND 546E",
+            "CourseName": "Attending Crises, Projecting Futures",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "--W----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 205"
+            ],
+            "Prof": [
+                "Daskalakis"
+            ]
+        },
+        "Landscape Ecology": {
+            "CourseCode": "A48 LAND 551A",
+            "CourseName": "Landscape Ecology",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "----F--"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 230   "
+            ],
+            "Prof": [
+                "Ladd"
+            ]
+        },
+        "Modern and Contemporary Landscape Architecture": {
+            "CourseCode": "A48 LAND 574A",
+            "CourseName": "Modern and Contemporary Landscape Architecture",
+            "Credits": "3.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "18:00",
+                    "20:50"
+                ]
+            ],
+            "Building": [
+                "Weil / 120   "
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Landscape Architecture Design Studio VI": {
+            "CourseCode": "A48 LAND 602",
+            "CourseName": "Landscape Architecture Design Studio VI",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        },
+        "Professional Practice for Landscape Architecture Workshop": {
+            "CourseCode": "A48 LAND 6451",
+            "CourseName": "Professional Practice for Landscape Architecture Workshop",
+            "Credits": "1.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "-T-----"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "15:50"
+                ]
+            ],
+            "Building": [
+                "Steinberg / 26"
+            ],
+            "Prof": [
+                "Compadre"
+            ]
+        },
+        "Metropolitan Design Elements": {
+            "CourseCode": "A49 MUD 713",
+            "CourseName": "Metropolitan Design Elements",
+            "Credits": "6.0",
+            "needs_lab": false,
+            "subsection": [
+                "01"
+            ],
+            "Days": [
+                "M--R---"
+            ],
+            "Times": [
+                [
+                    "13:00",
+                    "17:20"
+                ]
+            ],
+            "Building": [
+                "TBA"
+            ],
+            "Prof": [
+                "[TBA]"
+            ]
+        }
+    }
+}
