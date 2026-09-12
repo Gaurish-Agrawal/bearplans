@@ -1,0 +1,25 @@
+{% extends 'guide_base.html' %}
+{% block title %}Privacy{% endblock %}
+{% block content %}
+<article class="privacy-copy">
+    <h1>Privacy and data use</h1>
+    <p class="setup-muted">Updated September 12, 2026</p>
+    <p>This notice covers the BearPlans website and BearPlans Workday Importer extension. Questions: <a href="mailto:bearplansofficial@gmail.com">bearplansofficial@gmail.com</a>.</p>
+    <h2>Workday sign-in stays in Workday</h2>
+    <p>BearPlans does not collect or store Workday usernames, passwords, MFA codes, or browsing history. Sign in through WashU Workday itself. The extension uses that signed-in session to carry out only the course-planning actions you request.</p>
+    <h2>Courses and schedule generation</h2>
+    <p>When you add a course, the extension reads its name, code, sections, academic period, instructors, meeting days and times, locations, and availability from matching Workday results. It may open matching section details to read missing meeting information. It does not scan unrelated courses. Imported courses are stored in Chrome extension storage on your device.</p>
+    <p>When you generate schedules, the imported course information is sent to the BearPlans server selected in Connection settings. The server uses it to calculate schedule combinations. Temporary generated results expire after one hour and are removed on a subsequent cache access or when the server process restarts. A result link can be viewed by anyone who has the link while it remains available.</p>
+    <h2>Saving and sharing</h2>
+    <p>Course lists and schedules you save on the website stay in that browser's local storage. They do not automatically sync between browsers or devices. Sharing a schedule sends it to the BearPlans server and creates a share code; anyone with that code can view it. Shared schedules currently have no automatic expiration. Contact us with the share code to request deletion.</p>
+    <p>If you confirm Add to Workday, the extension stores the new schedule name, automatically derived academic period, selected sections, new Workday saved-schedule identifier, and progress locally. It retains the latest export task to verify interrupted saves instead of silently repeating a write. These details are used with your authenticated WashU Workday session to create and fill a new saved schedule.</p>
+    <p>BearPlans does not register for or drop courses, change existing registrations, or add to an older saved schedule. Stopping an export does not delete a schedule that has already been created; it can leave the new schedule partly filled.</p>
+    <h2>Other storage and services</h2>
+    <p>Your light or dark theme preference is saved in this browser's local storage on your device. It is not sent to BearPlans or synced between devices. Clearing this site's browser data resets the preference.</p>
+    <p>The site uses a session cookie to connect your planning requests. Your connection setting may sync through Chrome if browser sync is enabled. The site loads its course-picker library from jsDelivr; that provider and our hosting provider receive ordinary network request information, such as IP addresses, and may keep their own service logs. BearPlans does not use advertising trackers or sell your course data.</p>
+    <p>Information is used for the requested scheduling features, not advertising, profiling, or unrelated purposes. The extension's use of data follows the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+    <h2>Your controls</h2>
+    <p>Use Clear imported courses in the extension popup to remove imported sections. Remove the extension to clear its remaining local data, including export progress. Delete saved lists and schedules in BearPlans or clear this site's browser data to remove website-local saves. These actions do not delete anything already saved in Workday; manage Workday saved schedules there.</p>
+    <p>Use HTTPS for the public BearPlans server. Local HTTP is available only for development on your own computer. Never send us a password or sign-in code in a support request.</p>
+</article>
+{% endblock %}

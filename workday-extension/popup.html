@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BearPlans Workday</title>
+  <style>
+    body {
+      width: 300px;
+      margin: 0;
+      padding: 14px;
+      font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #111827;
+    }
+    h1 {
+      font-size: 16px;
+      margin: 0 0 10px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #d1d5db;
+      border-radius: 7px;
+      padding: 8px;
+      font: inherit;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      border: 1px solid #d1d5db;
+      border-radius: 5px;
+      background: #ffffff;
+      padding: 8px 10px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    .primary {
+      background: #a51417;
+      border-color: #a51417;
+      color: #ffffff;
+    }
+    .status {
+      color: #4b5563;
+      font-size: 13px;
+      margin-top: 8px;
+      overflow-wrap: anywhere;
+    }
+    details {
+      border-top: 1px solid #e5e7eb;
+      margin-top: 12px;
+      padding-top: 10px;
+    }
+    summary {
+      color: #4b5563;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    details label {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>BearPlans Workday Importer</h1>
+  <div id="status" class="status" role="status"></div>
+  <button id="open" class="primary" type="button">Open BearPlans</button>
+  <button id="clear" type="button">Clear imported courses</button>
+  <details>
+    <summary>Connection settings</summary>
+    <label for="appUrl">BearPlans server</label>
+    <input id="appUrl" type="url">
+    <button id="save" type="button">Save server</button>
+    <button id="test" type="button">Test connection</button>
+    <button id="local" type="button">Use local server</button>
+  </details>
+  <script src="popup.js"></script>
+</body>
+</html>

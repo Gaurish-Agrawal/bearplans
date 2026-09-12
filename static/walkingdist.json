@@ -1,0 +1,4543 @@
+{
+    "Brauer-Cupples": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Brauer-Weil": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Brauer-Brown": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Brauer-Somers": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Brauer-Duncker": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Brauer-Whitaker": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Brauer-Busch": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Brauer-Lopata": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Brauer-Goldfarb": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Brauer-Steinberg": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Brauer-Jubel": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Brauer-Seigle": {
+        "distance": "0.8 mi",
+        "duration": "18 mins"
+    },
+    "Brauer-Hillman": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Brauer-Tietjens": {
+        "distance": "0.9 mi",
+        "duration": "20 mins"
+    },
+    "Brauer-Green": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brauer-McDonnell": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Brauer-Urbauer": {
+        "distance": "1 ft",
+        "duration": "1 min"
+    },
+    "Brauer-Rudolph": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Brauer-Eads": {
+        "distance": "0.7 mi",
+        "duration": "15 mins"
+    },
+    "Brauer-McMillan": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Brauer-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Brauer-Walker": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Brauer-Ridgley": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Brauer-Givens": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Brauer-Sumers": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Brauer-Wrighton": {
+        "distance": "0.6 mi",
+        "duration": "14 mins"
+    },
+    "Brauer-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Brauer-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Cupples-Weil": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Cupples-Brown": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Cupples-Somers": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Cupples-Duncker": {
+        "distance": "341 ft",
+        "duration": "1 min"
+    },
+    "Cupples-Whitaker": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Cupples-Busch": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Cupples-Lopata": {
+        "distance": "174 ft",
+        "duration": "1 min"
+    },
+    "Cupples-Goldfarb": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Cupples-Steinberg": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Cupples-Jubel": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Cupples-Seigle": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Cupples-Hillman": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Cupples-Tietjens": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Cupples-Green": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Cupples-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Cupples-Urbauer": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Cupples-Rudolph": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Cupples-Eads": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Cupples-McMillan": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Cupples-Bixby": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Cupples-Walker": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Cupples-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Cupples-Givens": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Cupples-Sumers": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Cupples-Wrighton": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Cupples-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Cupples-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Weil-Brown": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Weil-Somers": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Weil-Duncker": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Weil-Whitaker": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Weil-Busch": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Weil-Lopata": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Weil-Goldfarb": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Weil-Steinberg": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Weil-Jubel": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Weil-Seigle": {
+        "distance": "0.6 mi",
+        "duration": "14 mins"
+    },
+    "Weil-Hillman": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Weil-Tietjens": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Weil-Green": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Weil-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Weil-Urbauer": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Weil-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Weil-Eads": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Weil-McMillan": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Weil-Bixby": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Weil-Walker": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Weil-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Weil-Givens": {
+        "distance": "184 ft",
+        "duration": "1 min"
+    },
+    "Weil-Sumers": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Weil-Wrighton": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Weil-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Weil-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brown-Somers": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Brown-Duncker": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brown-Whitaker": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Brown-Busch": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Brown-Lopata": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brown-Goldfarb": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Brown-Steinberg": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Brown-Jubel": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brown-Seigle": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Brown-Hillman": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Brown-Tietjens": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Brown-Green": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Brown-McDonnell": {
+        "distance": "305 ft",
+        "duration": "1 min"
+    },
+    "Brown-Urbauer": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Brown-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Brown-Eads": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brown-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Brown-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "5 mins"
+    },
+    "Brown-Walker": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Brown-Ridgley": {
+        "distance": "220 ft",
+        "duration": "1 min"
+    },
+    "Brown-Givens": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Brown-Sumers": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Brown-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Brown-Jolley": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Brown-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Somers-Duncker": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Somers-Whitaker": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Somers-Busch": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Somers-Lopata": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Somers-Goldfarb": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Somers-Steinberg": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Somers-Jubel": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Somers-Seigle": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Somers-Hillman": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Somers-Tietjens": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Somers-Green": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Somers-McDonnell": {
+        "distance": "282 ft",
+        "duration": "1 min"
+    },
+    "Somers-Urbauer": {
+        "distance": "0.6 mi",
+        "duration": "12 mins"
+    },
+    "Somers-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Somers-Eads": {
+        "distance": "407 ft",
+        "duration": "2 mins"
+    },
+    "Somers-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Somers-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Somers-Walker": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Somers-Ridgley": {
+        "distance": "367 ft",
+        "duration": "1 min"
+    },
+    "Somers-Givens": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Somers-Sumers": {
+        "distance": "1 ft",
+        "duration": "1 min"
+    },
+    "Somers-Wrighton": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Somers-Jolley": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Somers-Bauer": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Duncker-Whitaker": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Duncker-Busch": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Duncker-Lopata": {
+        "distance": "371 ft",
+        "duration": "1 min"
+    },
+    "Duncker-Goldfarb": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Duncker-Steinberg": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Duncker-Jubel": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Duncker-Seigle": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Duncker-Hillman": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Duncker-Tietjens": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Duncker-Green": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Duncker-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Duncker-Urbauer": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Duncker-Rudolph": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Duncker-Eads": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Duncker-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Duncker-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Duncker-Walker": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Duncker-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Duncker-Givens": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Duncker-Sumers": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Duncker-Wrighton": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Duncker-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Duncker-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Whitaker-Busch": {
+        "distance": "154 ft",
+        "duration": "1 min"
+    },
+    "Whitaker-Lopata": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Whitaker-Goldfarb": {
+        "distance": "154 ft",
+        "duration": "1 min"
+    },
+    "Whitaker-Steinberg": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Whitaker-Jubel": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Whitaker-Seigle": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Whitaker-Hillman": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Whitaker-Tietjens": {
+        "distance": "0.7 mi",
+        "duration": "16 mins"
+    },
+    "Whitaker-Green": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Whitaker-McDonnell": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Whitaker-Urbauer": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Whitaker-Rudolph": {
+        "distance": "174 ft",
+        "duration": "1 min"
+    },
+    "Whitaker-Eads": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Whitaker-McMillan": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Whitaker-Bixby": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Whitaker-Walker": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Whitaker-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Whitaker-Givens": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Whitaker-Sumers": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Whitaker-Wrighton": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Whitaker-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Whitaker-Bauer": {
+        "distance": "154 ft",
+        "duration": "1 min"
+    },
+    "Busch-Lopata": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Busch-Goldfarb": {
+        "distance": "1 ft",
+        "duration": "1 min"
+    },
+    "Busch-Steinberg": {
+        "distance": "449 ft",
+        "duration": "2 mins"
+    },
+    "Busch-Jubel": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Busch-Seigle": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Busch-Hillman": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Busch-Tietjens": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Busch-Green": {
+        "distance": "246 ft",
+        "duration": "1 min"
+    },
+    "Busch-McDonnell": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Busch-Urbauer": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Busch-Rudolph": {
+        "distance": "131 ft",
+        "duration": "1 min"
+    },
+    "Busch-Eads": {
+        "distance": "0.5 mi",
+        "duration": "9 mins"
+    },
+    "Busch-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Busch-Bixby": {
+        "distance": "331 ft",
+        "duration": "1 min"
+    },
+    "Busch-Walker": {
+        "distance": "358 ft",
+        "duration": "2 mins"
+    },
+    "Busch-Ridgley": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Busch-Givens": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Busch-Sumers": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Busch-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Busch-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Busch-Bauer": {
+        "distance": "1 ft",
+        "duration": "1 min"
+    },
+    "Lopata-Goldfarb": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Lopata-Steinberg": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Lopata-Jubel": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Lopata-Seigle": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Lopata-Hillman": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Lopata-Tietjens": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Lopata-Green": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Lopata-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Lopata-Urbauer": {
+        "distance": "0.5 mi",
+        "duration": "9 mins"
+    },
+    "Lopata-Rudolph": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Lopata-Eads": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Lopata-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Lopata-Bixby": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Lopata-Walker": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Lopata-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Lopata-Givens": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Lopata-Sumers": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Lopata-Wrighton": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Lopata-Jolley": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Lopata-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Goldfarb-Steinberg": {
+        "distance": "449 ft",
+        "duration": "2 mins"
+    },
+    "Goldfarb-Jubel": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Goldfarb-Seigle": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Goldfarb-Hillman": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Goldfarb-Tietjens": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Goldfarb-Green": {
+        "distance": "246 ft",
+        "duration": "1 min"
+    },
+    "Goldfarb-McDonnell": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Goldfarb-Urbauer": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Goldfarb-Rudolph": {
+        "distance": "131 ft",
+        "duration": "1 min"
+    },
+    "Goldfarb-Eads": {
+        "distance": "0.5 mi",
+        "duration": "9 mins"
+    },
+    "Goldfarb-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Goldfarb-Bixby": {
+        "distance": "331 ft",
+        "duration": "1 min"
+    },
+    "Goldfarb-Walker": {
+        "distance": "358 ft",
+        "duration": "2 mins"
+    },
+    "Goldfarb-Ridgley": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Goldfarb-Givens": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Goldfarb-Sumers": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Goldfarb-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Goldfarb-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Goldfarb-Bauer": {
+        "distance": "1 ft",
+        "duration": "1 min"
+    },
+    "Steinberg-Jubel": {
+        "distance": "253 ft",
+        "duration": "1 min"
+    },
+    "Steinberg-Seigle": {
+        "distance": "0.6 mi",
+        "duration": "15 mins"
+    },
+    "Steinberg-Hillman": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Steinberg-Tietjens": {
+        "distance": "0.5 mi",
+        "duration": "13 mins"
+    },
+    "Steinberg-Green": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Steinberg-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "6 mins"
+    },
+    "Steinberg-Urbauer": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Steinberg-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Steinberg-Eads": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Steinberg-McMillan": {
+        "distance": "0.6 mi",
+        "duration": "14 mins"
+    },
+    "Steinberg-Bixby": {
+        "distance": "115 ft",
+        "duration": "1 min"
+    },
+    "Steinberg-Walker": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Steinberg-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Steinberg-Givens": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Steinberg-Sumers": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Steinberg-Wrighton": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Steinberg-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Steinberg-Bauer": {
+        "distance": "449 ft",
+        "duration": "2 mins"
+    },
+    "Jubel-Seigle": {
+        "distance": "0.6 mi",
+        "duration": "14 mins"
+    },
+    "Jubel-Hillman": {
+        "distance": "423 ft",
+        "duration": "2 mins"
+    },
+    "Jubel-Tietjens": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Jubel-Green": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Jubel-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Jubel-Urbauer": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Jubel-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Jubel-Eads": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Jubel-McMillan": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Jubel-Bixby": {
+        "distance": "328 ft",
+        "duration": "1 min"
+    },
+    "Jubel-Walker": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Jubel-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Jubel-Givens": {
+        "distance": "344 ft",
+        "duration": "2 mins"
+    },
+    "Jubel-Sumers": {
+        "distance": "0.2 mi",
+        "duration": "6 mins"
+    },
+    "Jubel-Wrighton": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Jubel-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Jubel-Bauer": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Seigle-Hillman": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Seigle-Tietjens": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Seigle-Green": {
+        "distance": "0.7 mi",
+        "duration": "14 mins"
+    },
+    "Seigle-McDonnell": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Seigle-Urbauer": {
+        "distance": "0.8 mi",
+        "duration": "16 mins"
+    },
+    "Seigle-Rudolph": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Seigle-Eads": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Seigle-McMillan": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Seigle-Bixby": {
+        "distance": "0.7 mi",
+        "duration": "14 mins"
+    },
+    "Seigle-Walker": {
+        "distance": "0.7 mi",
+        "duration": "14 mins"
+    },
+    "Seigle-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Seigle-Givens": {
+        "distance": "0.6 mi",
+        "duration": "12 mins"
+    },
+    "Seigle-Sumers": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Seigle-Wrighton": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Seigle-Jolley": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Seigle-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Hillman-Tietjens": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Hillman-Green": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Hillman-McDonnell": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Hillman-Urbauer": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Hillman-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Hillman-Eads": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Hillman-McMillan": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Hillman-Bixby": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Hillman-Walker": {
+        "distance": "0.3 mi",
+        "duration": "5 mins"
+    },
+    "Hillman-Ridgley": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Hillman-Givens": {
+        "distance": "394 ft",
+        "duration": "2 mins"
+    },
+    "Hillman-Sumers": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Hillman-Wrighton": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Hillman-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Hillman-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Tietjens-Green": {
+        "distance": "0.8 mi",
+        "duration": "16 mins"
+    },
+    "Tietjens-McDonnell": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Tietjens-Urbauer": {
+        "distance": "0.9 mi",
+        "duration": "18 mins"
+    },
+    "Tietjens-Rudolph": {
+        "distance": "0.7 mi",
+        "duration": "14 mins"
+    },
+    "Tietjens-Eads": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Tietjens-McMillan": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Tietjens-Bixby": {
+        "distance": "0.6 mi",
+        "duration": "11 mins"
+    },
+    "Tietjens-Walker": {
+        "distance": "0.7 mi",
+        "duration": "14 mins"
+    },
+    "Tietjens-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Tietjens-Givens": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Tietjens-Sumers": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Tietjens-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Tietjens-Jolley": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Tietjens-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Green-McDonnell": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Green-Urbauer": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Green-Rudolph": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Green-Eads": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Green-McMillan": {
+        "distance": "0.6 mi",
+        "duration": "14 mins"
+    },
+    "Green-Bixby": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Green-Walker": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Green-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Green-Givens": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Green-Sumers": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Green-Wrighton": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Green-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Green-Bauer": {
+        "distance": "246 ft",
+        "duration": "1 min"
+    },
+    "McDonnell-Urbauer": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "McDonnell-Rudolph": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "McDonnell-Eads": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "McDonnell-McMillan": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "McDonnell-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "5 mins"
+    },
+    "McDonnell-Walker": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "McDonnell-Ridgley": {
+        "distance": "85 ft",
+        "duration": "1 min"
+    },
+    "McDonnell-Givens": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "McDonnell-Sumers": {
+        "distance": "282 ft",
+        "duration": "1 min"
+    },
+    "McDonnell-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "McDonnell-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "McDonnell-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Urbauer-Rudolph": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Urbauer-Eads": {
+        "distance": "0.7 mi",
+        "duration": "15 mins"
+    },
+    "Urbauer-McMillan": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Urbauer-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Urbauer-Walker": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Urbauer-Ridgley": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Urbauer-Givens": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Urbauer-Sumers": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Urbauer-Wrighton": {
+        "distance": "0.6 mi",
+        "duration": "14 mins"
+    },
+    "Urbauer-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Urbauer-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Rudolph-Eads": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Rudolph-McMillan": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Rudolph-Bixby": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Rudolph-Walker": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Rudolph-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Rudolph-Givens": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Rudolph-Sumers": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Rudolph-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Rudolph-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Rudolph-Bauer": {
+        "distance": "131 ft",
+        "duration": "1 min"
+    },
+    "Eads-McMillan": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Eads-Bixby": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Eads-Walker": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Eads-Ridgley": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Eads-Givens": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Eads-Sumers": {
+        "distance": "407 ft",
+        "duration": "2 mins"
+    },
+    "Eads-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Eads-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Eads-Bauer": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "McMillan-Bixby": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "McMillan-Walker": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "McMillan-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "McMillan-Givens": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "McMillan-Sumers": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "McMillan-Wrighton": {
+        "distance": "397 ft",
+        "duration": "2 mins"
+    },
+    "McMillan-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "McMillan-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Bixby-Walker": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Bixby-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "6 mins"
+    },
+    "Bixby-Givens": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Bixby-Sumers": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Bixby-Wrighton": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Bixby-Jolley": {
+        "distance": "0.5 mi",
+        "duration": "10 mins"
+    },
+    "Bixby-Bauer": {
+        "distance": "331 ft",
+        "duration": "1 min"
+    },
+    "Walker-Ridgley": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Walker-Givens": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Walker-Sumers": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Walker-Wrighton": {
+        "distance": "0.5 mi",
+        "duration": "12 mins"
+    },
+    "Walker-Jolley": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Walker-Bauer": {
+        "distance": "358 ft",
+        "duration": "2 mins"
+    },
+    "Ridgley-Givens": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Ridgley-Sumers": {
+        "distance": "367 ft",
+        "duration": "2 mins"
+    },
+    "Ridgley-Wrighton": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Ridgley-Jolley": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Ridgley-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Givens-Sumers": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Givens-Wrighton": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Givens-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "Givens-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Sumers-Wrighton": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Sumers-Jolley": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Sumers-Bauer": {
+        "distance": "0.4 mi",
+        "duration": "7 mins"
+    },
+    "Wrighton-Jolley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Wrighton-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Jolley-Bauer": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Simon-Bixby": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Jubel-Mallinckrodt": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Jubel-Kemper": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Seigle-Mallinckrodt": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Seigle-Kemper": {
+        "distance": "0.6 mi",
+        "duration": "12 mins"
+    },
+    "Hillman-Mallinckrodt": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Hillman-Kemper": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Tietjens-Mallinckrodt": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Tietjens-Kemper": {
+        "distance": "0.6 mi",
+        "duration": "13 mins"
+    },
+    "Mallinckrodt-Green": {
+        "distance": "0.6 mi",
+        "duration": "12 mins"
+    },
+    "Mallinckrodt-McDonnell": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Mallinckrodt-Urbauer": {
+        "distance": "0.7 mi",
+        "duration": "15 mins"
+    },
+    "Mallinckrodt-Rudolph": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Mallinckrodt-Eads": {
+        "distance": "0.1 mi",
+        "duration": "3 mins"
+    },
+    "Mallinckrodt-McMillan": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Mallinckrodt-Bixby": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Mallinckrodt-Walker": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Mallinckrodt-Ridgley": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Mallinckrodt-Givens": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Mallinckrodt-Kemper": {
+        "distance": "0.5 mi",
+        "duration": "9 mins"
+    },
+    "Mallinckrodt-Sumers": {
+        "distance": "0.1 mi",
+        "duration": "2 mins"
+    },
+    "Mallinckrodt-Wrighton": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Mallinckrodt-Jolley": {
+        "distance": "0.4 mi",
+        "duration": "8 mins"
+    },
+    "Mallinckrodt-Bauer": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Green-Kemper": {
+        "distance": "220 ft",
+        "duration": "1 min"
+    },
+    "McDonnell-Kemper": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Urbauer-Kemper": {
+        "distance": "0.2 mi",
+        "duration": "3 mins"
+    },
+    "Rudolph-Kemper": {
+        "distance": "0.3 mi",
+        "duration": "7 mins"
+    },
+    "Eads-Kemper": {
+        "distance": "0.4 mi",
+        "duration": "9 mins"
+    },
+    "McMillan-Kemper": {
+        "distance": "0.5 mi",
+        "duration": "11 mins"
+    },
+    "Bixby-Kemper": {
+        "distance": "0.2 mi",
+        "duration": "4 mins"
+    },
+    "Walker-Kemper": {
+        "distance": "377 ft",
+        "duration": "2 mins"
+    },
+    "Ridgley-Kemper": {
+        "distance": "0.3 mi",
+        "duration": "6 mins"
+    },
+    "Givens-Kemper": {
+        "distance": "0.2 mi",
+        "duration": "5 mins"
+    },
+    "Kemper-Sumers": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Kemper-Wrighton": {
+        "distance": "0.4 mi",
+        "duration": "10 mins"
+    },
+    "Kemper-Jolley": {
+        "distance": "0.3 mi",
+        "duration": "8 mins"
+    },
+    "Kemper-Bauer": {
+        "distance": "26 ft",
+        "duration": "1 min"
+    },
+        "Jubel-Gaylord": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Jubel-Crow": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Jubel-560": {
+            "distance": "1.0 mi",
+            "duration": "24 mins"
+        },
+        "Seigle-Gaylord": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Seigle-Crow": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Seigle-560": {
+            "distance": "0.5 mi",
+            "duration": "13 mins"
+        },
+        "Hillman-Gaylord": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Hillman-Crow": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Hillman-560": {
+            "distance": "1.0 mi",
+            "duration": "23 mins"
+        },
+        "Tietjens-Gaylord": {
+            "distance": "338 ft",
+            "duration": "1 min"
+        },
+        "Tietjens-Crow": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Tietjens-560": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Mallinckrodt-Gaylord": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Mallinckrodt-Crow": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Mallinckrodt-560": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Green-Gaylord": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Green-Crow": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Green-560": {
+            "distance": "1.1 mi",
+            "duration": "26 mins"
+        },
+        "McDonnell-Gaylord": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "McDonnell-Crow": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "McDonnell-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "Urbauer-Gaylord": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Urbauer-Crow": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Urbauer-560": {
+            "distance": "1.2 mi",
+            "duration": "26 mins"
+        },
+        "Rudolph-Gaylord": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Rudolph-Crow": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Rudolph-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "Eads-Gaylord": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Eads-Crow": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Eads-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "McMillan-Gaylord": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "McMillan-Crow": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "McMillan-560": {
+            "distance": "0.5 mi",
+            "duration": "12 mins"
+        },
+        "Bixby-Gaylord": {
+            "distance": "0.5 mi",
+            "duration": "12 mins"
+        },
+        "Bixby-Crow": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Bixby-560": {
+            "distance": "1.1 mi",
+            "duration": "26 mins"
+        },
+        "Walker-Gaylord": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Walker-Crow": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Walker-560": {
+            "distance": "1.1 mi",
+            "duration": "26 mins"
+        },
+        "Ridgley-Gaylord": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Ridgley-Crow": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Ridgley-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "Givens-Gaylord": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Givens-Crow": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Givens-560": {
+            "distance": "1.0 mi",
+            "duration": "24 mins"
+        },
+        "Kemper-Gaylord": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Kemper-Crow": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Kemper-560": {
+            "distance": "1.0 mi",
+            "duration": "24 mins"
+        },
+        "Sumers-Gaylord": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Sumers-Crow": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Sumers-560": {
+            "distance": "0.8 mi",
+            "duration": "20 mins"
+        },
+        "Gaylord-Crow": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Gaylord-560": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Gaylord-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Gaylord-Jolley": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Gaylord-Olin": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Crow-560": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Crow-Wrighton": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Crow-Jolley": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Crow-Olin": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "560-Wrighton": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "560-Jolley": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "560-Olin": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Becker-Jubel": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Becker-Seigle": {
+            "distance": "3.5 mi",
+            "duration": "1 hour 17 mins"
+        },
+        "Becker-Hillman": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "Becker-Danforth": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 15 mins"
+        },
+        "Becker-Wilson": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 13 mins"
+        },
+        "Becker-Tietjens": {
+            "distance": "3.5 mi",
+            "duration": "1 hour 18 mins"
+        },
+        "Becker-Rebstock": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 13 mins"
+        },
+        "Becker-Mallinckrodt": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 14 mins"
+        },
+        "Becker-Green": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Becker-McDonnell": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Becker-Urbauer": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 5 mins"
+        },
+        "Becker-Rudolph": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "Becker-Eads": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 13 mins"
+        },
+        "Becker-McMillan": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 15 mins"
+        },
+        "Becker-Bixby": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 5 mins"
+        },
+        "Becker-BJC": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Becker-Walker": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Becker-Ridgley": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Becker-Givens": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "Becker-Kemper": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "Becker-Gary": {
+            "distance": "3.6 mi",
+            "duration": "1 hour 19 mins"
+        },
+        "Becker-Gaylord": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 16 mins"
+        },
+        "Becker-Crow": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "Becker-560": {
+            "distance": "3.8 mi",
+            "duration": "1 hour 24 mins"
+        },
+        "Becker-Wrighton": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 13 mins"
+        },
+        "Becker-Jolley": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 11 mins"
+        },
+        "Becker-Olin": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 16 mins"
+        },
+        "Becker-S40": {
+            "distance": "3.6 mi",
+            "duration": "1 hour 20 mins"
+        },
+        "Becker-Compton": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "Jubel-Danforth": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Jubel-Wilson": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Jubel-Rebstock": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Jubel-BJC": {
+            "distance": "2.6 mi",
+            "duration": "57 mins"
+        },
+        "Jubel-Gary": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Jubel-S40": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Jubel-Compton": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Seigle-Danforth": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Seigle-Wilson": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Seigle-Rebstock": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Seigle-BJC": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Seigle-Gary": {
+            "distance": "0.2 mi",
+            "duration": "3 mins"
+        },
+        "Seigle-S40": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Seigle-Compton": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Hillman-Danforth": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Hillman-Wilson": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Hillman-Rebstock": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Hillman-Gary": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Hillman-S40": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Hillman-Compton": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Danforth-Wilson": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Danforth-Tietjens": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Danforth-Rebstock": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Danforth-Mallinckrodt": {
+            "distance": "243 ft",
+            "duration": "1 min"
+        },
+        "Danforth-Green": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Danforth-McDonnell": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Danforth-Urbauer": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Danforth-Rudolph": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Danforth-Eads": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Danforth-McMillan": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Danforth-Bixby": {
+            "distance": "0.5 mi",
+            "duration": "9 mins"
+        },
+        "Danforth-BJC": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "Danforth-Walker": {
+            "distance": "0.6 mi",
+            "duration": "12 mins"
+        },
+        "Danforth-Ridgley": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Danforth-Givens": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Danforth-Kemper": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Danforth-Gary": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Danforth-Gaylord": {
+            "distance": "354 ft",
+            "duration": "2 mins"
+        },
+        "Danforth-Crow": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Danforth-560": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Danforth-Wrighton": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Danforth-Jolley": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Danforth-Olin": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Danforth-S40": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Danforth-Compton": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Wilson-Tietjens": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Wilson-Rebstock": {
+            "distance": "1 ft",
+            "duration": "1 min"
+        },
+        "Wilson-Mallinckrodt": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Wilson-Green": {
+            "distance": "0.6 mi",
+            "duration": "11 mins"
+        },
+        "Wilson-McDonnell": {
+            "distance": "0.1 mi",
+            "duration": "2 mins"
+        },
+        "Wilson-Urbauer": {
+            "distance": "0.7 mi",
+            "duration": "14 mins"
+        },
+        "Wilson-Rudolph": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Wilson-Eads": {
+            "distance": "1 ft",
+            "duration": "1 min"
+        },
+        "Wilson-McMillan": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Wilson-Bixby": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Wilson-BJC": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Wilson-Walker": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Wilson-Ridgley": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Wilson-Givens": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Wilson-Kemper": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Wilson-Gary": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Wilson-Gaylord": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Wilson-Crow": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Wilson-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "Wilson-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Wilson-Jolley": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Wilson-Olin": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Wilson-S40": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Wilson-Compton": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Tietjens-Rebstock": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Tietjens-BJC": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "Tietjens-Gary": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Tietjens-S40": {
+            "distance": "0.2 mi",
+            "duration": "3 mins"
+        },
+        "Tietjens-Compton": {
+            "distance": "0.6 mi",
+            "duration": "12 mins"
+        },
+        "Rebstock-Mallinckrodt": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Rebstock-Green": {
+            "distance": "0.6 mi",
+            "duration": "11 mins"
+        },
+        "Rebstock-McDonnell": {
+            "distance": "0.1 mi",
+            "duration": "2 mins"
+        },
+        "Rebstock-Urbauer": {
+            "distance": "0.7 mi",
+            "duration": "14 mins"
+        },
+        "Rebstock-Rudolph": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Rebstock-Eads": {
+            "distance": "1 ft",
+            "duration": "1 min"
+        },
+        "Rebstock-McMillan": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Rebstock-Bixby": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Rebstock-BJC": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Rebstock-Walker": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Rebstock-Ridgley": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Rebstock-Givens": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Rebstock-Kemper": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Rebstock-Gary": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Rebstock-Gaylord": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Rebstock-Crow": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Rebstock-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "Rebstock-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Rebstock-Jolley": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Rebstock-Olin": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Rebstock-S40": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Rebstock-Compton": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Mallinckrodt-BJC": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "Mallinckrodt-Gary": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Mallinckrodt-S40": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Mallinckrodt-Compton": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Green-BJC": {
+            "distance": "2.5 mi",
+            "duration": "54 mins"
+        },
+        "Green-Gary": {
+            "distance": "0.8 mi",
+            "duration": "19 mins"
+        },
+        "Green-S40": {
+            "distance": "0.9 mi",
+            "duration": "20 mins"
+        },
+        "Green-Compton": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "McDonnell-Gary": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "McDonnell-S40": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "McDonnell-Compton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Urbauer-Gary": {
+            "distance": "0.9 mi",
+            "duration": "20 mins"
+        },
+        "Urbauer-S40": {
+            "distance": "1.0 mi",
+            "duration": "22 mins"
+        },
+        "Urbauer-Compton": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Rudolph-Gary": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Rudolph-S40": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Rudolph-Compton": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Eads-Gary": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Eads-S40": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Eads-Compton": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "McMillan-Gary": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "McMillan-S40": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "McMillan-Compton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Bixby-Gary": {
+            "distance": "0.7 mi",
+            "duration": "17 mins"
+        },
+        "Bixby-S40": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Bixby-Compton": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "BJC-Walker": {
+            "distance": "2.5 mi",
+            "duration": "54 mins"
+        },
+        "BJC-Ridgley": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 1 min"
+        },
+        "BJC-Givens": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "BJC-Kemper": {
+            "distance": "2.4 mi",
+            "duration": "53 mins"
+        },
+        "BJC-Gary": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "BJC-Gaylord": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "BJC-Crow": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "BJC-560": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 16 mins"
+        },
+        "BJC-Wrighton": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "BJC-Jolley": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "BJC-Olin": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "BJC-S40": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 11 mins"
+        },
+        "BJC-Compton": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "Walker-Gary": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Walker-S40": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Walker-Compton": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Ridgley-Gary": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Ridgley-S40": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Ridgley-Compton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Givens-Gary": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Givens-S40": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Givens-Compton": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Kemper-Gary": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Kemper-S40": {
+            "distance": "0.7 mi",
+            "duration": "17 mins"
+        },
+        "Kemper-Compton": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Gary-Gaylord": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Gary-Crow": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Gary-560": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Gary-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Gary-Jolley": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Gary-Olin": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Gary-S40": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Gary-Compton": {
+            "distance": "0.6 mi",
+            "duration": "12 mins"
+        },
+        "Gaylord-S40": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Gaylord-Compton": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Crow-S40": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Crow-Compton": {
+            "distance": "325 ft",
+            "duration": "1 min"
+        },
+        "560-S40": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "560-Compton": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Wrighton-S40": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Wrighton-Compton": {
+            "distance": "0.3 mi",
+            "duration": "5 mins"
+        },
+        "Jolley-S40": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Jolley-Compton": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Olin-S40": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Olin-Compton": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Becker-Simon": {
+            "distance": "3.5 mi",
+            "duration": "1 hour 17 mins"
+        },
+        "Becker-Ann": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Becker-Anheuser-Busch": {
+            "distance": "7.4 mi",
+            "duration": "2 hours 46 mins"
+        },
+        "Becker-Gephardt": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 15 mins"
+        },
+        "Becker-Clinical": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Becker-Umrath": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 15 mins"
+        },
+        "Jubel-Simon": {
+            "distance": "0.5 mi",
+            "duration": "12 mins"
+        },
+        "Jubel-Ann": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Jubel-Anheuser-Busch": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 4 mins"
+        },
+        "Jubel-Gephardt": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Jubel-Clinical": {
+            "distance": "2.6 mi",
+            "duration": "56 mins"
+        },
+        "Jubel-Umrath": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Seigle-Simon": {
+            "distance": "0.2 mi",
+            "duration": "3 mins"
+        },
+        "Seigle-Ann": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Seigle-Anheuser-Busch": {
+            "distance": "5.2 mi",
+            "duration": "1 hour 58 mins"
+        },
+        "Seigle-Gephardt": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Seigle-Clinical": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 5 mins"
+        },
+        "Seigle-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Hillman-Simon": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Hillman-Ann": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Hillman-Anheuser-Busch": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 3 mins"
+        },
+        "Hillman-Gephardt": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Hillman-Clinical": {
+            "distance": "2.6 mi",
+            "duration": "58 mins"
+        },
+        "Hillman-Umrath": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Danforth-Simon": {
+            "distance": "226 ft",
+            "duration": "1 min"
+        },
+        "Danforth-Ann": {
+            "distance": "0.7 mi",
+            "duration": "14 mins"
+        },
+        "Danforth-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Danforth-Gephardt": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Danforth-Clinical": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "Danforth-Umrath": {
+            "distance": "253 ft",
+            "duration": "1 min"
+        },
+        "Wilson-Simon": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Wilson-Ann": {
+            "distance": "0.6 mi",
+            "duration": "12 mins"
+        },
+        "Wilson-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Wilson-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Wilson-Clinical": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "Tietjens-Simon": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Tietjens-Ann": {
+            "distance": "0.8 mi",
+            "duration": "17 mins"
+        },
+        "Tietjens-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 2 mins"
+        },
+        "Tietjens-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Tietjens-Clinical": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Tietjens-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Rebstock-Simon": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Rebstock-Ann": {
+            "distance": "0.6 mi",
+            "duration": "12 mins"
+        },
+        "Rebstock-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Rebstock-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Rebstock-Clinical": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "Rebstock-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Mallinckrodt-Simon": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Mallinckrodt-Ann": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Mallinckrodt-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 2 mins"
+        },
+        "Mallinckrodt-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Mallinckrodt-Clinical": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Mallinckrodt-Umrath": {
+            "distance": "279 ft",
+            "duration": "1 min"
+        },
+        "Green-Simon": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Green-Ann": {
+            "distance": "184 ft",
+            "duration": "1 min"
+        },
+        "Green-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 3 mins"
+        },
+        "Green-Gephardt": {
+            "distance": "0.6 mi",
+            "duration": "15 mins"
+        },
+        "Green-Clinical": {
+            "distance": "2.4 mi",
+            "duration": "53 mins"
+        },
+        "Green-Umrath": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "McDonnell-Simon": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "McDonnell-Ann": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "McDonnell-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "McDonnell-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "McDonnell-Clinical": {
+            "distance": "2.7 mi",
+            "duration": "1 hour 0 mins"
+        },
+        "McDonnell-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Urbauer-Simon": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Urbauer-Ann": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Urbauer-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Urbauer-Gephardt": {
+            "distance": "0.8 mi",
+            "duration": "17 mins"
+        },
+        "Urbauer-Clinical": {
+            "distance": "2.5 mi",
+            "duration": "55 mins"
+        },
+        "Urbauer-Umrath": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Rudolph-Simon": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Rudolph-Ann": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Rudolph-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 2 mins"
+        },
+        "Rudolph-Gephardt": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Rudolph-Clinical": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "Rudolph-Umrath": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Eads-Simon": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Eads-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Eads-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Eads-Clinical": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "Eads-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "McMillan-Simon": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "McMillan-Ann": {
+            "distance": "0.7 mi",
+            "duration": "14 mins"
+        },
+        "McMillan-Gephardt": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "McMillan-Clinical": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "McMillan-Umrath": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Bixby-Simon": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Bixby-Ann": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Bixby-Anheuser-Busch": {
+            "distance": "5.6 mi",
+            "duration": "2 hours 6 mins"
+        },
+        "Bixby-Gephardt": {
+            "distance": "0.4 mi",
+            "duration": "11 mins"
+        },
+        "Bixby-Clinical": {
+            "distance": "2.5 mi",
+            "duration": "55 mins"
+        },
+        "Bixby-Umrath": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "BJC-Simon": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "BJC-Ann": {
+            "distance": "2.5 mi",
+            "duration": "55 mins"
+        },
+        "BJC-Anheuser-Busch": {
+            "distance": "7.1 mi",
+            "duration": "2 hours 39 mins"
+        },
+        "BJC-Gephardt": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "BJC-Clinical": {
+            "distance": "246 ft",
+            "duration": "1 min"
+        },
+        "BJC-Umrath": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Walker-Simon": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Walker-Ann": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Walker-Anheuser-Busch": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 3 mins"
+        },
+        "Walker-Gephardt": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Walker-Clinical": {
+            "distance": "2.4 mi",
+            "duration": "53 mins"
+        },
+        "Walker-Umrath": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Ridgley-Simon": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Ridgley-Ann": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Ridgley-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Ridgley-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Ridgley-Clinical": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "Ridgley-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Givens-Simon": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Givens-Ann": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Givens-Anheuser-Busch": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 4 mins"
+        },
+        "Givens-Gephardt": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Givens-Clinical": {
+            "distance": "2.6 mi",
+            "duration": "57 mins"
+        },
+        "Givens-Umrath": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Mildred-Simon": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Mildred-Ann": {
+            "distance": "404 ft",
+            "duration": "2 mins"
+        },
+        "Mildred-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 2 mins"
+        },
+        "Mildred-Gephardt": {
+            "distance": "0.5 mi",
+            "duration": "12 mins"
+        },
+        "Mildred-Clinical": {
+            "distance": "2.4 mi",
+            "duration": "52 mins"
+        },
+        "Mildred-Umrath": {
+            "distance": "0.5 mi",
+            "duration": "12 mins"
+        },
+        "Simon-Ann": {
+            "distance": "0.8 mi",
+            "duration": "16 mins"
+        },
+        "Simon-Gary": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Simon-Anheuser-Busch": {
+            "distance": "5.3 mi",
+            "duration": "2 hours 0 mins"
+        },
+        "Simon-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Simon-Clinical": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 5 mins"
+        },
+        "Simon-Gaylord": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Simon-Crow": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Simon-560": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Simon-Wrighton": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Simon-Jolley": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Simon-Olin": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Simon-South": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Simon-Compton": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Simon-Umrath": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Ann-Gary": {
+            "distance": "0.8 mi",
+            "duration": "19 mins"
+        },
+        "Ann-Anheuser-Busch": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 3 mins"
+        },
+        "Ann-Gephardt": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Ann-Clinical": {
+            "distance": "2.5 mi",
+            "duration": "54 mins"
+        },
+        "Ann-Gaylord": {
+            "distance": "0.7 mi",
+            "duration": "17 mins"
+        },
+        "Ann-Crow": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Ann-560": {
+            "distance": "1.1 mi",
+            "duration": "27 mins"
+        },
+        "Ann-Wrighton": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Ann-Jolley": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Ann-Olin": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Ann-South": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "Ann-Compton": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Ann-Umrath": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Gary-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Gary-Gephardt": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Gary-Clinical": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "Gary-Umrath": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Anheuser-Busch-Gephardt": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Anheuser-Busch-Clinical": {
+            "distance": "7.0 mi",
+            "duration": "2 hours 35 mins"
+        },
+        "Anheuser-Busch-Gaylord": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 0 mins"
+        },
+        "Anheuser-Busch-Crow": {
+            "distance": "5.3 mi",
+            "duration": "1 hour 55 mins"
+        },
+        "Anheuser-Busch-560": {
+            "distance": "4.7 mi",
+            "duration": "1 hour 43 mins"
+        },
+        "Anheuser-Busch-Wrighton": {
+            "distance": "5.3 mi",
+            "duration": "1 hour 55 mins"
+        },
+        "Anheuser-Busch-Jolley": {
+            "distance": "5.3 mi",
+            "duration": "1 hour 57 mins"
+        },
+        "Anheuser-Busch-Olin": {
+            "distance": "5.2 mi",
+            "duration": "1 hour 53 mins"
+        },
+        "Anheuser-Busch-South": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 1 min"
+        },
+        "Anheuser-Busch-Compton": {
+            "distance": "5.3 mi",
+            "duration": "1 hour 56 mins"
+        },
+        "Anheuser-Busch-Umrath": {
+            "distance": "5.4 mi",
+            "duration": "1 hour 58 mins"
+        },
+        "Gephardt-Clinical": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "Gephardt-Gaylord": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Gephardt-Crow": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Gephardt-560": {
+            "distance": "0.8 mi",
+            "duration": "19 mins"
+        },
+        "Gephardt-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Gephardt-Jolley": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Gephardt-Olin": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Gephardt-South": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Gephardt-Compton": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Gephardt-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Clinical-Gaylord": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "Clinical-Crow": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "Clinical-560": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 15 mins"
+        },
+        "Clinical-Wrighton": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Clinical-Jolley": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 1 min"
+        },
+        "Clinical-Olin": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Clinical-South": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Clinical-Compton": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "Clinical-Umrath": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 5 mins"
+        },
+        "Gaylord-Umrath": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Crow-Umrath": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "560-Umrath": {
+            "distance": "0.7 mi",
+            "duration": "17 mins"
+        },
+        "Wrighton-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Jolley-Umrath": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Olin-Umrath": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Compton-Umrath": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Becker-January": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 9 mins"
+        },
+        "Becker-Blewett": {
+            "distance": "3.5 mi",
+            "duration": "1 hour 17 mins"
+        },
+        "Becker-Farrell": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Becker-Sumers": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Becker-Sever": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Jubel-January": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Jubel-Blewett": {
+            "distance": "0.4 mi",
+            "duration": "11 mins"
+        },
+        "Jubel-Farrell": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 1 min"
+        },
+        "Jubel-Sever": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Seigle-January": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Seigle-Blewett": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Seigle-Farrell": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Seigle-Sever": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Hillman-January": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Hillman-Blewett": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Hillman-Farrell": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "Hillman-Sever": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Danforth-January": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Danforth-Blewett": {
+            "distance": "449 ft",
+            "duration": "2 mins"
+        },
+        "Danforth-Farrell": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 8 mins"
+        },
+        "Danforth-Sumers": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Danforth-Sever": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Wilson-January": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Wilson-Blewett": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Wilson-Farrell": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Wilson-Sumers": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Wilson-Sever": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "January-Blewett": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "January-Tietjens": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "January-Rebstock": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "January-Mallinckrodt": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "January-Green": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "January-McDonnell": {
+            "distance": "115 ft",
+            "duration": "1 min"
+        },
+        "January-Urbauer": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "January-Farrell": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "January-Rudolph": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "January-Eads": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "January-McMillan": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "January-Bixby": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "January-BJC": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 0 mins"
+        },
+        "January-Walker": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "January-Ridgley": {
+            "distance": "30 ft",
+            "duration": "1 min"
+        },
+        "January-Givens": {
+            "distance": "0.2 mi",
+            "duration": "3 mins"
+        },
+        "January-Mildred": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "January-Simon": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "January-Ann": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "January-Sumers": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "January-Gary": {
+            "distance": "0.5 mi",
+            "duration": "12 mins"
+        },
+        "January-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 1 min"
+        },
+        "January-Gephardt": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "January-Clinical": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "January-Gaylord": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "January-Crow": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "January-560": {
+            "distance": "0.9 mi",
+            "duration": "21 mins"
+        },
+        "January-Sever": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "January-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "January-Jolley": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "January-Olin": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "January-South": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "January-Compton": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "January-Umrath": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Blewett-Tietjens": {
+            "distance": "243 ft",
+            "duration": "1 min"
+        },
+        "Blewett-Rebstock": {
+            "distance": "0.3 mi",
+            "duration": "5 mins"
+        },
+        "Blewett-Mallinckrodt": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Blewett-Green": {
+            "distance": "0.7 mi",
+            "duration": "15 mins"
+        },
+        "Blewett-McDonnell": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Blewett-Urbauer": {
+            "distance": "0.8 mi",
+            "duration": "17 mins"
+        },
+        "Blewett-Farrell": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Blewett-Rudolph": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Blewett-Eads": {
+            "distance": "0.3 mi",
+            "duration": "5 mins"
+        },
+        "Blewett-McMillan": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Blewett-Bixby": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Blewett-BJC": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Blewett-Walker": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Blewett-Ridgley": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Blewett-Givens": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Blewett-Mildred": {
+            "distance": "0.6 mi",
+            "duration": "12 mins"
+        },
+        "Blewett-Simon": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Blewett-Ann": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Blewett-Sumers": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Blewett-Gary": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Blewett-Anheuser-Busch": {
+            "distance": "5.5 mi",
+            "duration": "2 hours 3 mins"
+        },
+        "Blewett-Gephardt": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Blewett-Clinical": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 5 mins"
+        },
+        "Blewett-Gaylord": {
+            "distance": "95 ft",
+            "duration": "1 min"
+        },
+        "Blewett-Crow": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Blewett-560": {
+            "distance": "0.8 mi",
+            "duration": "18 mins"
+        },
+        "Blewett-Sever": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Blewett-Wrighton": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Blewett-Jolley": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Blewett-Olin": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Blewett-South": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Blewett-Compton": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Blewett-Umrath": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Tietjens-Farrell": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 11 mins"
+        },
+        "Tietjens-Sever": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Rebstock-Farrell": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Rebstock-Sumers": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Rebstock-Sever": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Mallinckrodt-Farrell": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "Mallinckrodt-Sever": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Green-Farrell": {
+            "distance": "2.6 mi",
+            "duration": "58 mins"
+        },
+        "Green-Sever": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "McDonnell-Sever": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Urbauer-Sever": {
+            "distance": "0.5 mi",
+            "duration": "11 mins"
+        },
+        "Farrell-Rudolph": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Farrell-Eads": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "Farrell-McMillan": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Farrell-Bixby": {
+            "distance": "2.7 mi",
+            "duration": "59 mins"
+        },
+        "Farrell-BJC": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Farrell-Walker": {
+            "distance": "2.6 mi",
+            "duration": "57 mins"
+        },
+        "Farrell-Ridgley": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "Farrell-Givens": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 2 mins"
+        },
+        "Farrell-Mildred": {
+            "distance": "2.6 mi",
+            "duration": "56 mins"
+        },
+        "Farrell-Simon": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 11 mins"
+        },
+        "Farrell-Ann": {
+            "distance": "2.7 mi",
+            "duration": "58 mins"
+        },
+        "Farrell-Sumers": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 1 min"
+        },
+        "Farrell-Gary": {
+            "distance": "3.3 mi",
+            "duration": "1 hour 13 mins"
+        },
+        "Farrell-Anheuser-Busch": {
+            "distance": "7.2 mi",
+            "duration": "2 hours 41 mins"
+        },
+        "Farrell-Gephardt": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Farrell-Clinical": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Farrell-Gaylord": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 11 mins"
+        },
+        "Farrell-Crow": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Farrell-560": {
+            "distance": "3.5 mi",
+            "duration": "1 hour 19 mins"
+        },
+        "Farrell-Sever": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 4 mins"
+        },
+        "Farrell-Wrighton": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 7 mins"
+        },
+        "Farrell-Jolley": {
+            "distance": "3.0 mi",
+            "duration": "1 hour 6 mins"
+        },
+        "Farrell-Olin": {
+            "distance": "3.2 mi",
+            "duration": "1 hour 10 mins"
+        },
+        "Farrell-South": {
+            "distance": "3.4 mi",
+            "duration": "1 hour 14 mins"
+        },
+        "Farrell-Compton": {
+            "distance": "2.9 mi",
+            "duration": "1 hour 3 mins"
+        },
+        "Farrell-Umrath": {
+            "distance": "3.1 mi",
+            "duration": "1 hour 9 mins"
+        },
+        "Rudolph-Sever": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "Eads-Sever": {
+            "distance": "0.2 mi",
+            "duration": "6 mins"
+        },
+        "McMillan-Sever": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Bixby-Sever": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "BJC-Sumers": {
+            "distance": "2.6 mi",
+            "duration": "57 mins"
+        },
+        "BJC-Sever": {
+            "distance": "2.8 mi",
+            "duration": "1 hour 1 min"
+        },
+        "Walker-Sever": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Ridgley-Sever": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Givens-Sever": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Mildred-Sever": {
+            "distance": "0.3 mi",
+            "duration": "7 mins"
+        },
+        "Simon-Sumers": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Simon-Sever": {
+            "distance": "0.4 mi",
+            "duration": "8 mins"
+        },
+        "Ann-Sumers": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Ann-Sever": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Sumers-Gary": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Sumers-Anheuser-Busch": {
+            "distance": "5.4 mi",
+            "duration": "2 hours 2 mins"
+        },
+        "Sumers-Gephardt": {
+            "distance": "0.4 mi",
+            "duration": "10 mins"
+        },
+        "Sumers-Clinical": {
+            "distance": "2.6 mi",
+            "duration": "56 mins"
+        },
+        "Sumers-Sever": {
+            "distance": "0.2 mi",
+            "duration": "5 mins"
+        },
+        "Sumers-South": {
+            "distance": "0.6 mi",
+            "duration": "14 mins"
+        },
+        "Sumers-Compton": {
+            "distance": "0.2 mi",
+            "duration": "4 mins"
+        },
+        "Sumers-Umrath": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Gary-Sever": {
+            "distance": "0.5 mi",
+            "duration": "10 mins"
+        },
+        "Anheuser-Busch-Sever": {
+            "distance": "5.2 mi",
+            "duration": "1 hour 54 mins"
+        },
+        "Gephardt-Sever": {
+            "distance": "0.3 mi",
+            "duration": "8 mins"
+        },
+        "Clinical-Sever": {
+            "distance": "2.7 mi",
+            "duration": "1 hour 0 mins"
+        },
+        "Gaylord-Sever": {
+            "distance": "0.4 mi",
+            "duration": "9 mins"
+        },
+        "Crow-Sever": {
+            "distance": "371 ft",
+            "duration": "2 mins"
+        },
+        "560-Sever": {
+            "distance": "0.7 mi",
+            "duration": "16 mins"
+        },
+        "Sever-Wrighton": {
+            "distance": "0.2 mi",
+            "duration": "3 mins"
+        },
+        "Sever-Jolley": {
+            "distance": "0.2 mi",
+            "duration": "3 mins"
+        },
+        "Sever-Olin": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+        "Sever-South": {
+            "distance": "0.6 mi",
+            "duration": "13 mins"
+        },
+        "Sever-Compton": {
+            "distance": "0.1 mi",
+            "duration": "3 mins"
+        },
+        "Sever-Umrath": {
+            "distance": "0.3 mi",
+            "duration": "6 mins"
+        },
+
+        "Becker-Academy": {
+                "distance": "3.3 mi",
+                "duration": "1 hour 14 mins"
+            },
+            "Becker-Life": {
+                "distance": "3.3 mi",
+                "duration": "1 hour 13 mins"
+            },
+            "Becker-TechArtista": {
+                "distance": "3.8 mi",
+                "duration": "1 hour 24 mins"
+            },
+            "Becker-Village": {
+                "distance": "3.6 mi",
+                "duration": "1 hour 19 mins"
+            },
+            "Jubel-Academy": {
+                "distance": "0.5 mi",
+                "duration": "11 mins"
+            },
+            "Jubel-Life": {
+                "distance": "0.3 mi",
+                "duration": "7 mins"
+            },
+            "Jubel-TechArtista": {
+                "distance": "1.2 mi",
+                "duration": "27 mins"
+            },
+            "Jubel-Village": {
+                "distance": "0.7 mi",
+                "duration": "16 mins"
+            },
+            "Seigle-Academy": {
+                "distance": "0.4 mi",
+                "duration": "9 mins"
+            },
+            "Seigle-Life": {
+                "distance": "0.4 mi",
+                "duration": "8 mins"
+            },
+            "Seigle-TechArtista": {
+                "distance": "0.9 mi",
+                "duration": "20 mins"
+            },
+            "Seigle-Village": {
+                "distance": "0.1 mi",
+                "duration": "3 mins"
+            },
+            "Hillman-Academy": {
+                "distance": "0.4 mi",
+                "duration": "10 mins"
+            },
+            "Hillman-Life": {
+                "distance": "0.3 mi",
+                "duration": "6 mins"
+            },
+            "Hillman-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "26 mins"
+            },
+            "Hillman-Village": {
+                "distance": "0.6 mi",
+                "duration": "14 mins"
+            },
+            "Danforth-Academy": {
+                "distance": "0.4 mi",
+                "duration": "9 mins"
+            },
+            "Danforth-Life": {
+                "distance": "0.2 mi",
+                "duration": "3 mins"
+            },
+            "Danforth-TechArtista": {
+                "distance": "1.0 mi",
+                "duration": "23 mins"
+            },
+            "Danforth-Village": {
+                "distance": "0.3 mi",
+                "duration": "8 mins"
+            },
+            "Wilson-Life": {
+                "distance": "138 ft",
+                "duration": "1 min"
+            },
+            "Wilson-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "Wilson-Village": {
+                "distance": "0.6 mi",
+                "duration": "13 mins"
+            },
+            "January-Life": {
+                "distance": "0.1 mi",
+                "duration": "3 mins"
+            },
+            "January-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "January-Village": {
+                "distance": "0.6 mi",
+                "duration": "12 mins"
+            },
+            "Blewett-Life": {
+                "distance": "0.2 mi",
+                "duration": "5 mins"
+            },
+            "Blewett-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "25 mins"
+            },
+            "Blewett-Village": {
+                "distance": "0.4 mi",
+                "duration": "10 mins"
+            },
+            "Tietjens-Life": {
+                "distance": "0.3 mi",
+                "duration": "6 mins"
+            },
+            "Tietjens-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "Tietjens-Village": {
+                "distance": "0.4 mi",
+                "duration": "9 mins"
+            },
+            "Rebstock-Life": {
+                "distance": "138 ft",
+                "duration": "1 min"
+            },
+            "Rebstock-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "Rebstock-Village": {
+                "distance": "0.6 mi",
+                "duration": "13 mins"
+            },
+            "Mallinckrodt-Life": {
+                "distance": "0.1 mi",
+                "duration": "2 mins"
+            },
+            "Mallinckrodt-TechArtista": {
+                "distance": "1.1 mi",
+                "duration": "25 mins"
+            },
+            "Mallinckrodt-Village": {
+                "distance": "0.4 mi",
+                "duration": "10 mins"
+            },
+            "Green-Village": {
+                "distance": "0.8 mi",
+                "duration": "18 mins"
+            },
+            "McDonnell-Village": {
+                "distance": "0.5 mi",
+                "duration": "12 mins"
+            },
+            "Urbauer-Village": {
+                "distance": "0.8 mi",
+                "duration": "17 mins"
+            },
+            "Farrell-Village": {
+                "distance": "3.3 mi",
+                "duration": "1 hour 13 mins"
+            },
+            "Rudolph-Village": {
+                "distance": "0.6 mi",
+                "duration": "12 mins"
+            },
+            "Eads-Village": {
+                "distance": "0.6 mi",
+                "duration": "13 mins"
+            },
+            "McMillan-Village": {
+                "distance": "0.2 mi",
+                "duration": "4 mins"
+            },
+            "Bixby-Village": {
+                "distance": "0.8 mi",
+                "duration": "18 mins"
+            },
+            "BJC-Village": {
+                "distance": "3.2 mi",
+                "duration": "1 hour 10 mins"
+            },
+            "Walker-Village": {
+                "distance": "0.8 mi",
+                "duration": "18 mins"
+            },
+            "Ridgley-Village": {
+                "distance": "0.6 mi",
+                "duration": "12 mins"
+            },
+            "Givens-Village": {
+                "distance": "0.7 mi",
+                "duration": "16 mins"
+            },
+            "Mildred-Village": {
+                "distance": "0.7 mi",
+                "duration": "16 mins"
+            },
+            "Simon-Village": {
+                "distance": "0.3 mi",
+                "duration": "7 mins"
+            },
+            "Ann-Village": {
+                "distance": "0.8 mi",
+                "duration": "19 mins"
+            },
+            "Sumers-Village": {
+                "distance": "0.6 mi",
+                "duration": "14 mins"
+            },
+            "Gary-Village": {
+                "distance": "0.3 mi",
+                "duration": "6 mins"
+            },
+            "Anheuser-Busch-Village": {
+                "distance": "5.2 mi",
+                "duration": "1 hour 55 mins"
+            },
+            "Gephardt-Village": {
+                "distance": "0.5 mi",
+                "duration": "11 mins"
+            },
+            "Clinical-Village": {
+                "distance": "3.1 mi",
+                "duration": "1 hour 9 mins"
+            },
+            "Gaylord-Village": {
+                "distance": "0.4 mi",
+                "duration": "9 mins"
+            },
+            "Crow-Village": {
+                "distance": "0.5 mi",
+                "duration": "11 mins"
+            },
+            "560-Village": {
+                "distance": "0.5 mi",
+                "duration": "12 mins"
+            },
+            "Sever-Village": {
+                "distance": "0.4 mi",
+                "duration": "9 mins"
+            },
+            "Wrighton-Village": {
+                "distance": "0.3 mi",
+                "duration": "5 mins"
+            },
+            "Jolley-Village": {
+                "distance": "0.4 mi",
+                "duration": "8 mins"
+            },
+            "Becker-Lewis": {
+                "distance": "3.8 mi",
+                "duration": "1 hour 24 mins"
+            },
+            "Jubel-Lewis": {
+                "distance": "1.2 mi",
+                "duration": "27 mins"
+            },
+            "Seigle-Lewis": {
+                "distance": "0.9 mi",
+                "duration": "20 mins"
+            },
+            "Hillman-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "26 mins"
+            },
+            "Danforth-Lewis": {
+                "distance": "1.0 mi",
+                "duration": "23 mins"
+            },
+            "Wilson-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "January-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "Blewett-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "25 mins"
+            },
+            "Tietjens-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "Rebstock-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "24 mins"
+            },
+            "Mallinckrodt-Lewis": {
+                "distance": "1.1 mi",
+                "duration": "25 mins"
+            }
+}

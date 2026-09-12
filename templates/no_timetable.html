@@ -3,58 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>No Schedules Found</title>
     <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            margin: 0;
-            padding: 0;
-
-            /* Flexbox for centering */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh; /* full viewport height */
-            text-align: center;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #f5f6f5;
+            color: #1a202c;
+            min-height: 100vh;
+            padding: 32px 18px;
         }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .content {
+            max-width: 720px;
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
         }
-
+        .header {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+        img { width: 84px; height: 84px; object-fit: contain; flex: 0 0 auto; }
         h1 {
-            color: #a51417;
+            font-size: 1.55rem;
+            color: #2d3748;
+            font-weight: 700;
+            margin-bottom: 6px;
         }
-
         p {
-            color: #333;
-            margin: 20px 0;
+            color: #718096;
+            font-size: 0.98rem;
+            line-height: 1.55;
         }
-
-        a {
+        h2 {
+            font-size: 1rem;
+            color: #2d3748;
+            margin: 22px 0 10px;
+        }
+        .suggestions {
+            display: grid;
+            gap: 10px;
+        }
+        .suggestion {
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 12px 14px;
+            background: #fffafa;
+            text-align: left;
+        }
+        .suggestion strong {
+            display: block;
+            color: #1a202c;
+            font-size: 0.96rem;
+            margin-bottom: 2px;
+        }
+        .suggestion span {
+            color: #718096;
+            font-size: 0.88rem;
+        }
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .chip {
+            border: 1px solid #e2e8f0;
+            border-radius: 999px;
+            padding: 6px 10px;
+            font-size: 0.83rem;
+            color: #4a5568;
+            background: #f8fafc;
+        }
+        .btn {
             display: inline-block;
-            padding: 20px 40px;
-            color: #fff;
-            background-color: #a51417;
+            padding: 12px 22px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: white;
+            background: #a51417;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
             text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
+            margin-top: 24px;
         }
-
-        img {
-            max-width: 90%;
-            height: auto;
+        .btn:hover { background: #8a1013; }
+        @media (max-width: 560px) {
+            .content { padding: 22px; }
+            .header { align-items: flex-start; }
+            img { width: 64px; height: 64px; }
         }
     </style>
+    {% include '_theme_head.html' %}
 </head>
-<body>
-    <div class="container">
-        <img src="/static/jsonfiles/washubear.jpeg" alt="Bear Says hi!">
-        <h1>No Schedule Found!</h1>
-        <a href="javascript:history.back()">Go Back</a>
-    </div>
+<body class="no-timetable-page">
+    {% include '_theme_toggle.html' %}
+    
+    <main class="content">
+        <div class="header">
+            <img src="{{ url_for('static', filename='beary.png') }}" alt="">
+            <div>
+                <h1>No Possible Schedules</h1>
+                <p>Your selected courses and preferences could not produce a conflict-free schedule.</p>
+            </div>
+        </div>
+
+        {% if suggestions %}
+        <h2>Best adjustments to try</h2>
+        <div class="suggestions">
+            {% for suggestion in suggestions %}
+            <div class="suggestion">
+                <strong>{{ suggestion.display }}</strong>
+                <span>Quick check found up to {{ suggestion.count }} possible schedule{{ '' if suggestion.count == 1 else 's' }}.</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>No simple one-step adjustment fixed this set. Try adding back more professors, removing blocked times, or dropping one course.</p>
+        {% endif %}
+
+        {% if selected_courses %}
+        <h2>Selected courses</h2>
+        <div class="chips">
+            {% for course in selected_courses %}
+            <span class="chip">{{ course }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <a href="{{ url_for('index') }}" class="btn">Home</a>
+    </main>
+    
 </body>
 </html>

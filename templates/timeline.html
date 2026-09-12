@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BearPlans Timeline</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            min-height: 100vh;
+            background: #f5f6f5;
+            color: #1a202c;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            padding: 24px 18px 44px;
+        }
+
+        .page {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 34px;
+        }
+
+        .home-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #d7dee8;
+            border-radius: 999px;
+            background: #ffffff;
+            color: #2d3748;
+            font-size: 0.9rem;
+            font-weight: 700;
+            padding: 9px 14px;
+            text-decoration: none;
+        }
+
+        .eyebrow {
+            color: #a51417;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            color: #1a202c;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.05;
+            margin-bottom: 12px;
+        }
+
+        .intro {
+            max-width: 680px;
+            color: #4a5568;
+            font-size: 1rem;
+            line-height: 1.65;
+            margin-bottom: 34px;
+        }
+
+        .timeline {
+            position: relative;
+            display: grid;
+            gap: 16px;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            top: 8px;
+            bottom: 8px;
+            left: 118px;
+            width: 2px;
+            background: #d9e0ea;
+        }
+
+        .entry {
+            display: grid;
+            grid-template-columns: 96px 1fr;
+            gap: 44px;
+            position: relative;
+        }
+
+        .date {
+            color: #4a5568;
+            font-size: 0.9rem;
+            font-weight: 800;
+            padding-top: 18px;
+            text-align: right;
+        }
+
+        .card {
+            position: relative;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 18px 20px;
+            box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 24px;
+            left: -31px;
+            width: 14px;
+            height: 14px;
+            border: 3px solid #a51417;
+            border-radius: 50%;
+            background: #ffffff;
+            z-index: 1;
+        }
+
+        .card h2 {
+            color: #2d3748;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+        }
+
+        .card p {
+            color: #4a5568;
+            font-size: 0.95rem;
+            line-height: 1.55;
+        }
+
+        .timeline-footer {
+            border-top: 1px solid #e2e8f0;
+            color: #718096;
+            font-size: 0.85rem;
+            line-height: 1.55;
+            margin-top: 34px;
+            padding-top: 18px;
+        }
+
+        .timeline-footer a {
+            color: #a51417;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        @media (max-width: 620px) {
+            .timeline::before { left: 10px; }
+            .entry {
+                grid-template-columns: 1fr;
+                gap: 8px;
+                padding-left: 34px;
+            }
+            .date {
+                padding-top: 0;
+                text-align: left;
+            }
+            .card::before {
+                left: -31px;
+                top: 22px;
+            }
+        }
+    </style>
+    {% include '_theme_head.html' %}
+</head>
+<body class="timeline-page">
+    {% include '_theme_toggle.html' %}
+
+    <main class="page">
+        <nav class="nav">
+            <a href="{{ url_for('index') }}" class="home-link">Home</a>
+        </nav>
+
+        <p class="eyebrow">Product timeline</p>
+        <h1>BearPlans Growth</h1>
+        <p class="intro">
+            A simple month-by-month record of the scheduler's growth, starting with the first public launch notes and continuing with current site updates.
+        </p>
+
+        <section class="timeline" aria-label="BearPlans product timeline">
+            <article class="entry">
+                <div class="date">Aug 2024</div>
+                <div class="card">
+                    <h2>First public scheduler launch</h2>
+                    <p>BearPlans launched as a WashU schedule planner for exploring conflict-free class combinations before registration.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Sep 2024</div>
+                <div class="card">
+                    <h2>Reddit feedback session</h2>
+                    <p>Public feedback from the WashU Reddit community shaped early fixes, usability changes, and feature priorities.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Nov 2024</div>
+                <div class="card">
+                    <h2>80 users milestone</h2>
+                    <p>The project reached 80 users during its first registration-season run.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Feb 2025</div>
+                <div class="card">
+                    <h2>Multiple free-time options</h2>
+                    <p>Schedule preferences expanded with support for multiple unavailable time windows.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">May 2025</div>
+                <div class="card">
+                    <h2>WebSTAC to Workday move</h2>
+                    <p>BearPlans began adapting to WashU's registration move from WebSTAC to Workday.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Jun 2025</div>
+                <div class="card">
+                    <h2>Feature extravaganza</h2>
+                    <p>Filter by professor, Rate My Professors support, share-with-friends tools, and dark mode were added. Walking distance was archived to keep the scheduler focused and faster.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Aug 2025</div>
+                <div class="card">
+                    <h2>One-year anniversary</h2>
+                    <p>BearPlans marked one year of helping WashU students compare possible schedules.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Jan 2026</div>
+                <div class="card">
+                    <h2>480 users milestone</h2>
+                    <p>The planner reached 480 users as usage continued growing across registration cycles.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Feb 2026</div>
+                <div class="card">
+                    <h2>Algorithm speed revamp</h2>
+                    <p>The schedule generation algorithm was rebuilt for faster searching, better pruning, and more responsive results.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Mar 2026</div>
+                <div class="card">
+                    <h2>Official WashU ONE integration</h2>
+                    <p>BearPlans was added to WashU ONE, making it easier for students to discover from official campus tools.</p>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="date">Jun 2026</div>
+                <div class="card">
+                    <h2>Workday extension and dark mode</h2>
+                    <p>The Chrome extension workflow was added for importing Workday course sections directly, alongside dark mode work and the updated timeline.</p>
+                </div>
+            </article>
+        </section>
+
+        <footer class="timeline-footer">
+            <p>&copy; 2026 BearPlans | Contact: <a href="mailto:bearplansofficial@gmail.com">bearplansofficial@gmail.com</a> | <a href="https://www.instagram.com/bearplansofficial/" target="_blank">@bearplansofficial</a> on Instagram</p>
+        </footer>
+    </main>
+
+</body>
+</html>

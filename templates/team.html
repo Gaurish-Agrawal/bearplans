@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+        /* --- Reset & Base Styles --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        /* --- Main Container --- */
+        .container {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 40px;
+            text-align: center;
+        }
+
+        /* --- Typography --- */
+        h1 {
+            font-weight: 300;
+            font-size: 3rem;
+            letter-spacing: -1px;
+            color: #000;
+        }
+
+        /* --- Button Styling --- */
+        .home-btn {
+            display: inline-block;
+            text-decoration: none;
+            
+            /* Color & Border */
+            color: #000000;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            
+            /* Shape */
+            border-radius: 50px; /* Creates the fully curved "pill" shape */
+            padding: 12px 32px;
+            
+            /* Text Attributes */
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+            /* Spacing & Transition */
+            margin-bottom: 80px; /* Space between button and the grid below */
+            transition: all 0.3s ease;
+        }
+
+        /* Button Hover Effect */
+        .home-btn:hover {
+            background-color: #000000;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* --- Team Grid Layout --- */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 60px 40px;
+            justify-content: center;
+        }
+
+        /* --- Member Card --- */
+        .member-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .image-container {
+            width: 100%;
+            max-width: 280px;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            margin-bottom: 24px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        .member-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%); /* Minimalist black & white */
+            transition: filter 0.4s ease, transform 0.4s ease;
+        }
+
+        .member-card:hover .member-image {
+            filter: grayscale(0%); /* Color on hover */
+            transform: scale(1.03);
+        }
+
+        .member-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #000;
+        }
+
+        .member-title {
+            font-size: 0.9rem;
+            color: #888;
+            font-weight: 400;
+        }
+
+    </style>
+    {% include '_theme_head.html' %}
+</head>
+<body class="team-page">
+    {% include '_theme_toggle.html' %}
+
+    <main class="container">
+        
+        <h1 style="margin-bottom: 40px;">The Team</h1>
+
+        <div class="team-grid">
+            
+            <div class="member-card">
+                <div class="image-container">
+                    <img src="static/pps/panda.png" alt="Sarah Jenkins" class="member-image">
+                </div>
+                <h2 class="member-name">Panda</h2>
+                <p class="member-title">Founder</p>
+            </div>
+
+            <div class="member-card">
+                <div class="image-container">
+                    <img src="static/pps/lion.png" alt="David Chen" class="member-image">
+                </div>
+                <h2 class="member-name">Lion</h2>
+                <p class="member-title">Campus Ambassador</p>
+            </div>
+
+            <div class="member-card">
+                <div class="image-container">
+                    <img src="static/pps/lion.png" alt="David Chen" class="member-image">
+                </div>
+                <h2 class="member-name">Cat</h2>
+                <p class="member-title">Campus Ambassador</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <center>
+            <p>We want to stay anonomyous so here are our favorite animals!</p><br>
+            <a href="/" class="home-btn">Home</a>
+        </center>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+dist/
+artifacts/
+shared_codes/
+shared_schedules/

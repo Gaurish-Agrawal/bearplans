@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>Possible Schedules</title>
+
+    <script>
+        const generatedSchedules = {{ school | tojson }};
+    </script>
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f5f6f5;
+            color: #1a202c;
+            line-height: 1.5;
+            padding: 20px;
+        }
+        .slideshow-container { max-width: 1200px; margin: 0 auto; }
+        h1 { text-align: center; font-size: 1.8rem; color: #2d3748; margin: 20px 0; font-weight: 600; }
+        .controls { text-align: center; margin-bottom: 20px; }
+        .controls a {
+            color: #4a5568;
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 0 8px;
+            border-radius: 6px;
+            transition: background-color 0.2s, color 0.2s;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .controls a:hover { background-color: #e2e8f0; color: #2d3748; }
+        .controls a.copied::after {
+            content: "\2713";
+            margin-left: 8px;
+            color: green;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            table-layout: fixed;
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 0;
+            text-align: center;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f7fafc;
+            color: #2d3748;
+            padding: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        td.schedule-cell { position: relative; height: 64px; }
+        td.highlight {
+            background-color: #f7fafc;
+            font-size: 0.85rem;
+            font-weight: 500;
+            width: 6%;
+            vertical-align: middle;  /* <-- Add this line */
+            text-align: center;
+        }
+        .course-block {
+    position: absolute;
+    width: 100%; /* Fills the whole cell */
+    background-color: white;
+    color: #2d3748;
+    padding: 8px;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    word-break: break-word;
+    min-height: 90px;
+}
+        .course-block span { margin: 1px 0; }
+        .course-block span:first-child { font-weight: 600; }
+        .course-block span:nth-child(2) { text-decoration: underline; font-size: 0.7rem; }
+        .styled-time-box {
+            background-color: #edf2f7;
+            border-radius: 8px;
+            padding: 8px 12px;
+            color: #2d3748;
+            font-size: 0.85rem;
+            margin: 8px;
+            border: 1px solid #e2e8f0;
+            display: inline-block;
+        }
+
+        
+
+.course-border-wrapper {
+    border: 1px dashed
+ black;
+}
+
+#matchone{
+    font-weight: 500;color: black;
+}
+
+    </style>
+</head>
+<body>
+
+
+    <div class="slideshow-container">
+        {% for classes in school %}
+        {% set active_days = [] %}
+        {% for course, info in classes.items() %}
+            {% for d in info.days %}
+                {% if d not in active_days %}
+                    {% set _ = active_days.append(d) %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        <div class="mySlides">
+            {% if not matchedlist %}
+            {% if not sharedList %}
+            <h1>WashU Schedule {{ loop.index }}/{{ loop.length }}</h1>
+            <div class="controls" style="display: flex; justify-content: center; align-items: center; position: relative;">
+    <div style="display: flex; gap: 16px;">
+        <a href="javascript:window.history.back()">Return</a>
+        <a href="javascript:plusSlides(-1)">Prev</a>
+        <a href="javascript:plusSlides(1)">Next</a>
+        <a id="{{ loop.index }}" onclick='myFunction({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+    </div>
+    <button onclick="openComparePopup()" style="
+        position: absolute;
+        right: 0;
+        padding: 8px 14px;
+        background: #a51417;
+        border: 1px solid black;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    ">Compare with Friends</button>
+</div>
+            {% endif %}
+            {% endif %}
+
+            {% if matchedlist %}
+            <h1 style="color: black;;">Best Matching Schedule</h1>
+            
+            <center>
+    <h3 id="matchone" style="font-weight: 400; color: black; display: inline-block; margin-right: 20px">paired with #{{friendMatchedSchedule}} from friend's list</h3>
+    <h3 style="font-weight: 400; color: grey; display: inline-block;"><span style="border: 1px dashed #98002E; padding: 4px 6px; border-radius: 6px;">dashed classes indicate overlap</span></h3>
+</center><br>
+            <div class="controls">
+                <a href="javascript:window.history.back()">Return</a>
+                <a id="{{ loop.index }}" onclick='myFunction({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+            </div>
+            {% endif %}
+
+
+            {% if sharedList %}
+            <h1>Shared Schedule {{ loop.index }}/{{ loop.length }}</h1>
+            <div class="controls" style="display: flex; justify-content: center; align-items: center; position: relative;">
+    <div style="display: flex; gap: 16px;">
+        <a href="javascript:window.history.back()">Return</a>
+        <a href="javascript:plusSlides(-1)">Prev</a>
+        <a href="javascript:plusSlides(1)">Next</a>
+        <a id="{{ loop.index }}" onclick='myFunction({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+    </div>
+    <div style="
+        position: absolute;
+        right: 0;
+        padding: 8px 14px;
+        background: #a51417;
+        border: 1px solid black;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    ">Code: {{code}}</div>
+    </div>
+
+            {% endif %}
+
+            
+
+            
+            <table>
+                <tr>
+                    <th style="width: 5%">Time</th>
+                    {% set all_days = ['M', 'T', 'W', 'R', 'F', 'S'] %}
+                    {% for day in all_days %}
+                        <th style="width: {{ '3%' if day not in active_days else (95 // active_days|length) ~ '%' }}">{{ day }}</th>
+                    {% endfor %}
+                </tr>
+
+                {% set periods = ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00"] %}
+                {% for time in periods %}
+                <tr>
+                    <td class="highlight"><b>
+                        {% set hour = time.split(':')[0] | int %}
+                        {% if hour == 0 %}
+                            12 AM
+                        {% elif hour < 12 %}
+                            {{ hour }} AM
+                        {% elif hour == 12 %}
+                            12 PM
+                        {% else %}
+                            {{ hour - 12 }} PM
+                        {% endif %}
+                    </b></td>
+                    {% for day in all_days %}
+                    <td class="schedule-cell">
+                        {% for course, info in classes.items() %}
+                            {% set day_index = all_days.index(day) %}
+                            {% if info['days'][day_index] == day and time == info['times'][0] %}
+                                {% set start_index = periods.index(info['times'][0]) %}
+                                {% set end_index = periods.index(info['times'][-1]) %}
+                                {% set block_height = 64 * (end_index - start_index + 1) %}
+                                
+
+                                {% if info.matched %}
+                                    <div class="course-block course-border-wrapper" style="background-color: {{ info.boxcolor }}; height: {{ block_height }}px;">
+                                        <span>{{ course }}</span>
+                                        <span>{{ info.code }} {{ info.subsection }}</span>
+                                        <span>{{ info.timestring }}</span>
+                                        <span>{{ info.prof }}</span>
+                                </div>
+                                {% else %}
+                                <div class="course-block" style="background-color: {{ info.boxcolor }}; height: {{ block_height }}px;">
+                                    <span>{{ course }}</span>
+                                    <span>{{ info.code }} {{ info.subsection }}</span>
+                                    <span>{{ info.timestring }}</span>
+                                    <span>{{ info.prof }}</span>
+                                </div>
+                                {% endif %}
+
+                            {% endif %}
+                        {% endfor %}
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+
+                <tr>
+                    <td></td>
+                    {% for distances in displayDistances[loop.index] %}
+                    <td>
+                        {% for d in distances %}
+                            <p class="styled-time-box">{{ d }}</p>
+                        {% endfor %}
+                    </td>
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+
+        let slideIndex = 1;
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            const slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) slideIndex = 1;
+            if (n < 1) slideIndex = slides.length;
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                const btn = document.getElementById("copyBtn" + (i + 1));
+                if (btn) {
+                    btn.innerHTML = "Copy";
+                    btn.classList.remove("copied");
+                }
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+
+        
+        function copyToClipboard(text,buttonId) {
+            navigator.clipboard.writeText(text).then(() => { 
+                
+                const btn = document.getElementById(buttonId);
+                if (btn) {
+                    btn.innerHTML = "Copied";
+                    btn.classList.add("copied");
+
+                    // Optionally reset after 2 seconds
+                    setTimeout(() => {
+                        btn.innerHTML = "Copy";
+                        btn.classList.remove("copied");
+                    }, 2000);
+                }
+
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
+
+        function myFunction(classes, index) {
+            const courses = JSON.parse((JSON.stringify(classes)));
+            let text = 'My WashU Schedule \n\n';
+            for (const courseName in courses) {
+                if (courses.hasOwnProperty(courseName)) {
+                    const course = courses[courseName];
+                    text += `Course Name: ${courseName} (${course.code} ${course.subsection})\n`;
+                    text += `Timing: ${course.days} ${course.timestring}\n`;
+                    text += `Who: ${course.prof}\n`;
+                    text += '\n';
+                }
+            }
+            text += "Made on: " + new Date().toLocaleString();
+            text += '\nMore Details: https://one.washu.edu/task/all/workday';
+
+            copyToClipboard(text,index);
+        }
+
+
+        showSlides(slideIndex);
+    </script>
+
+
+
+
+
+
+
+
+<div id="comparePopup" style="
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 24px;
+    width: 90%;
+    max-width: 400px;
+    z-index: 1000;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-align: center;
+    color: #111;
+">
+
+<!-- Generate and copy code -->
+    <button onclick="generateShareCode()" id="generateMyCode" style="
+        padding: 10px 18px;
+        font-size: 15px;
+        background: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 500;
+    ">Generate My Code</button>
+
+    <div id="myCodeResult" style="
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin-top: 14px;
+    margin-bottom: 12px;
+    gap: 10px;
+    flex-direction: row;
+" class="code-display-flex">
+    </div>
+    
+
+
+
+    <div id="myCodeResult" style="display: none;">
+            <span id="generatedCodeText"></span>
+    </div>
+
+    <style>
+        #helpBtn {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 21px;
+      cursor: pointer;
+      padding-bottom: 2px;
+      margin-left: 5px;
+    }
+
+    /* The popup background overlay */
+    .popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* The popup content box */
+    .popup-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: auto;
+      max-height: auto;
+    }
+
+    .popup-content p {
+      margin-bottom: 20px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .popup-content button {
+      padding: 10px 18px;
+    font-size: 15px;
+    background: #a51417;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    }
+    </style>
+
+    <!-- Friend code input -->
+    <input id="friendCodeInput" type="text" placeholder="Enter friend's code" style="
+        padding: 10px;
+        width: auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-bottom: 12px;
+        margin-right: 10px;
+    ">
+    <button onclick="fetchFriendMatch()" style="
+        padding: 10px 18px;
+        font-size: 15px;
+        background: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 500;
+        margin-bottom: 20px;
+    ">Find Match</button>
+
+    <!-- Match result output -->
+    <div id="matchResult" style="
+        font-size: 15px;
+        color: #222;
+        font-weight: 500;
+    "></div>
+
+    <!-- Close button -->
+    <button onclick="closeComparePopup()" style="
+    padding: 10px 18px;
+    font-size: 15px;
+    background: #a51417;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+">Close</button>
+
+
+<button id="helpBtn" onclick="openPopup()"> ? </button>
+
+<!-- Popup -->
+<div class="popup-overlay" id="helpPopup">
+  <div class="popup-content">
+    <p>This feature compares your possible schedules with a friend's to find the best option with the most overlapping classes, making it easy to coordinate and take courses together.</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+<script>
+  function openPopup() {
+    document.getElementById("helpPopup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("helpPopup").style.display = "none";
+  }
+</script>
+
+
+</div>
+
+
+<script>
+
+    function copyToClipboard10(text) {
+    navigator.clipboard.writeText(text)
+        .then(() => console.log('Text copied to clipboard'))
+        .catch(err => console.error('Failed to copy text: ', err));
+}
+
+function generateShareCode() {
+    const generatedSchedules = {{ school | tojson }};
+    if (!generatedSchedules || !Array.isArray(generatedSchedules) || generatedSchedules.length === 0) {
+        alert("No schedules to share.");
+        return;
+    }
+
+    
+
+    fetch("/save_shared_schedule", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ schedules: generatedSchedules })
+    })
+    .then(res => res.json())
+    .then(data => {
+        
+        
+        
+
+        if (data.code) {
+    document.getElementById("myCodeResult").innerText = data.code + "\nReplaces Previous Code";
+}
+
+else {
+            alert("Server error: no code returned.");
+        }
+    })
+    .catch(err => {
+        console.error("Error:", err);
+        alert("Failed to generate share code.");
+    });
+};
+
+// Fixed function to check if two courses overlap
+function coursesOverlap(c1, c2, courseName) {
+    return (
+        c1.code === c2.code &&
+        c1.subsection === c2.subsection &&
+        c1.prof === c2.prof &&
+        c1.days === c2.days &&
+        JSON.stringify(c1.times.sort()) === JSON.stringify(c2.times.sort())
+    );
+}
+
+// Fixed function to get overlapping courses between two schedules
+function getOverlappingCourses(schedule1, schedule2) {
+    var overlapping = [];
+    
+    for (const courseName in schedule1) {
+        if (schedule2.hasOwnProperty(courseName)) {
+            if (coursesOverlap(schedule1[courseName], schedule2[courseName], courseName)) {
+                overlapping.push(courseName);
+            }
+        }
+    }
+    
+    return overlapping;
+}
+
+// Fixed function to count overlaps between two schedules
+function countOverlap(schedule1, schedule2) {
+    return getOverlappingCourses(schedule1, schedule2).length;
+}
+
+// Fixed function to find best overall match
+function findBestOverallMatch(mySchedules, friendSchedules) {
+    let bestMatch = {
+        bestMySchedule: null,
+        bestMyScheduleIndex: -1,
+        bestMatchingFriendSchedule: -1,
+        overlapCount: 0
+    };
+
+    for (let i = 0; i < mySchedules.length; i++) {
+        for (let j = 0; j < friendSchedules.length; j++) {
+            const overlapCount = countOverlap(mySchedules[i], friendSchedules[j]);
+            
+            //alert(j+1);
+            //alert(friendSchedules[j]);
+
+            if (overlapCount > bestMatch.overlapCount) {
+                
+                bestMatch = {
+                    bestMySchedule: mySchedules[i],
+                    bestMyScheduleIndex: i,
+                    bestMatchingFriendSchedule: j,
+                    overlapCount: overlapCount
+                };
+            }
+        }
+    }
+
+    //alert(JSON.stringify(bestMatch, null, 2));
+
+    return bestMatch;
+}
+
+function fetchFriendMatch() {
+    const friendCode = document.getElementById("friendCodeInput").value.trim().toUpperCase();
+    if (!friendCode) return;
+    
+    fetch(`/get_shared_schedule/${friendCode}`)
+    .then(res => res.json())
+    .then(data => {
+        
+        if (data.error) {
+            alert("Code not found.");
+            return;
+        }
+        
+        const friendSchedulesRaw = data.schedules;
+        const friendSchedules = Array.isArray(friendSchedulesRaw) ? friendSchedulesRaw : [friendSchedulesRaw];
+        
+        try {
+            const result = findBestOverallMatch(generatedSchedules, friendSchedules);
+            
+            if (result.overlapCount === 0) {
+                alert("No overlapping courses found.");
+                return;
+            }
+            
+            // FIX: Use the correct friend schedule index (0-based from result)
+            const friendMatchedScheduleIndex = result.bestMatchingFriendSchedule;
+            
+            const overlappingCourseNames = getOverlappingCourses(
+                result.bestMySchedule, 
+                friendSchedules[friendMatchedScheduleIndex]
+            );
+            
+            const show = confirm(`Found your best schedule!\nMatched with your friend's schedule #${friendMatchedScheduleIndex + 1}.\nOverlapping courses: ${overlappingCourseNames.join(', ')}\n\nShow it?`);
+            
+            if (show) {
+                // FIX: Pass the 1-based index (friendMatchedScheduleIndex + 1) to showMatchSchedule
+                showMatchSchedule(result, overlappingCourseNames, friendMatchedScheduleIndex + 1);
+            }
+        } catch (err) {
+            alert("Oops, something went wrong!" + err.message);
+            console.error("Detailed error:", err);
+        }
+    })
+    .catch(err => {
+        //alert("Network or server error: " + err.message);
+        console.error("Network error:", err);
+    });
+}
+
+function showMatchSchedule(result, overlappingCourseNames, friendMatchedSchedule) {
+    ///////////////alert("✅ Best matching schedule:\n" + JSON.stringify(result.bestMySchedule, null, 2));
+
+    fetch("/set_matched_schedule", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            matchedSchedule: result.bestMySchedule,
+            overlappingCourses: overlappingCourseNames,
+            friendMatchedSchedule: friendMatchedSchedule, // This should now be correct (1-based)
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.status === "ok") {
+            window.location.href = "/render_timetable2";
+        } else {
+            console.log("❌ Backend error:\n" + JSON.stringify(data));
+        }
+    })
+    .catch(err => {
+        console.log("❌ Error sending to server:\n" + err);
+    });
+}function openComparePopup() {
+    document.getElementById("comparePopup").style.display = "block";
+    document.getElementById("friendCodeInput").value = "";
+    //document.getElementById("myCodeResult").innerText = "";
+    document.getElementById("matchResult").innerText = "";
+}
+
+function closeComparePopup() {
+    document.getElementById("comparePopup").style.display = "none";
+}
+
+</script>
+
+
+
+</body>
+</html>

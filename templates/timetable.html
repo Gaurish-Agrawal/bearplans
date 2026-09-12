@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <title>Possible Schedules</title>
-
-    <script>
-        const generatedSchedules = {{ school | tojson }};
-    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/workday-export.css') }}">
 
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -22,6 +18,61 @@
         }
         .slideshow-container { max-width: 1200px; margin: 0 auto; }
         h1 { text-align: center; font-size: 1.8rem; color: #2d3748; margin: 20px 0; font-weight: 600; }
+
+        /* Controls Bar */
+        .controls-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .controls-bar-inner {
+            display: flex;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .controls-bar-inner a,
+        .controls-bar-inner button {
+            color: #4a5568;
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: white;
+            border: none;
+            border-right: 1px solid #e2e8f0;
+            transition: background-color 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+
+        .controls-bar-inner a:last-child,
+        .controls-bar-inner button:last-child {
+            border-right: none;
+        }
+
+        .controls-bar-inner a:hover,
+        .controls-bar-inner button:hover {
+            background-color: #f7fafc;
+            color: #2d3748;
+        }
+
+        .controls-bar-inner a.copied,
+        .controls-bar-inner button.copied {
+            background-color: #e6ffed;
+            color: #22543d;
+        }
+
+        .controls-bar-inner a.copied::after {
+            content: " ✓";
+            color: #22543d;
+        }
+
+        /* Legacy controls for matched view */
         .controls { text-align: center; margin-bottom: 20px; }
         .controls a {
             color: #4a5568;
@@ -40,6 +91,8 @@
             margin-left: 8px;
             color: green;
         }
+
+        /* Table Styles */
         table {
             border-collapse: collapse;
             margin: 0 auto;
@@ -48,8 +101,8 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             table-layout: fixed;
             width: 100%;
-            border-radius: 8px;
-            overflow: hidden;
+            border-radius: 6px;
+            overflow: visible;
         }
         th, td {
             border: 1px solid #e2e8f0;
@@ -66,39 +119,122 @@
             text-transform: uppercase;
             letter-spacing: 0.03em;
         }
-        td.schedule-cell { position: relative; height: 64px; }
+        td.schedule-cell { position: relative; height: 64px; overflow: visible; }
         td.highlight {
             background-color: #f7fafc;
             font-size: 0.85rem;
             font-weight: 500;
             width: 6%;
-            vertical-align: middle;  /* <-- Add this line */
+            vertical-align: middle;
             text-align: center;
         }
+
+        /* Course Block */
         .course-block {
-    position: absolute;
-    width: 100%; /* Fills the whole cell */
-    background-color: white;
-    color: #2d3748;
-    padding: 8px;
-    font-size: 0.75rem;
-    line-height: 1.2;
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid #e2e8f0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-    word-break: break-word;
-    min-height: 90px;
-}
-        .course-block span { margin: 1px 0; }
-        .course-block span:first-child { font-weight: 600; }
-        .course-block span:nth-child(2) { text-decoration: underline; font-size: 0.7rem; }
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--block-height);
+            background-color: white;
+            color: #2d3748;
+            padding: 8px 10px;
+            font: inherit;
+            font-size: 0.8rem;
+            line-height: 1.2;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            word-break: normal;
+            min-height: 0;
+            cursor: pointer;
+            appearance: none;
+            z-index: 1;
+            transition: height 0.24s ease, border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
+        }
+
+        .course-block:hover,
+        .course-block:focus-visible {
+            border-color: #a0aec0;
+            box-shadow: 0 8px 18px rgba(45, 55, 72, 0.14);
+            z-index: 60;
+        }
+
+        .course-block:focus-visible {
+            outline: 2px solid #98002E;
+            outline-offset: 2px;
+        }
+
+        .course-block.is-expanded {
+            border-color: #718096;
+            box-shadow: 0 12px 28px rgba(45, 55, 72, 0.18);
+            height: max(var(--block-height), 176px);
+            align-items: stretch;
+            justify-content: flex-start;
+            transform: translateY(-1px);
+            z-index: 80;
+        }
+
+        .course-title {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 700;
+        }
+
+        .course-details {
+            width: 100%;
+            display: grid;
+            gap: 3px;
+            max-height: 0;
+            padding: 0 10px;
+            overflow: hidden;
+            opacity: 0;
+            color: #2d3748;
+            background: rgba(255, 255, 255, 0.98);
+            border: 0 solid #d7dee8;
+            border-radius: 6px;
+            font-size: 0.76rem;
+            line-height: 1.25;
+            transform: translateY(-6px);
+            pointer-events: none;
+            transition: max-height 0.24s ease, padding 0.24s ease, opacity 0.16s ease, transform 0.24s ease, border-width 0.24s ease;
+        }
+
+        .course-block.is-expanded .course-details {
+            max-height: 180px;
+            padding: 10px;
+            border-width: 1px;
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .course-detail-line {
+            display: block;
+            overflow-wrap: anywhere;
+        }
+
+        .course-detail-line:first-child {
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        .course-border-wrapper {
+            border: 2px dashed #98002E;
+        }
+
         .styled-time-box {
             background-color: #edf2f7;
-            border-radius: 8px;
+            border-radius: 6px;
             padding: 8px 12px;
             color: #2d3748;
             font-size: 0.85rem;
@@ -107,416 +243,719 @@
             display: inline-block;
         }
 
-        
-
-.course-border-wrapper {
-    border: 1px dashed
- black;
-}
-
-#matchone{
-    font-weight: 500;color: black;
-}
-
-    </style>
-</head>
-<body>
-
-
-    <div class="slideshow-container">
-        {% for classes in school %}
-        {% set active_days = [] %}
-        {% for course, info in classes.items() %}
-            {% for d in info.days %}
-                {% if d not in active_days %}
-                    {% set _ = active_days.append(d) %}
-                {% endif %}
-            {% endfor %}
-        {% endfor %}
-
-        <div class="mySlides">
-            {% if not matchedlist %}
-            {% if not sharedList %}
-            <h1>WashU Schedule {{ loop.index }}/{{ loop.length }}</h1>
-            <div class="controls" style="display: flex; justify-content: center; align-items: center; position: relative;">
-    <div style="display: flex; gap: 16px;">
-        <a href="javascript:window.history.back()">Return</a>
-        <a href="javascript:plusSlides(-1)">Prev</a>
-        <a href="javascript:plusSlides(1)">Next</a>
-        <a id="{{ loop.index }}" onclick='myFunction({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
-    </div>
-    <button onclick="openComparePopup()" style="
-        position: absolute;
-        right: 0;
-        padding: 8px 14px;
-        background: #a51417;
-        border: 1px solid black;
-        color: white;
-        border-radius: 10px;
-        font-size: 15px;
-        cursor: pointer;
-    ">Compare with Friends</button>
-</div>
-            {% endif %}
-            {% endif %}
-
-            {% if matchedlist %}
-            <h1 style="color: black;;">Best Matching Schedule</h1>
-            
-            <center>
-    <h3 id="matchone" style="font-weight: 400; color: black; display: inline-block; margin-right: 20px">paired with #{{friendMatchedSchedule}} from friend's list</h3>
-    <h3 style="font-weight: 400; color: grey; display: inline-block;"><span style="border: 1px dashed #98002E; padding: 4px 6px; border-radius: 6px;">dashed classes indicate overlap</span></h3>
-</center><br>
-            <div class="controls">
-                <a href="javascript:window.history.back()">Return</a>
-                <a id="{{ loop.index }}" onclick='myFunction({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
-            </div>
-            {% endif %}
-
-
-            {% if sharedList %}
-            <h1>Shared Schedule {{ loop.index }}/{{ loop.length }}</h1>
-            <div class="controls" style="display: flex; justify-content: center; align-items: center; position: relative;">
-    <div style="display: flex; gap: 16px;">
-        <a href="javascript:window.history.back()">Return</a>
-        <a href="javascript:plusSlides(-1)">Prev</a>
-        <a href="javascript:plusSlides(1)">Next</a>
-        <a id="{{ loop.index }}" onclick='myFunction({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
-    </div>
-    <div style="
-        position: absolute;
-        right: 0;
-        padding: 8px 14px;
-        background: #a51417;
-        border: 1px solid black;
-        color: white;
-        border-radius: 10px;
-        font-size: 15px;
-        cursor: pointer;
-    ">Code: {{code}}</div>
-    </div>
-
-            {% endif %}
-
-            
-
-            
-            <table>
-                <tr>
-                    <th style="width: 5%">Time</th>
-                    {% set all_days = ['M', 'T', 'W', 'R', 'F', 'S'] %}
-                    {% for day in all_days %}
-                        <th style="width: {{ '3%' if day not in active_days else (95 // active_days|length) ~ '%' }}">{{ day }}</th>
-                    {% endfor %}
-                </tr>
-
-                {% set periods = ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00"] %}
-                {% for time in periods %}
-                <tr>
-                    <td class="highlight"><b>
-                        {% set hour = time.split(':')[0] | int %}
-                        {% if hour == 0 %}
-                            12 AM
-                        {% elif hour < 12 %}
-                            {{ hour }} AM
-                        {% elif hour == 12 %}
-                            12 PM
-                        {% else %}
-                            {{ hour - 12 }} PM
-                        {% endif %}
-                    </b></td>
-                    {% for day in all_days %}
-                    <td class="schedule-cell">
-                        {% for course, info in classes.items() %}
-                            {% set day_index = all_days.index(day) %}
-                            {% if info['days'][day_index] == day and time == info['times'][0] %}
-                                {% set start_index = periods.index(info['times'][0]) %}
-                                {% set end_index = periods.index(info['times'][-1]) %}
-                                {% set block_height = 64 * (end_index - start_index + 1) %}
-                                
-
-                                {% if info.matched %}
-                                    <div class="course-block course-border-wrapper" style="background-color: {{ info.boxcolor }}; height: {{ block_height }}px;">
-                                        <span>{{ course }}</span>
-                                        <span>{{ info.code }} {{ info.subsection }}</span>
-                                        <span>{{ info.timestring }}</span>
-                                        <span>{{ info.prof }}</span>
-                                </div>
-                                {% else %}
-                                <div class="course-block" style="background-color: {{ info.boxcolor }}; height: {{ block_height }}px;">
-                                    <span>{{ course }}</span>
-                                    <span>{{ info.code }} {{ info.subsection }}</span>
-                                    <span>{{ info.timestring }}</span>
-                                    <span>{{ info.prof }}</span>
-                                </div>
-                                {% endif %}
-
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    {% endfor %}
-                </tr>
-                {% endfor %}
-
-                <tr>
-                    <td></td>
-                    {% for distances in displayDistances[loop.index] %}
-                    <td>
-                        {% for d in distances %}
-                            <p class="styled-time-box">{{ d }}</p>
-                        {% endfor %}
-                    </td>
-                    {% endfor %}
-                </tr>
-            </table>
-        </div>
-        {% endfor %}
-    </div>
-
-    <script>
-
-        let slideIndex = 1;
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
+        .schedule-summary {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: -6px 0 18px;
         }
 
-        function showSlides(n) {
-            const slides = document.getElementsByClassName("mySlides");
-            if (n > slides.length) slideIndex = 1;
-            if (n < 1) slideIndex = slides.length;
-
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-                const btn = document.getElementById("copyBtn" + (i + 1));
-                if (btn) {
-                    btn.innerHTML = "Copy";
-                    btn.classList.remove("copied");
-                }
-            }
-            slides[slideIndex - 1].style.display = "block";
+        .summary-chip {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            color: #4a5568;
+            font-size: 0.82rem;
+            font-weight: 500;
+            padding: 6px 10px;
         }
 
-        
-        function copyToClipboard(text,buttonId) {
-            navigator.clipboard.writeText(text).then(() => { 
-                
-                const btn = document.getElementById(buttonId);
-                if (btn) {
-                    btn.innerHTML = "Copied";
-                    btn.classList.add("copied");
-
-                    // Optionally reset after 2 seconds
-                    setTimeout(() => {
-                        btn.innerHTML = "Copy";
-                        btn.classList.remove("copied");
-                    }, 2000);
-                }
-
-            }).catch(err => {
-                console.error('Failed to copy: ', err);
-            });
+        /* Slideshow - CRITICAL: Hide all slides by default */
+        .mySlides {
+            display: none;
         }
 
-        function myFunction(classes, index) {
-            const courses = JSON.parse((JSON.stringify(classes)));
-            let text = 'My WashU Schedule \n\n';
-            for (const courseName in courses) {
-                if (courses.hasOwnProperty(courseName)) {
-                    const course = courses[courseName];
-                    text += `Course Name: ${courseName} (${course.code} ${course.subsection})\n`;
-                    text += `Timing: ${course.days} ${course.timestring}\n`;
-                    text += `Who: ${course.prof}\n`;
-                    text += '\n';
-                }
-            }
-            text += "Made on: " + new Date().toLocaleString();
-            text += '\nMore Details: https://one.washu.edu/task/all/workday';
-
-            copyToClipboard(text,index);
+        /* Buttons */
+        .btn-outline {
+            padding: 10px 18px;
+            font-size: 15px;
+            background: white;
+            border: 1px solid black;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
         }
 
+        .btn-primary {
+            padding: 10px 18px;
+            font-size: 15px;
+            background: #a51417;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+        }
 
-        showSlides(slideIndex);
-    </script>
+        /* Popup Styles */
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.3);
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
 
+        .popup-content {
+            background: white;
+            padding: 24px;
+            border-radius: 6px;
+            text-align: center;
+            max-width: 400px;
+            border: 2px solid black;
+        }
 
+        .popup-content p {
+            margin-bottom: 20px;
+            font-size: 15px;
+            color: #333;
+        }
 
+        #comparePopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border: 2px solid black;
+            border-radius: 6px;
+            padding: 24px;
+            width: 90%;
+            max-width: 400px;
+            z-index: 1000;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            text-align: center;
+            color: #111;
+        }
 
-
-
-
-
-<div id="comparePopup" style="
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    border: 2px solid black;
-    border-radius: 16px;
-    padding: 24px;
-    width: 90%;
-    max-width: 400px;
-    z-index: 1000;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    text-align: center;
-    color: #111;
-">
-
-<!-- Generate and copy code -->
-    <button onclick="generateShareCode()" id="generateMyCode" style="
-        padding: 10px 18px;
-        font-size: 15px;
-        background: white;
-        border: 1px solid black;
-        border-radius: 10px;
-        cursor: pointer;
-        font-weight: 500;
-    ">Generate My Code</button>
-
-    <div id="myCodeResult" style="
-    font-size: 15px;
-    font-weight: 500;
-    color: black;
-    margin-top: 14px;
-    margin-bottom: 12px;
-    gap: 10px;
-    flex-direction: row;
-" class="code-display-flex">
-    </div>
-    
-
-
-
-    <div id="myCodeResult" style="display: none;">
-            <span id="generatedCodeText"></span>
-    </div>
-
-    <style>
         #helpBtn {
-      background-color: white;
-      color: black;
-      border: 1px solid black;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      font-size: 21px;
-      cursor: pointer;
-      padding-bottom: 2px;
-      margin-left: 5px;
-    }
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            font-size: 21px;
+            cursor: pointer;
+            padding-bottom: 2px;
+            margin-left: 5px;
+        }
 
-    /* The popup background overlay */
-    .popup-overlay {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      justify-content: center;
-      align-items: center;
-    }
+        #matchone {
+            font-weight: 500;
+            color: black;
+        }
 
-    /* The popup content box */
-    .popup-content {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      max-width: auto;
-      max-height: auto;
-    }
+        /* ===========================
+   Split View
+   =========================== */
+#splitPopup { z-index: 1001; }
 
-    .popup-content p {
-      margin-bottom: 20px;
-      font-size: 15px;
-      color: #333;
-    }
+.split-number-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+    gap: 10px;
+    margin: 10px 0 6px 0;
+}
 
-    .popup-content button {
-      padding: 10px 18px;
-    font-size: 15px;
-    background: #a51417;
-    color: white;
-    border: none;
-    border-radius: 10px;
+.split-num {
+    border: 1px solid #e2e8f0;
+    background: white;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-weight: 600;
     cursor: pointer;
-    font-weight: 500;
-    }
+}
+
+.split-num.active {
+    background: #a51417;
+    border-color: #a51417;
+    color: white;
+}
+
+.split-num.locked {
+    box-shadow: inset 0 0 0 2px #a51417;
+    opacity: 0.9;
+    cursor: default;
+}
+
+#splitViewContainer {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.split-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.split-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.split-card-title {
+    font-weight: 600;
+    margin: 2px 0 10px 2px;
+    color: #2d3748;
+}
+
     </style>
+    {% include '_theme_head.html' %}
+</head>
+<body class="timetable-page">
+    {% include '_theme_toggle.html' %}
 
-    <!-- Friend code input -->
-    <input id="friendCodeInput" type="text" placeholder="Enter friend's code" style="
-        padding: 10px;
-        width: auto;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        font-size: 15px;
-        margin-bottom: 12px;
-        margin-right: 10px;
-    ">
-    <button onclick="fetchFriendMatch()" style="
-        padding: 10px 18px;
-        font-size: 15px;
-        background: white;
-        border: 1px solid black;
-        border-radius: 10px;
-        cursor: pointer;
-        font-weight: 500;
-        margin-bottom: 20px;
-    ">Find Match</button>
+<div class="slideshow-container">
+    {% for classes in school %}
+    {% set active_days = [] %}
+    {% for course, info in classes.items() %}
+        {% for d in info.days %}
+            {% if d != '-' and d not in active_days %}
+                {% set _ = active_days.append(d) %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 
-    <!-- Match result output -->
-    <div id="matchResult" style="
-        font-size: 15px;
-        color: #222;
-        font-weight: 500;
-    "></div>
+    <div class="mySlides">
 
-    <!-- Close button -->
-    <button onclick="closeComparePopup()" style="
-    padding: 10px 18px;
-    font-size: 15px;
-    background: #a51417;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 500;
-">Close</button>
+        <!-- Regular Schedule View -->
+        {% if not matchedlist and not sharedList and not savedList %}
+        <h1>Schedule {{ loop.index }}/{{ loop.length }}</h1>
+        <div class="controls-bar">
+            <div class="controls-bar-inner">
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="javascript:plusSlides(-1)">Prev</a>
+                <a href="javascript:plusSlides(1)">Next</a>
+                <button type="button" id="saveScheduleBtn{{ loop.index }}" onclick='saveSchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Save</button>
+                <button type="button" onclick="BearPlansWorkday.open({{ loop.index0 }})">Add to Workday</button>
+                <a id="copyBtn{{ loop.index }}" onclick='copySchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+                <button type="button" onclick="openSplitPopup()">Split</button>
+                {# Export as Calendar disabled for now to keep the scheduler lean.
+                <a onclick='downloadScheduleAsICS({{ classes | tojson | safe }})'>Export as Calendar</a>
+                #}
+                <button onclick="openComparePopup()">Compare with Friends</button>
+            </div>
+        </div>
+        {% endif %}
 
+        <!-- Matched Schedule View -->
+        {% if matchedlist %}
+        <h1>Best Matching Schedule</h1>
+        <center>
+            <h3 id="matchone" style="font-weight: 400; display: inline-block; margin-right: 20px">
+                paired with #{{ friendMatchedSchedule }} from friend's list
+            </h3>
+            <h3 style="font-weight: 400; color: var(--muted); display: inline-block;">
+                <span style="border: 1px dashed var(--link); padding: 4px 6px; border-radius: 6px;">
+                    dashed classes indicate overlap
+                </span>
+            </h3>
+        </center>
+        <br>
+        <div class="controls-bar">
+            <div class="controls-bar-inner">
+                <a href="{{ url_for('index') }}">Home</a>
+                <button type="button" id="saveScheduleBtn{{ loop.index }}" onclick='saveSchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Save</button>
+                <button type="button" onclick="BearPlansWorkday.open({{ loop.index0 }})">Add to Workday</button>
+                <a id="copyBtn{{ loop.index }}" onclick='copySchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+            </div>
+        </div>
+        {% endif %}
 
-<button id="helpBtn" onclick="openPopup()"> ? </button>
+        <!-- Shared Schedule View -->
+        {% if sharedList %}
+        <h1>Shared Schedule {{ loop.index }}/{{ loop.length }}</h1>
+        <div class="controls-bar">
+            <div class="controls-bar-inner">
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="javascript:plusSlides(-1)">Prev</a>
+                <a href="javascript:plusSlides(1)">Next</a>
+                <button type="button" id="saveScheduleBtn{{ loop.index }}" onclick='saveSchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Save</button>
+                <button type="button" onclick="BearPlansWorkday.open({{ loop.index0 }})">Add to Workday</button>
+                <a id="copyBtn{{ loop.index }}" onclick='copySchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+                <span id="myCodeDisplay" style="padding: 12px 20px; font-weight: 500; color: var(--link);">Code: (loading...)</span>
+            </div>
+        </div>
+        {% endif %}
 
-<!-- Popup -->
+        <!-- Saved Schedule View -->
+        {% if savedList %}
+        <h1>Saved Schedule {{ loop.index }}/{{ loop.length }}</h1>
+        <div class="controls-bar">
+            <div class="controls-bar-inner">
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="javascript:plusSlides(-1)">Prev</a>
+                <a href="javascript:plusSlides(1)">Next</a>
+                <button type="button" id="saveScheduleBtn{{ loop.index }}" onclick='saveSchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Save</button>
+                <button type="button" onclick="BearPlansWorkday.open({{ loop.index0 }})">Add to Workday</button>
+                <a id="copyBtn{{ loop.index }}" onclick='copySchedule({{ classes | tojson | safe }}, {{ loop.index }})'>Copy</a>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="workday-export-status" data-workday-export-status role="status"></div>
+        <div class="schedule-summary" data-schedule-index="{{ loop.index0 }}"></div>
+
+        <!-- Schedule Table -->
+        <table>
+            <tr>
+                <th style="width: 5%">Time</th>
+                {% set all_days = ['M', 'T', 'W', 'R', 'F', 'S'] %}
+                {% for day in all_days %}
+                    <th style="width: {{ '3%' if day not in active_days else (95 // active_days|length) ~ '%' }}">{{ day }}</th>
+                {% endfor %}
+            </tr>
+
+            {% set periods = ["07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"] %}
+            {% for time in periods %}
+            <tr>
+                <td class="highlight">
+                    <b>
+                        {% set hour = time.split(':')[0] | int %}
+                        {% if hour == 0 %}12 AM
+                        {% elif hour < 12 %}{{ hour }} AM
+                        {% elif hour == 12 %}12 PM
+                        {% else %}{{ hour - 12 }} PM
+                        {% endif %}
+                    </b>
+                </td>
+                {% for day in all_days %}
+                <td class="schedule-cell">
+                    {% for course, info in classes.items() %}
+                        {% set day_index = all_days.index(day) %}
+                        {% if info['days'][day_index] == day and time == info['times'][0] and info['times'][0] in periods and info['times'][-1] in periods %}
+                            {% set start_index = periods.index(info['times'][0]) %}
+                            {% set end_index = periods.index(info['times'][-1]) %}
+                            {% set block_height = 64 * (end_index - start_index + 1) %}
+                            {% set display_name = info.displayName | default(course, true) %}
+
+                            <button type="button"
+                                    class="course-block course-shade-{{ loop.index0 % 8 }} {% if info.matched %}course-border-wrapper{% endif %}"
+                                    style="--block-height: {{ block_height }}px; background-color: {{ info.boxcolor }};"
+                                    aria-expanded="false"
+                                    title="{{ display_name }}{% if info.code %} - {{ info.code }} {{ info.subsection }}{% endif %}">
+                                <span class="course-title">{{ display_name }}</span>
+                                <span class="course-details" aria-hidden="true">
+                                    <span class="course-detail-line">{{ info.code }} {{ info.subsection }}</span>
+                                    <span class="course-detail-line">{{ info.timestring }}</span>
+                                    {% set building_text = info.building | default('', true) | trim %}
+                                    {% set prof_text = info.prof | default('', true) | trim %}
+                                    {% set building_unknown = building_text | lower in ['', 'tba', 'tbd', 'none'] %}
+                                    {% set prof_unknown = prof_text | lower in ['', 'tba', 'tbd', 'none'] %}
+                                    {% if not building_unknown %}
+                                        <span class="course-detail-line">{{ building_text }}</span>
+                                    {% endif %}
+                                    {% if not prof_unknown %}
+                                        <span class="course-detail-line">{{ prof_text }}</span>
+                                    {% elif building_unknown %}
+                                        <span class="course-detail-line">TBA</span>
+                                    {% endif %}
+                                </span>
+                            </button>
+                        {% endif %}
+                    {% endfor %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+
+            <!-- Distance Row -->
+            <tr>
+                <td></td>
+                {% for distances in displayDistances[loop.index] %}
+                <td>
+                    {% for d in distances %}
+                        <p class="styled-time-box">{{ d }}</p>
+                    {% endfor %}
+                </td>
+                {% endfor %}
+            </tr>
+        </table>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Split View Popup -->
+<div class="popup-overlay" id="splitPopup">
+    <div class="popup-content" style="max-width: 520px;">
+        <p style="margin-bottom: 10px; font-weight: 600;">Split View</p>
+
+        <div id="splitNumberGrid" class="split-number-grid"></div>
+
+        <div style="margin-top: 14px;">
+            <button type="button" class="btn-outline" onclick="closeSplitPopup()">Cancel</button>
+            <button type="button" class="btn-primary" onclick="applySplitView()">View Selected</button>
+        </div>
+    </div>
+</div>
+
+<!-- Split View Container -->
+<div id="splitViewContainer">
+    <div class="controls-bar" style="margin-bottom: 12px;">
+        <div class="controls-bar-inner">
+            <a href="{{ url_for('index') }}">Home</a>
+            <button type="button" onclick="openSplitPopup()">Change Selection</button>
+            <a href="javascript:exitSplitView()">Exit Split</a>
+        </div>
+    </div>
+
+    <div id="splitGrid" class="split-grid"></div>
+</div>
+
+<!-- Compare Popup -->
+<div id="comparePopup">
+    <button onclick="generateShareCode()" id="generateMyCode" class="btn-outline">
+        Generate My Code
+    </button>
+
+    <div id="myCodeResult" style="font-size: 15px; font-weight: 500; margin: 14px 0;"></div>
+
+    <div style="margin-bottom: 12px;">
+        <input id="friendCodeInput" type="text" placeholder="Enter friend's code" style="
+            padding: 10px;
+            width: 180px;
+            border: 1px solid var(--control-line);
+            border-radius: 8px;
+            font-size: 15px;
+            margin-right: 10px;
+        ">
+        <button onclick="fetchFriendMatch()" class="btn-outline">Find Match</button>
+    </div>
+
+    <div id="matchResult" style="font-size: 15px; font-weight: 500; margin-bottom: 12px;"></div>
+
+    <button onclick="closeComparePopup()" class="btn-primary">Close</button>
+    <button id="helpBtn" onclick="openHelpPopup()">?</button>
+</div>
+
+<!-- Help Popup -->
 <div class="popup-overlay" id="helpPopup">
-  <div class="popup-content">
-    <p>This feature compares your possible schedules with a friend's to find the best option with the most overlapping classes, making it easy to coordinate and take courses together.</p>
-    <button onclick="closePopup()">Close</button>
-  </div>
+    <div class="popup-content">
+        <p>This feature compares your possible schedules with a friend's to find the best option with the most overlapping classes, making it easy to coordinate and take courses together.</p>
+        <button onclick="closeHelpPopup()" class="btn-primary">Close</button>
+    </div>
 </div>
+
 <script>
-  function openPopup() {
+// ===========================================
+// Slideshow Navigation
+// ===========================================
+let slideIndex = 1;
+const schedulesForStats = {{ school | tojson }};
+
+function showSlides(n) {
+    const slides = document.getElementsByClassName("mySlides");
+
+    if (slides.length === 0) return;
+    closeCourseDetails();
+
+    if (n > slides.length) slideIndex = 1;
+    if (n < 1) slideIndex = slides.length;
+
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    // Show current slide
+    slides[slideIndex - 1].style.display = "block";
+}
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function setCourseDetailsExpanded(block, expanded) {
+    block.classList.toggle("is-expanded", expanded);
+    block.setAttribute("aria-expanded", expanded ? "true" : "false");
+
+    const details = block.querySelector(".course-details");
+    if (details) {
+        details.setAttribute("aria-hidden", expanded ? "false" : "true");
+    }
+}
+
+function closeCourseDetails(exceptBlock = null) {
+    document.querySelectorAll(".course-block.is-expanded").forEach(block => {
+        if (block !== exceptBlock) {
+            setCourseDetailsExpanded(block, false);
+        }
+    });
+}
+
+function initCourseDetails() {
+    document.addEventListener("click", event => {
+        const target = event.target instanceof Element ? event.target : null;
+        const block = target ? target.closest(".course-block") : null;
+
+        if (!block) {
+            closeCourseDetails();
+            return;
+        }
+
+        event.preventDefault();
+        const shouldExpand = !block.classList.contains("is-expanded");
+        closeCourseDetails(block);
+        setCourseDetailsExpanded(block, shouldExpand);
+    });
+
+    document.addEventListener("keydown", event => {
+        if (event.key === "Escape") {
+            closeCourseDetails();
+        }
+    });
+}
+
+// Initialize slideshow on page load
+document.addEventListener('DOMContentLoaded', function() {
+    showSlides(slideIndex);
+    renderScheduleSummaries();
+    initCourseDetails();
+
+    // Load saved schedule code if on shared view
+    const codeDisplay = document.getElementById("myCodeDisplay");
+    if (codeDisplay) {
+        const code = localStorage.getItem("myScheduleCode");
+        codeDisplay.innerText = code ? "Code: " + code : "No saved code";
+    }
+});
+
+function minutesToDisplay(totalMinutes) {
+    const hour = Math.floor(totalMinutes / 60);
+    const minute = totalMinutes % 60;
+    const suffix = hour < 12 ? "AM" : "PM";
+    const displayHour = hour % 12 || 12;
+    return `${displayHour}:${String(minute).padStart(2, "0")}${suffix}`;
+}
+
+function summarizeSchedule(schedule) {
+    const weekdays = ["M", "T", "W", "R", "F"];
+    const usedDays = new Set();
+    const starts = [];
+    const ends = [];
+    const courseIds = new Set();
+
+    Object.entries(schedule || {}).forEach(([key, course]) => {
+        courseIds.add(`${course.code || ""}|${course.subsection || ""}|${course.displayName || key}`);
+        (course.days || "").split("").forEach(day => {
+            if (weekdays.includes(day)) usedDays.add(day);
+        });
+
+        if (!course.timestring || !course.timestring.includes("-")) return;
+        const [startStr, endStr] = course.timestring.split("-");
+        const [startHour, startMinute] = parseTimeTo24Hour(startStr);
+        const [endHour, endMinute] = parseTimeTo24Hour(endStr);
+        starts.push(startHour * 60 + startMinute);
+        ends.push(endHour * 60 + endMinute);
+    });
+
+    const chips = [`${courseIds.size} courses`];
+    if (starts.length) chips.push(`Starts ${minutesToDisplay(Math.min(...starts))}`);
+    if (ends.length) chips.push(`Ends ${minutesToDisplay(Math.max(...ends))}`);
+
+    const freeDays = weekdays.filter(day => !usedDays.has(day));
+    chips.push(freeDays.length ? `${freeDays.join("/")} free` : "No weekdays free");
+    return chips;
+}
+
+function renderScheduleSummaries() {
+    document.querySelectorAll(".schedule-summary").forEach(summary => {
+        const schedule = schedulesForStats[Number(summary.dataset.scheduleIndex)];
+        if (!schedule) return;
+
+        summary.innerHTML = "";
+        summarizeSchedule(schedule).forEach(text => {
+            const chip = document.createElement("span");
+            chip.className = "summary-chip";
+            chip.textContent = text;
+            summary.appendChild(chip);
+        });
+    });
+}
+
+// ===========================================
+// Copy to Clipboard
+// ===========================================
+function copyToClipboard(text, buttonId) {
+    navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById(buttonId);
+        if (btn) {
+            btn.innerHTML = "Copied";
+            btn.classList.add("copied");
+            setTimeout(() => {
+                btn.innerHTML = "Copy";
+                btn.classList.remove("copied");
+            }, 2000);
+        }
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
+
+function copySchedule(classes, index) {
+    const courses = JSON.parse(JSON.stringify(classes));
+    let text = 'My Schedule \n\n';
+
+    for (const courseName in courses) {
+        if (courses.hasOwnProperty(courseName)) {
+            const course = courses[courseName];
+            text += `Course: ${course.displayName || courseName} (${course.code} ${course.subsection})\n`;
+            text += `Time: ${course.days} ${course.timestring}\n`;
+            text += `Who: ${course.prof}\n\n`;
+        }
+    }
+
+    text += "Made on: " + new Date().toLocaleString();
+    text += '\nMore Schedules: https://bearplans.pythonanywhere.com';
+
+    copyToClipboard(text, "copyBtn" + index);
+}
+
+// ===========================================
+// Save Schedule Locally
+// ===========================================
+function readSavedSchedules() {
+    try {
+        const saved = JSON.parse(localStorage.getItem("savedSchedules") || "{}");
+        return saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+    } catch (err) {
+        console.error("Could not read saved schedules:", err);
+        return {};
+    }
+}
+
+function buildScheduleName(schedule) {
+    const courseNames = [...new Set(Object.entries(schedule || {}).map(([key, course]) => course.displayName || key))];
+    const preview = courseNames.slice(0, 2).join(", ");
+    const extra = courseNames.length > 2 ? ` +${courseNames.length - 2}` : "";
+    const date = new Date().toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    return `${preview || "Saved Schedule"}${extra} (${date})`;
+}
+
+function saveSchedule(classes, index) {
+    const name = prompt("Name this saved schedule:", buildScheduleName(classes));
+    const trimmedName = name ? name.trim() : "";
+    if (!trimmedName) return;
+
+    const saved = readSavedSchedules();
+    if (saved[trimmedName] && !confirm(`Replace saved schedule "${trimmedName}"?`)) {
+        return;
+    }
+
+    saved[trimmedName] = {
+        createdAt: new Date().toISOString(),
+        schedules: [classes]
+    };
+    localStorage.setItem("savedSchedules", JSON.stringify(saved));
+
+    const btn = document.getElementById("saveScheduleBtn" + index);
+    if (btn) {
+        const originalText = btn.textContent;
+        btn.textContent = "Saved";
+        btn.classList.add("copied");
+        setTimeout(() => {
+            btn.textContent = originalText;
+            btn.classList.remove("copied");
+        }, 1800);
+    }
+}
+
+// ===========================================
+// Calendar Export
+// ===========================================
+function parseTimeTo24Hour(timeStr) {
+    const match = timeStr.match(/(\d+):(\d+)(AM|PM)/i);
+    if (!match) return [0, 0];
+    let h = parseInt(match[1], 10);
+    const m = parseInt(match[2], 10);
+    const meridiem = match[3].toUpperCase();
+    if (meridiem === "PM" && h !== 12) h += 12;
+    if (meridiem === "AM" && h === 12) h = 0;
+    return [h, m];
+}
+
+/*
+Calendar export is disabled for now to keep the scheduler focused on high-use features.
+
+function formatICSDate(date) {
+    return date.toISOString().replace(/[-:]/g, "").split(".")[0];
+}
+
+function convertDayString(days) {
+    const map = { M: "MO", T: "TU", W: "WE", R: "TH", F: "FR", S: "SA" };
+    return days.split("").map(char => char !== "-" ? map[char] : null).filter(Boolean).join(",");
+}
+
+function downloadScheduleAsICS(schedule) {
+    let icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n`;
+    const tz = "America/Chicago";
+    const today = new Date();
+    const isFallTerm = today.getMonth() >= 5;
+    const untilDate = new Date(today.getFullYear(), isFallTerm ? 11 : 4, isFallTerm ? 20 : 15, 23, 59, 0);
+    const untilStr = formatICSDate(untilDate);
+
+    for (const title in schedule) {
+        const course = schedule[title];
+        const [startStr, endStr] = course.timestring.split("-");
+        const [startHour, startMinute] = parseTimeTo24Hour(startStr);
+        const [endHour, endMinute] = parseTimeTo24Hour(endStr);
+
+        const startDate = new Date(today.getFullYear(), today.getMonth(), today.getDate(), startHour, startMinute);
+        const endDate = new Date(today.getFullYear(), today.getMonth(), today.getDate(), endHour, endMinute);
+        const dayCode = convertDayString(course.days);
+
+        icsContent += `BEGIN:VEVENT\n`;
+        icsContent += `SUMMARY:${title}\n`;
+        icsContent += `DESCRIPTION:Prof: ${course.prof}\n`;
+        icsContent += `LOCATION:${course.building || ""}\n`;
+        icsContent += `DTSTART;TZID=${tz}:${formatICSDate(startDate)}\n`;
+        icsContent += `DTEND;TZID=${tz}:${formatICSDate(endDate)}\n`;
+        icsContent += `RRULE:FREQ=WEEKLY;UNTIL=${untilStr};BYDAY=${dayCode}\n`;
+        icsContent += `END:VEVENT\n`;
+    }
+
+    icsContent += `END:VCALENDAR`;
+
+    const blob = new Blob([icsContent], { type: "text/calendar" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "schedule.ics";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+*/
+
+// ===========================================
+// Compare & Share Functions
+// ===========================================
+function openComparePopup() {
+    document.getElementById("comparePopup").style.display = "block";
+    document.getElementById("friendCodeInput").value = "";
+    document.getElementById("matchResult").innerText = "";
+}
+
+function closeComparePopup() {
+    document.getElementById("comparePopup").style.display = "none";
+}
+
+function openHelpPopup() {
     document.getElementById("helpPopup").style.display = "flex";
-  }
+}
 
-  function closePopup() {
+function closeHelpPopup() {
     document.getElementById("helpPopup").style.display = "none";
-  }
-</script>
-
-
-</div>
-
-
-<script>
-
-    function copyToClipboard10(text) {
-    navigator.clipboard.writeText(text)
-        .then(() => console.log('Text copied to clipboard'))
-        .catch(err => console.error('Failed to copy text: ', err));
 }
 
 function generateShareCode() {
@@ -526,24 +965,22 @@ function generateShareCode() {
         return;
     }
 
-    
+    const existingCode = localStorage.getItem("myScheduleCode");
 
     fetch("/save_shared_schedule", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ schedules: generatedSchedules })
+        body: JSON.stringify({
+            schedules: generatedSchedules,
+            code: existingCode || null
+        })
     })
     .then(res => res.json())
     .then(data => {
-        
-        
-        
-
         if (data.code) {
-    document.getElementById("myCodeResult").innerText = data.code + "\nReplaces Previous Code";
-}
-
-else {
+            localStorage.setItem("myScheduleCode", data.code);
+            document.getElementById("myCodeResult").innerText = data.code + " ✓ Saved!";
+        } else {
             alert("Server error: no code returned.");
         }
     })
@@ -551,158 +988,227 @@ else {
         console.error("Error:", err);
         alert("Failed to generate share code.");
     });
-};
-
-// Fixed function to check if two courses overlap
-function coursesOverlap(c1, c2, courseName) {
-    return (
-        c1.code === c2.code &&
-        c1.subsection === c2.subsection &&
-        c1.prof === c2.prof &&
-        c1.days === c2.days &&
-        JSON.stringify(c1.times.sort()) === JSON.stringify(c2.times.sort())
-    );
 }
 
-// Fixed function to get overlapping courses between two schedules
+// ===========================================
+// Friend Matching Logic
+// ===========================================
+function coursesOverlap(c1, c2) {
+    const normalize = str => (str || '').toString().trim().toLowerCase();
+    const normalizeTimes = times => {
+        if (!times) return [];
+        return (Array.isArray(times) ? times : [times]).map(t => normalize(t)).sort();
+    };
+    const normalizeDays = days => {
+        if (!days) return [];
+        if (typeof days === 'string') return days.split(',').map(d => normalize(d)).sort();
+        return days.map(d => normalize(d)).sort();
+    };
+
+    return normalize(c1.code) === normalize(c2.code) &&
+           normalize(c1.subsection) === normalize(c2.subsection) &&
+           normalize(c1.prof) === normalize(c2.prof) &&
+           JSON.stringify(normalizeDays(c1.days)) === JSON.stringify(normalizeDays(c2.days)) &&
+           JSON.stringify(normalizeTimes(c1.times)) === JSON.stringify(normalizeTimes(c2.times));
+}
+
 function getOverlappingCourses(schedule1, schedule2) {
-    var overlapping = [];
-    
+    const overlapping = [];
     for (const courseName in schedule1) {
-        if (schedule2.hasOwnProperty(courseName)) {
-            if (coursesOverlap(schedule1[courseName], schedule2[courseName], courseName)) {
-                overlapping.push(courseName);
-            }
+        if (schedule2.hasOwnProperty(courseName) && coursesOverlap(schedule1[courseName], schedule2[courseName])) {
+            overlapping.push(courseName);
         }
     }
-    
     return overlapping;
 }
 
-// Fixed function to count overlaps between two schedules
-function countOverlap(schedule1, schedule2) {
-    return getOverlappingCourses(schedule1, schedule2).length;
-}
-
-// Fixed function to find best overall match
 function findBestOverallMatch(mySchedules, friendSchedules) {
-    let bestMatch = {
-        bestMySchedule: null,
-        bestMyScheduleIndex: -1,
-        bestMatchingFriendSchedule: -1,
-        overlapCount: 0
-    };
+    let bestMatch = { bestMySchedule: null, bestMyScheduleIndex: -1, bestMatchingFriendSchedule: -1, overlapCount: 0 };
 
     for (let i = 0; i < mySchedules.length; i++) {
         for (let j = 0; j < friendSchedules.length; j++) {
-            const overlapCount = countOverlap(mySchedules[i], friendSchedules[j]);
-            
-            //alert(j+1);
-            //alert(friendSchedules[j]);
-
+            const overlapCount = getOverlappingCourses(mySchedules[i], friendSchedules[j]).length;
             if (overlapCount > bestMatch.overlapCount) {
-                
-                bestMatch = {
-                    bestMySchedule: mySchedules[i],
-                    bestMyScheduleIndex: i,
-                    bestMatchingFriendSchedule: j,
-                    overlapCount: overlapCount
-                };
+                bestMatch = { bestMySchedule: mySchedules[i], bestMyScheduleIndex: i, bestMatchingFriendSchedule: j, overlapCount };
             }
         }
     }
-
-    //alert(JSON.stringify(bestMatch, null, 2));
-
     return bestMatch;
 }
 
 function fetchFriendMatch() {
     const friendCode = document.getElementById("friendCodeInput").value.trim().toUpperCase();
     if (!friendCode) return;
-    
+
     fetch(`/get_shared_schedule/${friendCode}`)
     .then(res => res.json())
     .then(data => {
-        
         if (data.error) {
             alert("Code not found.");
             return;
         }
-        
-        const friendSchedulesRaw = data.schedules;
-        const friendSchedules = Array.isArray(friendSchedulesRaw) ? friendSchedulesRaw : [friendSchedulesRaw];
-        
-        try {
-            const result = findBestOverallMatch(generatedSchedules, friendSchedules);
-            
-            if (result.overlapCount === 0) {
-                alert("No overlapping courses found.");
-                return;
-            }
-            
-            // FIX: Use the correct friend schedule index (0-based from result)
-            const friendMatchedScheduleIndex = result.bestMatchingFriendSchedule;
-            
-            const overlappingCourseNames = getOverlappingCourses(
-                result.bestMySchedule, 
-                friendSchedules[friendMatchedScheduleIndex]
-            );
-            
-            const show = confirm(`Found your best schedule!\nMatched with your friend's schedule #${friendMatchedScheduleIndex + 1}.\nOverlapping courses: ${overlappingCourseNames.join(', ')}\n\nShow it?`);
-            
-            if (show) {
-                // FIX: Pass the 1-based index (friendMatchedScheduleIndex + 1) to showMatchSchedule
-                showMatchSchedule(result, overlappingCourseNames, friendMatchedScheduleIndex + 1);
-            }
-        } catch (err) {
-            alert("Oops, something went wrong!" + err.message);
-            console.error("Detailed error:", err);
+
+        const friendSchedules = Array.isArray(data.schedules) ? data.schedules : [data.schedules];
+        const generatedSchedules = {{ school | tojson }};
+        const result = findBestOverallMatch(generatedSchedules, friendSchedules);
+
+        if (result.overlapCount === 0) {
+            alert("No overlapping courses found.");
+            return;
+        }
+
+        const overlappingCourseNames = getOverlappingCourses(result.bestMySchedule, friendSchedules[result.bestMatchingFriendSchedule]);
+
+        const show = confirm(
+            `Found your best schedule!\n` +
+            `Matched with your friend's schedule #${result.bestMatchingFriendSchedule + 1}.\n` +
+            `Overlapping courses: ${overlappingCourseNames.join(', ')}\n\nShow it?`
+        );
+
+        if (show) {
+            showMatchSchedule(result, overlappingCourseNames, result.bestMatchingFriendSchedule + 1);
         }
     })
-    .catch(err => {
-        //alert("Network or server error: " + err.message);
-        console.error("Network error:", err);
-    });
+    .catch(err => console.error("Network error:", err));
 }
 
 function showMatchSchedule(result, overlappingCourseNames, friendMatchedSchedule) {
-    ///////////////alert("✅ Best matching schedule:\n" + JSON.stringify(result.bestMySchedule, null, 2));
-
     fetch("/set_matched_schedule", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
             matchedSchedule: result.bestMySchedule,
             overlappingCourses: overlappingCourseNames,
-            friendMatchedSchedule: friendMatchedSchedule, // This should now be correct (1-based)
+            friendMatchedSchedule: friendMatchedSchedule
         })
     })
     .then(res => res.json())
     .then(data => {
         if (data.status === "ok") {
             window.location.href = "/render_timetable2";
-        } else {
-            console.log("❌ Backend error:\n" + JSON.stringify(data));
         }
     })
-    .catch(err => {
-        console.log("❌ Error sending to server:\n" + err);
+    .catch(err => console.error("Error:", err));
+}
+
+// ===========================================
+// Split View
+// ===========================================
+let splitSelected = new Set();   // holds 1-based indices
+let splitMode = false;
+
+function openSplitPopup() {
+    const slides = document.getElementsByClassName("mySlides");
+    if (!slides || slides.length === 0) return;
+
+    // Always include current schedule
+    splitSelected.add(slideIndex);
+
+    const grid = document.getElementById("splitNumberGrid");
+    const popup = document.getElementById("splitPopup");
+    if (!grid || !popup) return;
+
+    grid.innerHTML = "";
+
+    for (let i = 1; i <= slides.length; i++) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "split-num" + (splitSelected.has(i) ? " active" : "");
+
+        // lock current schedule so it always stays included
+        if (i === slideIndex) btn.className += " locked";
+
+        btn.textContent = i;
+
+        btn.addEventListener("click", () => {
+            if (i === slideIndex) return; // keep current always selected
+
+            if (splitSelected.has(i)) {
+                splitSelected.delete(i);
+                btn.classList.remove("active");
+            } else {
+                splitSelected.add(i);
+                btn.classList.add("active");
+            }
+        });
+
+        grid.appendChild(btn);
+    }
+
+    popup.style.display = "flex";
+}
+
+function closeSplitPopup() {
+    const popup = document.getElementById("splitPopup");
+    if (popup) popup.style.display = "none";
+}
+
+function applySplitView() {
+    const slides = document.getElementsByClassName("mySlides");
+    if (!slides || slides.length === 0) return;
+
+    // Always include current
+    splitSelected.add(slideIndex);
+
+    const selected = Array.from(splitSelected).sort((a, b) => a - b);
+    const k = selected.length;
+
+    const splitGrid = document.getElementById("splitGrid");
+    const splitContainer = document.getElementById("splitViewContainer");
+    const slideshow = document.querySelector(".slideshow-container");
+
+    if (!splitGrid || !splitContainer || !slideshow) return;
+
+    // Choose grid shape: 2 -> 1x2, 3-4 -> 2x2, 5-6 -> 2x3, etc.
+    const cols = (k === 1) ? 1 : Math.ceil(Math.sqrt(k));
+    splitGrid.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 1fr))`;
+
+    splitGrid.innerHTML = "";
+
+    selected.forEach((idx) => {
+        const slide = slides[idx - 1];
+        if (!slide) return;
+
+        const table = slide.querySelector("table");
+        if (!table) return;
+
+        const card = document.createElement("div");
+        card.className = "split-card";
+
+        const title = document.createElement("div");
+        title.className = "split-card-title";
+        title.textContent = `Schedule ${idx}`;
+
+        const clonedTable = table.cloneNode(true);
+
+        card.appendChild(title);
+        card.appendChild(clonedTable);
+        splitGrid.appendChild(card);
     });
-}function openComparePopup() {
-    document.getElementById("comparePopup").style.display = "block";
-    document.getElementById("friendCodeInput").value = "";
-    //document.getElementById("myCodeResult").innerText = "";
-    document.getElementById("matchResult").innerText = "";
+
+    // switch views
+    splitMode = true;
+    closeSplitPopup();
+    slideshow.style.display = "none";
+    splitContainer.style.display = "block";
+    window.scrollTo(0, 0);
 }
 
-function closeComparePopup() {
-    document.getElementById("comparePopup").style.display = "none";
-}
+function exitSplitView() {
+    const splitContainer = document.getElementById("splitViewContainer");
+    const slideshow = document.querySelector(".slideshow-container");
 
+    if (splitContainer) splitContainer.style.display = "none";
+    if (slideshow) slideshow.style.display = "block";
+
+    splitMode = false;
+
+    // restore normal slide
+    showSlides(slideIndex);
+}
 </script>
 
-
-
+<script id="workday-export-schedules" type="application/json">{{ school | tojson }}</script>
+<script src="{{ url_for('static', filename='js/workday-export.js') }}"></script>
 </body>
 </html>

@@ -1,0 +1,251 @@
+/* Shared website theme. Extension content scripts and packages are independent. */
+:root {
+    color-scheme: light;
+    --page: #ffffff;
+    --surface: #ffffff;
+    --surface-raised: #f5f5f5;
+    --surface-hover: #eeeeee;
+    --text: #252525;
+    --muted: #606060;
+    --line: #dddddd;
+    --control-line: #929292;
+    --accent: #a51417;
+    --accent-hover: #801010;
+    --link: #981417;
+    --focus: #236b8e;
+    --success: #235c38;
+    --success-bg: #e6ffed;
+}
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #151515;
+    --surface: #1e1e1e;
+    --surface-raised: #282828;
+    --surface-hover: #333333;
+    --text: #f0f0f0;
+    --muted: #b6b6b6;
+    --line: #3b3b3b;
+    --control-line: #797979;
+    --accent: #bd3036;
+    --accent-hover: #a9232a;
+    --link: #ff999d;
+    --focus: #ff999d;
+    --success: #a4dfb9;
+    --success-bg: #20382a;
+    background: var(--page);
+}
+
+/* In-flow placement keeps the control clear of headings and schedule tools. */
+.site-appearance {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 40px;
+    margin: 0 auto 12px;
+}
+.theme-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    transition: background-color 140ms ease, border-color 140ms ease;
+}
+.theme-toggle[hidden] { display: none; }
+.theme-toggle:hover { background: var(--surface-hover); border-color: var(--control-line); }
+.theme-toggle svg { flex: 0 0 20px; }
+.theme-toggle .theme-sun { display: none; }
+html[data-theme="dark"] .theme-toggle .theme-sun { display: block; }
+html[data-theme="dark"] .theme-toggle .theme-moon { display: none; }
+.theme-tooltip {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 100;
+    width: max-content;
+    padding: 7px 10px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--surface);
+    color: var(--text);
+    font: 13px/1.4 Arial, sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.theme-toggle:is(:hover, :focus-visible) .theme-tooltip { opacity: 1; visibility: visible; }
+body :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+body input:checked:focus-visible { outline: 2px solid var(--focus) !important; }
+.scheduler-page .site-appearance { max-width: 880px; }
+body.scheduler-page:has(#section0:not([style*="display: none"])) { grid-template-rows: auto 1fr auto; }
+.guide-page > .site-appearance { width: min(800px, calc(100% - 40px)); margin-top: 16px; margin-bottom: 0; }
+.timeline-page > .site-appearance { max-width: 860px; }
+.no-timetable-page > .site-appearance { max-width: 720px; }
+.team-page > .site-appearance { width: calc(100% - 40px); margin-top: 16px; }
+
+/* Neutral surfaces and readable text, without changing the light palette. */
+html[data-theme="dark"] body { background: var(--page); color: var(--text); }
+html[data-theme="dark"] body:has(#section0:not([style*="display: none"])) { color: var(--text); }
+html[data-theme="dark"] :is(h1, h2, h3, .member-name, .school-name) { color: var(--text); }
+html[data-theme="dark"] :is(.container, .page) { background: transparent; }
+html[data-theme="dark"] :is(.content, .card, .saved-list-item, .professor-course,
+    .school-card, .popup-content, #comparePopup, .split-card, .image-container,
+    .controls-bar-inner, .summary-chip, .styled-time-box, .workday-export-dialog) {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--line);
+    box-shadow: none;
+}
+html[data-theme="dark"] :is(.suggestion, .chip, .connection-check) {
+    background: var(--surface-raised);
+    color: var(--text);
+    border-color: var(--line);
+}
+html[data-theme="dark"] :is(.intro, .date, .card p, .member-title, .school-abbr,
+    .saved-list-item-preview, .professor-empty, #courseLoadingMsg, .setup-muted,
+    .site-footer-links, .timeline-footer, .content p, .suggestion span,
+    .workday-export-status, .popup-content p, #matchResult, #myCodeResult) { color: var(--muted); }
+html[data-theme="dark"] :is(.suggestion strong, .split-card-title, #matchone) { color: var(--text); }
+html[data-theme="dark"] :is(.guide-page a, .extension-home a, .site-footer-links a,
+    .timeline-footer a, .professor-list a, .delete-btn, .eyebrow) { color: var(--link); }
+html[data-theme="dark"] :is(.guide-header, .guide-footer, .setup-steps > li,
+    .guide-main details, .extension-home, .timeline-footer) { border-color: var(--line); }
+html[data-theme="dark"] .setup-steps > li::before { color: var(--link); }
+html[data-theme="dark"] .timeline::before { background: var(--line); }
+html[data-theme="dark"] .card::before { background: var(--page); border-color: var(--link); }
+html[data-theme="dark"] .connection-check[data-state="connected"] { border-left-color: var(--success); }
+html[data-theme="dark"] .connection-check[data-state="connected"] #connection-status { color: var(--success); }
+html[data-theme="dark"] .connection-check[data-state="error"] { border-left-color: var(--link); }
+html[data-theme="dark"] .guide-page :focus-visible,
+html[data-theme="dark"] #section0 :focus-visible { outline-color: var(--focus); }
+
+/* Match the specificity of the existing home layout stylesheet. */
+html[data-theme="dark"] #section0 :is(h2, h3) { color: var(--text); }
+html[data-theme="dark"] #section0 h2 span { color: var(--link); }
+html[data-theme="dark"] #section0 :is(.home-intro, .extension-home p) { color: var(--muted); }
+html[data-theme="dark"] #section0 .home-actions .btn-outline,
+html[data-theme="dark"] #section0 .timeline-link {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--control-line);
+}
+html[data-theme="dark"] #section0 .home-actions .btn-outline:hover,
+html[data-theme="dark"] #section0 .timeline-link:hover { background: var(--surface-hover); }
+html[data-theme="dark"] body:has(#section0:not([style*="display: none"])) footer { border-color: var(--line); }
+
+/* Buttons, native fields and the course search dropdown. */
+html[data-theme="dark"] :is(.btn-outline, .professor-actions button, .home-link, .home-btn,
+    .setup-button, .split-num, .controls a,
+    .controls-bar-inner a, .controls-bar-inner button, .workday-export-dialog button) {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--control-line);
+}
+html[data-theme="dark"] :is(.btn-outline, .professor-actions button, .home-link, .home-btn,
+    .setup-button, .split-num, .controls a,
+    .controls-bar-inner a, .controls-bar-inner button, .workday-export-dialog button):hover {
+    background: var(--surface-hover);
+    color: var(--text);
+}
+html[data-theme="dark"] #helpBtn { background: var(--surface); color: var(--text); border-color: var(--control-line); }
+html[data-theme="dark"] #helpBtn:hover { background: var(--surface-hover); }
+html[data-theme="dark"] :is(.btn-primary, .next-button, .prev-button, .btn,
+    .setup-button.primary, .split-num.active, .workday-export-dialog button[type="submit"]),
+html[data-theme="dark"] #section0 .home-actions .next-button {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+}
+html[data-theme="dark"] :is(.btn-primary, .next-button, .prev-button, .btn,
+    .setup-button.primary, .split-num.active, .workday-export-dialog button[type="submit"]):hover,
+html[data-theme="dark"] #section0 .home-actions .next-button:hover { background: var(--accent-hover); }
+html[data-theme="dark"] button:disabled,
+html[data-theme="dark"] #section0 .home-actions button:disabled {
+    background: var(--surface-raised);
+    border-color: var(--line);
+    color: var(--muted);
+    cursor: not-allowed;
+}
+html[data-theme="dark"] :is(select, input:not([type="checkbox"]):not([type="radio"]), textarea) {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--control-line);
+}
+html[data-theme="dark"] input::placeholder { color: var(--muted); opacity: 1; }
+html[data-theme="dark"] :is(input, .checkbox-list) { accent-color: var(--accent); }
+html[data-theme="dark"] .course-radio { border-color: var(--link); }
+html[data-theme="dark"] .toggle-switch { background: var(--surface-raised) !important; border-color: var(--control-line); }
+html[data-theme="dark"] input:checked + .toggle-switch { background: #532529 !important; border-color: var(--link); }
+html[data-theme="dark"] .toggle-switch .slider { background: var(--link); }
+html[data-theme="dark"] .ts-wrapper.single.input-active .ts-control,
+html[data-theme="dark"] .ts-wrapper.multi .ts-control > div,
+html[data-theme="dark"] :is(.ts-control, .ts-dropdown, .ts-dropdown .option) {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--control-line);
+    box-shadow: none;
+}
+html[data-theme="dark"] .ts-control input { background: transparent; }
+html[data-theme="dark"] .ts-dropdown :is(.active, .selected, .option:hover) {
+    background: var(--surface-hover);
+    color: var(--text);
+}
+html[data-theme="dark"] .ts-dropdown .highlight { background: #58292c; color: var(--text); }
+html[data-theme="dark"] .ts-wrapper.single .ts-control::after { border-top-color: var(--muted); }
+html[data-theme="dark"] .school-card.selected { background: #382225; border-color: var(--link); }
+
+/* Schedule grids and every way of viewing them share the same colors. */
+html[data-theme="dark"] :is(table, th, td) { border-color: var(--line); }
+html[data-theme="dark"] table { background: var(--surface); color: var(--text); }
+html[data-theme="dark"] :is(th, td.highlight) { background: var(--surface-raised); color: var(--text); }
+html[data-theme="dark"] .course-block { background: #303030 !important; color: var(--text); border-color: #686868; }
+html[data-theme="dark"] .course-shade-0 { background: #303030 !important; }
+html[data-theme="dark"] .course-shade-1 { background: #393939 !important; }
+html[data-theme="dark"] .course-shade-2 { background: #424242 !important; }
+html[data-theme="dark"] .course-shade-3 { background: #4b4b4b !important; }
+html[data-theme="dark"] .course-shade-4 { background: #333333 !important; }
+html[data-theme="dark"] .course-shade-5 { background: #3c3c3c !important; }
+html[data-theme="dark"] .course-shade-6 { background: #454545 !important; }
+html[data-theme="dark"] .course-shade-7 { background: #505050 !important; }
+html[data-theme="dark"] .course-block:is(:hover, :focus-visible, .is-expanded) { border-color: #aaaaaa; }
+html[data-theme="dark"] .course-block:focus-visible { outline-color: var(--focus); }
+html[data-theme="dark"] .course-details { background: var(--surface); color: var(--text); border-color: var(--control-line); }
+html[data-theme="dark"] .course-border-wrapper { border-color: var(--link); }
+html[data-theme="dark"] .split-num.locked { box-shadow: inset 0 0 0 2px var(--link); }
+html[data-theme="dark"] :is(.controls-bar-inner, .controls) .copied { background: var(--success-bg); color: var(--success); }
+html[data-theme="dark"] :is(.controls-bar-inner, .controls) .copied::after { color: var(--success); }
+
+/* Home popups are panels; timetable popups have a separate backdrop. */
+html[data-theme="dark"] .scheduler-page .popup-overlay { background: var(--surface); color: var(--text); border-color: var(--control-line); }
+html[data-theme="dark"] .timetable-page .popup-overlay,
+html[data-theme="dark"] .workday-export-dialog::backdrop { background: rgb(0 0 0 / 65%); }
+.scheduler-page .popup-overlay { max-height: calc(100dvh - 32px); overflow: auto; }
+.saved-list-item-header { flex-wrap: wrap; gap: 10px; }
+.saved-list-item-name { min-width: 0; overflow-wrap: anywhere; }
+.scheduler-page .saved-list-item .button-group button { margin-bottom: 0; }
+.popup-content { max-height: calc(100dvh - 32px); overflow: auto; }
+.timetable-page #helpPopup { z-index: 1002; }
+
+@media (max-width: 600px) {
+    .site-appearance { margin-bottom: 16px; }
+    .timetable-page { padding: 12px; }
+    .timetable-page .controls-bar-inner { flex-wrap: wrap; justify-content: center; }
+    .timetable-page .controls-bar-inner :is(a, button) { padding: 10px 12px; white-space: normal; }
+    .timetable-page .mySlides { overflow-x: auto; }
+    .timetable-page table { min-width: 700px; }
+    .timetable-page .summary-chip { white-space: normal; }
+    .team-page .team-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .theme-toggle, .course-block, .course-details { transition: none; }
+}

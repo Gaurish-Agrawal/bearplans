@@ -1,0 +1,76 @@
+{% extends 'guide_base.html' %}
+{% block title %}Chrome extension setup{% endblock %}
+{% block content %}
+<h1>Chrome extension setup</h1>
+<p class="guide-lead">From Workday courses to a schedule that fits.</p>
+<p class="setup-muted">For WashU Workday in Google Chrome on a computer. Keep using the <a href="{{ url_for('index') }}">website scheduler</a> on other browsers and phones.</p>
+
+<section class="connection-check" aria-labelledby="connection-heading" data-connection-check>
+    <h2 id="connection-heading">Your connection</h2>
+    <p id="connection-status" role="status" aria-live="polite">Check the extension and this BearPlans server.</p>
+    <p id="connection-help" class="setup-muted">This check does not read courses or change anything in Workday.</p>
+    <button class="setup-button" id="check-extension" type="button" hidden>Check again</button>
+    <noscript><p>Enable JavaScript to check the connection. The setup instructions below are still available.</p></noscript>
+</section>
+
+<ol class="setup-steps">
+    <li>
+        <h2>Install BearPlans</h2>
+        {% if extension_store_url %}
+        <p>Open the Chrome Web Store listing, choose <strong>Add to Chrome</strong>, then confirm <strong>Add extension</strong>.</p>
+        <a class="setup-button primary" data-desktop-install href="{{ extension_store_url }}" target="_blank" rel="noopener noreferrer">Add to Chrome</a>
+        {% else %}
+        <p>The Chrome Web Store release is not available yet. You can try the preview with the manual installation below.</p>
+        <details data-beta-install>
+            <summary>Install the preview for testing</summary>
+            <ol>
+                <li><a href="{{ url_for('static', filename='downloads/bearplans-workday-importer.zip') }}" download>Download the extension ZIP</a> and unzip it into a folder you will keep.</li>
+                <li>In Chrome, open the menu &gt; Extensions &gt; Manage Extensions, then turn on <strong>Developer mode</strong>.</li>
+                <li>Choose <strong>Load unpacked</strong> and select the unzipped folder containing <code>manifest.json</code>.</li>
+                <li>Reload this page and any Workday tab opened before installation.</li>
+            </ol>
+            <p class="setup-muted">This preview has not been reviewed by the Chrome Web Store and does not update automatically. For updates, replace the files in the same folder, then reload the extension and its tabs.</p>
+        </details>
+        {% endif %}
+        <p>Open Chrome's Extensions menu and pin BearPlans. Return here to check the connection.</p>
+    </li>
+    <li>
+        <h2>Choose your courses in Workday</h2>
+        <p>Sign in through WashU. Go to <strong>Student Self Service &gt; Academics Hub &gt; Planning and Registration &gt; Find Course Sections</strong>.</p>
+        <p>Select the intended undergraduate academic period. Search for a course, open one result, and choose <strong>Add course to BearPlans</strong>. The extension collects the matching sections automatically. Repeat once for each course.</p>
+        <a class="setup-button" href="https://www.myworkday.com/wustl/d/home.htmld" target="_blank" rel="noopener noreferrer">Open WashU Workday &rarr;</a>
+    </li>
+    <li>
+        <h2>Generate and compare</h2>
+        <p>In the BearPlans panel in Workday, choose <strong>Generate schedules</strong>. Your results open here. Use <strong>Save</strong> above a result to keep it in this browser's Saved Schedules.</p>
+        <p class="setup-muted">Sections need meeting times to appear in a complete schedule. Workday is the source of current availability.</p>
+    </li>
+    <li>
+        <h2>Save a choice back to Workday</h2>
+        <p>Choose <strong>Add to Workday</strong> above the schedule you want. Enter a new name and confirm. BearPlans carries the academic period from your imported courses automatically. Sign in through Workday if prompted.</p>
+        <p>Keep the Workday window visible while it finishes. BearPlans checks the sections, creates a new saved schedule, and verifies what was saved.</p>
+        <p class="setup-muted">This does not register you for courses or change existing registrations. Stopping midway may leave a partly filled new schedule; check it in Workday before starting again.</p>
+    </li>
+</ol>
+
+<section class="setup-help" aria-labelledby="help-heading">
+    <h2 id="help-heading">Need a hand?</h2>
+    <details id="connection-troubleshooting">
+        <summary>The extension is installed but not connected</summary>
+        <p>Reload this page after installing or updating. In Chrome's extension settings, make sure BearPlans is enabled and allowed on this site and WashU Workday.</p>
+        <p>Open the BearPlans extension popup &gt; <strong>Connection settings</strong>. Set the server to <code data-server-origin>{{ request.host_url.rstrip('/') }}</code>, choose <strong>Save server</strong>, then <strong>Test connection</strong>. This is the site you are viewing now.</p>
+        <p>For local testing only, <strong>Use local server</strong> connects to <code>http://127.0.0.1:5001</code> and asks for local access. The local server must be running. Public users should use <code>https://bearplans.pythonanywhere.com</code>.</p>
+    </details>
+    <details>
+        <summary>I cannot add a course or generate a schedule</summary>
+        <p>Use Find Course Sections for the intended semester and open one course result. Refresh Workday after an extension update. Check the message in the BearPlans panel; missing meeting times or no valid combinations can prevent generation.</p>
+        <p>A server error is different from a course error. Use Connection settings &gt; Test connection first. If the public server is unavailable, please contact us.</p>
+    </details>
+    <details>
+        <summary>A save to Workday paused</summary>
+        <p>Use <strong>Open Workday</strong> in BearPlans to sign in or bring the save window back. Follow the displayed recovery message. Do not start a second save while the first is unverified; the new schedule may already contain some sections.</p>
+    </details>
+    <p><a href="mailto:bearplansofficial@gmail.com">bearplansofficial@gmail.com</a> &middot; <a href="{{ url_for('privacy') }}">Privacy and data use</a></p>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/extension-setup.js') }}" defer></script>{% endblock %}

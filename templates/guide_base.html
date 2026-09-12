@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} | BearPlans</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/extension-setup.css') }}">
+    {% include '_theme_head.html' %}
+</head>
+<body class="guide-page">
+    {% include '_theme_toggle.html' %}
+    <header class="guide-header">
+        <a class="guide-brand" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='favicon.ico') }}" width="32" height="32" alt="">BearPlans</a>
+        <a href="{{ url_for('index') }}">Home &rarr;</a>
+    </header>
+    <main class="guide-main">{% block content %}{% endblock %}</main>
+    <footer class="guide-footer">{% include '_site_footer.html' %}</footer>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
